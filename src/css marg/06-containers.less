@@ -1,36 +1,12 @@
-.bbn-h,
-.bbn-hidden{
-  display:none;
-}
-/* No opacity */
-.bbn-invisible{
-  opacity: 0;
-}
-/* Hidden frame */
-iframe.bbn-h,
-iframe.bbn-hidden{
-  position:absolute;
-  top:-100px;
-  left:-100px;
-  width:1px;
-  height:1px;
-  overflow:hidden;
-}
-.bbn-iblock{
-  display: inline-block;
-  position: relative;
-}
-
-.bbn-flex{
-  display: flex!important;
-  flex-wrap: nowrap;
-}
-.bbn-iflex{
-  display: inline-flex;
-}
 .bbn-alt{
   .bbn-alt-background-internal;
-  .bbn-alt-bordered-internal;
+  // .bbn-alt-bordered-internal;
+  border: none!important;
+  .bbn-alt-text-internal;
+}
+.bbn-alt-light{
+  background: @alt-background-light;
+  //border: none!important;
   .bbn-alt-text-internal;
 }
 .bbn-spacer{
@@ -58,22 +34,15 @@ iframe.bbn-hidden{
   .bbn-border-box;
   float: left;
 }
-.bbn-background .bbn-legend {
-  .bbn-background;
-}
-.bbn-alt-background .bbn-legend {
-  .bbn-alt-background;
-}
 .bbn-section{
-  .bbn-radius;
   .bbn-border-box;
   display:block;
   vertical-align:top;
   background-image:none;
   border-color: inherit;
-  border-width: 0.1em;
+  border-width: 2px;
   border-style: solid;
-  margin: 2em 1em 1em;
+  margin: 1em;
   padding: 1em;
   /* Attempt for nesting forms */
   .bbn-section{
@@ -215,25 +184,23 @@ iframe.bbn-hidden{
 }
 .bbn-grid{
   display: grid;
-  grid-column-gap: 0.4em;
+  grid-column-gap: 1.5em;
   grid-row-gap: 0.4em;
   grid-auto-rows: max-content;
 }
 .bbn-grid-fields{
   //padding: 1em;
   .bbn-grid;
-  grid-column-gap: 2.5em;
   grid-template-columns: minmax(auto,max-content) auto;
   > *:not(.bbn-grid-full){
-    word-break: break-word;
-    &.bbn-c, &.bbn-centered, > .bbn-c, > .bbn-centered{
-      text-align: center !important;
+    > .bbn-c, > .bbn-centered{
+      .bbn-c;
     }
-    &.bbn-r, &.bbn-right, > .bbn-r, > .bbn-right{
-      text-align: right !important;
+    > .bbn-r, > .bbn-right{
+      .bbn-r;
     }
-    &.bbn-l, &.bbn-left, > .bbn-l, > .bbn-left{
-      text-align: left !important;
+    > .bbn-l, > .bbn-left{
+      .bbn-l;
     }
   }
   > *:not(label):not(.bbn-label):not(.bbn-grid-full){
@@ -255,12 +222,12 @@ iframe.bbn-hidden{
     }
   }
   &.bbn-c, &.bbn-centered{
-    grid-template-columns: 46.25% auto;
+    grid-template-columns: auto auto;
     > *:not(label):not(.bbn-label):not(.bbn-grid-full){
-      text-align: left;
+      text-align: right;
     }
     > label, > .bbn-label{
-      text-align: right;
+      text-align: left;
     }
   }
   > .bbn-grid-full{
@@ -360,21 +327,18 @@ iframe.bbn-hidden{
   -webkit-appearance: none;
   line-height: @line-height;
   min-height: @line-height;
-  input {
-    line-height: @line-height;
-    min-height: @line-height;
-  }
 }
 
 
 .bbn-header{
   .bbn-alt-bordered-internal;
   //border: none;
-  .bbn-background-header-internal;
+  // .bbn-background-header-internal;
+  background: @light-to-alt-gradient;
   color: @header-text;
   position: relative;
   vertical-align: middle;
-  .bbn-button:not(.bbn-primary):not(:disabled){
+  .bbn-button:not(.bbn-primary){
     .bbn-alt-background-internal;
     .bbn-alt-text-internal;
   }
@@ -399,6 +363,7 @@ ul.bbn-ul{
   .bbn-bordered-internal;
   color: @button-text;
   .bbn-background-header-internal;
+  //.bbn-background-effect;
   box-sizing: border-box;
 }
 .bbn-reactive-block:hover:not(.bbn-disabled),.bbn-reactive-block.bbn-hover:not(.bbn-disabled){
