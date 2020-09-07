@@ -1,5 +1,5 @@
 {
-  "name": "@nabab/bbn-css",
+  "name": "@bbn/bbn-css",
   "email": "contact@bbn.io",
   "version": "1.0.0",
   "description": "BBN CSS",
@@ -30,5 +30,13 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-fix-style-only-entries": "^0.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabab/bbn-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nabab/bbn-css/issues"
+  },
+  "homepage": "https://github.com/nabab/bbn-css#readme"
 }
