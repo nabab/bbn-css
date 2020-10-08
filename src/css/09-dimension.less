@@ -91,6 +91,9 @@
   &.bbn-reverse{
     flex-direction: row-reverse;
   }
+  > *:not(.bbn-flex-fill) {
+    flex-shrink: 0;
+  }
   /*
   > *{
     .bbn-transition-width

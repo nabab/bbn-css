@@ -7,6 +7,11 @@
   font: inherit;
   line-height: @line-height;
   min-height: @line-height;
+  .bbn-mobile & {
+    white-space: pre-line;
+    line-height: @line-height-mobile;
+    min-height: @line-height-mobile;
+  }
   text-align: center;
   text-decoration: none;
   display: inline-flex;
@@ -30,6 +35,11 @@
     padding: 0;
     height: @line-height;
     width: @line-height;
+    .bbn-mobile & {
+      line-height: @line-height-mobile;
+      height: @line-height-mobile;
+      width: @line-height-mobile;
+    }
   }
   i {
     line-height: inherit !important;

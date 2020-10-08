@@ -134,9 +134,15 @@ i.nf.bbn-xxxxl{
 
 .bbn-line-height{
   line-height: @line-height !important;
+  .bbn-mobile & {
+    line-height: @line-height-mobile !important;
+  }
 }
 .bbn-line-height-internal{
   line-height: @line-height;
+  .bbn-mobile & {
+    line-height: @line-height-mobile;
+  }
 }
 
 .bbn-active-text{
@@ -154,4 +160,9 @@ i.nf.bbn-xxxxl{
 }
 .bbn-text-bordered-alt{
   text-shadow: -1px 0 @default-text, 0 1px @default-text, 1px 0 @default-text, 0 -1px @default-text;
+}
+.bbn-ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

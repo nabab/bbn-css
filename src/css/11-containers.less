@@ -360,9 +360,17 @@ iframe.bbn-hidden{
   -webkit-appearance: none;
   line-height: @line-height;
   min-height: @line-height;
+  .bbn-mobile & {
+    line-height: @line-height-mobile;
+    min-height: @line-height-mobile;
+  }
   input {
     line-height: @line-height;
     min-height: @line-height;
+    .bbn-mobile & {
+      line-height: @line-height-mobile;
+      min-height: @line-height-mobile;
+    }
   }
 }
 

@@ -1,4 +1,5 @@
 @line-height: 1.7em;
+@line-height-mobile: 2em;
 @black: #000000;
 @anthracite: #454545;
 @orange: #ff9900;
@@ -39,6 +40,9 @@ body{
   position: relative;
   transition: opacity 1s;
   .bbn-reset;
+  &.bbn-mobile, .bbn-mobile {
+    font-size: @text-size-mobile;
+  }
 }
 html, body, h1, h2, h3, h4, h5{
   font-family: @font;
@@ -80,6 +84,9 @@ h1, h2, h3, h4, h5{
   padding: 0;
   border: 0;
   font-size: @text-size;
+  .bbn-mobile & {
+    font-size: @text-size-mobile;
+  }
   font-family: @font !important;
   font-style: normal;
   font-weight: normal;
