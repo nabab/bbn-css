@@ -2537,8 +2537,6 @@ input:hover:focus:not(.bbn-disabled),
   background-color: #f35800 !important;
   color: #fff !important;
   border-color: #00435e !important;
-  border-width: 1px !important;
-  border-style: solid !important;
 }
 .bbn-state-error {
   border-style: ridge;
@@ -3227,6 +3225,4 @@ input[type=radio].bbn-radio {
   background-color: #f35800 !important;
   color: #fff !important;
   border-color: #00435e !important;
-  border-width: 1px !important;
-  border-style: solid !important;
 }
