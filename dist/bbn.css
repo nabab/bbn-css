@@ -1232,9 +1232,6 @@ i.nf.bbn-xxxxl {
 .bbn-button-group.bbn-reverse {
   flex-direction: row-reverse;
 }
-.bbn-button-group > *:not(.bbn-flex-fill) {
-  flex-shrink: 0;
-}
 .bbn-button-group > .bbn-button {
   flex-grow: 1;
   position: relative;
@@ -1906,9 +1903,6 @@ i.nf.bbn-xxxxl {
 .bbn-flex-width.bbn-reverse {
   flex-direction: row-reverse;
 }
-.bbn-flex-width > *:not(.bbn-flex-fill) {
-  flex-shrink: 0;
-}
 .bbn-flex-height {
   display: flex !important;
   flex-wrap: nowrap;
@@ -1939,9 +1933,6 @@ i.nf.bbn-xxxxl {
 }
 .bbn-button-group.bbn-reverse {
   flex-direction: row-reverse;
-}
-.bbn-button-group > *:not(.bbn-flex-fill) {
-  flex-shrink: 0;
 }
 .bbn-button-group > .bbn-button {
   flex-grow: 1;
@@ -2765,7 +2756,6 @@ input[type=radio].bbn-radio {
 .bbn-checkbox-label,
 .bbn-radio-label {
   position: relative;
-  padding-left: 2em;
   line-height: 1.7em;
   cursor: pointer;
   border-style: solid;
@@ -2791,9 +2781,6 @@ input[type=radio].bbn-radio {
   border-radius: 3px;
   font: 1.2em 'NerdFontsSymbols Nerd Font', monospace;
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
   border-width: 1px;
   border-style: solid;
   width: 1.2em;
@@ -2824,9 +2811,6 @@ input[type=radio].bbn-radio {
   border-radius: 50%;
   border-width: 1px;
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 1.2em;
   height: 1.2em;
   border-style: solid;
@@ -2838,7 +2822,6 @@ input[type=radio].bbn-radio {
   width: 0.8em;
   height: 0.8em;
   position: absolute;
-  top: 0.2em;
   left: 0.2em;
 }
 .bbn-radio:disabled+.bbn-radio-label {
