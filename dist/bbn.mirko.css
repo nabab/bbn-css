@@ -312,6 +312,12 @@ h5 {
 .bbn-reset summary {
   display: list-item;
 }
+fieldset {
+  border-color: #293540;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+}
 ul.bbn-reset {
   list-style: none;
   padding: 0;
@@ -2530,12 +2536,12 @@ input:hover:focus:not(.bbn-disabled),
   border-color: #e6af4b !important;
 }
 .bbn-state-error {
-  border-style: ridge;
+  border: #db3340 ridge 2px;
 }
 .bbn-error-colored {
-  color: #7f5050;
-  border-color: #dfd0d0;
-  background-color: #fff0f0;
+  color: #db3340;
+  background-color: #1a2127;
+  border: #db3340 ridge 2px;
 }
 .bbn-state-empty {
   font-style: italic;
@@ -2572,6 +2578,18 @@ input:hover:focus:not(.bbn-disabled),
   background-color: #33CEB4 !important;
   color: #171e28 !important;
   border-color: #232d36 !important;
+}
+.bbn-error-text {
+  color: #db3340;
+}
+.bbn-error-alt-text {
+  color: #db3340;
+}
+.bbn-success-text {
+  color: #00a03e;
+}
+.bbn-success-alt-text {
+  color: #00a03e;
 }
 .bbn-primary {
   background: #008B94;

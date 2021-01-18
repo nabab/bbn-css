@@ -20,13 +20,13 @@
   border-color: @state-selected-border !important;
   //contrast(@active-background);
 }
-.bbn-state-error{
-  border-style: ridge;
+.bbn-state-error {
+  border: @error-border;
 }
 .bbn-error-colored{
-  color: #7f5050;
-  border-color: #dfd0d0;
-  background-color: #fff0f0;
+  color: @error-text;
+  background-color: @default-background;
+  border: @error-border;
 }
 .bbn-state-empty{
   font-style: italic;
@@ -57,6 +57,19 @@
   &.bbn-focus:not(.bbn-disabled):not(:disabled){
     .bbn-state-active;
   }
+}
+
+.bbn-error-text {
+  color: @error-text;
+}
+.bbn-error-alt-text {
+  color: @error-alt-text;
+}
+.bbn-success-text {
+  color: @success-text;
+}
+.bbn-success-alt-text {
+  color: @success-alt-text;
 }
 /*
 .bbn-reactive:hover:not(.bbn-disabled),
