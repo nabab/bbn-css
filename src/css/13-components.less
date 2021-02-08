@@ -118,9 +118,6 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   color: @state-selected-border;
   content: "\f00c";
 }
-.bbn-checkbox:checked + .bbn-checkbox-label:before{
-  content: "\f00c";
-}
 .bbn-checkbox-label:before{
   .bbn-bordered-internal;
   .bbn-background-internal;
@@ -133,7 +130,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-width: 1px;
   border-style: solid;
   width: 1.2em;
-  height: 1.1em;
+  height: 1.2em;
   font-size: 1.2em;
   line-height: 1.1em;
   text-align: center;
@@ -227,25 +224,20 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-form-full::after{
   .bbn-block-after;
 }
-.bbn-table{
-  //.bbn-background-internal;
-  border-width: 0;
-  table > tbody > tr, > thead > tr{
+.bbn-table {
+  table > tbody > tr,  table > thead > tr{
     > td{
       .bbn-background-internal;
       .bbn-spadded;
-      border-collapse: collapse;
     }
   }
   table > tbody > tr{
-    border: 0;
     &:hover{
       > td {
         .bbn-alt-background-effect-internal;
       }
     }
     &.bbn-alt{
-      
       > td{
         .bbn-alt-background-internal;
       }
@@ -254,38 +246,6 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
       border-color: @default-border;
       border-width: @default-border-width;
       border-style: @default-border-style;
-      &.bbn-buttons-flex{
-        .bbn-block{
-          div{
-            display: flex!important;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            .bbn-button.bbn-button-icon-only{
-              margin: .1em .1em !important;
-              height: 2em;
-              width: 2em;
-              span{
-                //padding-top: 0.25em;
-              }
-            }
-          }
-        }
-        &.bbn-c {
-          .bbn-block{
-            div{
-              justify-content: center;
-            }
-          }
-        }
-        &.bbn-r {
-          .bbn-block{
-            div{
-              justify-content: flex-end;
-            }
-          }
-        }
-      }
     }
   }
   table > thead > tr > td{
