@@ -225,13 +225,28 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   .bbn-block-after;
 }
 .bbn-table {
-  table > tbody > tr,  table > thead > tr{
+  &:is(table) {
+    border-collapse: collapse;
+  }
+  &:is(table),
+  .bbn-table-container table {
+    outline: 0;
+    width: auto;
+    table-layout: fixed;
+    border-spacing: 0px;
+    padding: 0px;
+  }
+  &:is(table) > tbody > tr,
+  &:is(table) > thead > tr,
+  table > tbody > tr,
+  table > thead > tr {
     > td{
       .bbn-background-internal;
       .bbn-spadded;
     }
   }
-  table > tbody > tr{
+  &:is(table) > tbody > tr,
+  table > tbody > tr {
     &:hover{
       > td {
         .bbn-alt-background-effect-internal;
@@ -248,7 +263,13 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
       border-style: @default-border-style;
     }
   }
-  table > thead > tr > td{
+  &:is(table) > thead > tr > td,
+  &:is(table) > thead > tr > th,
+  table > thead > tr > td,
+  table > thead > tr > th {
+    .bbn-header;
+    .bbn-c;
+    .bbn-ellipsis;
     border-color: @alt-border;
     border-width: @alt-border-width;
     border-style: @alt-border-style;
