@@ -275,6 +275,17 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     border-style: @alt-border-style;
   }
 }
+.bbn-range {
+  .bbn-range-input {
+    background: @primary-background;
+    &::-webkit-slider-thumb {
+      background: @primary-text;
+    }
+    &::-moz-range-thumb {
+      background: @primary-text;
+    }
+  }
+}
 .bbn-diode {
   .bbn-unselectable;
   background: #FFF;
