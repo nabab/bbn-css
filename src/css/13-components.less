@@ -116,17 +116,14 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   .bbn-bordered-internal;
   .bbn-background-internal;
   color: @state-selected-border;
-  content: "\f00c";
 }
 .bbn-checkbox-label:before{
   .bbn-bordered-internal;
   .bbn-background-internal;
   border-radius: 3px;
   font: 1.2em 'NerdFontsSymbols Nerd Font', monospace;
-  content: "";
-  //position: absolute;
-  //top: 0;
-  //left: 0;
+  content: "\f00c";
+  color: transparent;
   border-width: 1px;
   border-style: solid;
   width: 1.2em;
@@ -229,7 +226,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     border-collapse: collapse;
   }
   &:is(table),
-  .bbn-table-container table {
+  .bbn-table-container table.bbn-table-table {
     outline: 0;
     width: auto;
     table-layout: fixed;
