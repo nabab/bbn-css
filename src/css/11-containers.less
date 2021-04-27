@@ -226,6 +226,7 @@ iframe.bbn-hidden{
   grid-template-columns: minmax(auto,max-content) auto;
   > *:not(.bbn-grid-full){
     word-break: break-word;
+    overflow: hidden;
     &.bbn-c, &.bbn-centered, > .bbn-c, > .bbn-centered{
       text-align: center !important;
     }
@@ -421,6 +422,35 @@ ul.bbn-ul{
 .bbn-reactive-block:focus:not(.bbn-disabled), .bbn-reactive-block:hover:focus:not(.bbn-disabled), .bbn-reactive-block:focus-within:not(.bbn-disabled), .bbn-reactive-block:hover:focus-within:not(.bbn-disabled)
 .bbn-reactive-block:focus:not(:disabled), .bbn-reactive-block:hover:focus:not(:disabled), .bbn-reactive-block:focus-within:not(:disabled), .bbn-reactive-block:hover:focus-within:not(:disabled), .bbn-reactive-block:focus-within:not(.bbn-disabled) {
   border-color: @state-selected-border;
+}
+
+.bbn-middle-line{
+  overflow: hidden;
+}
+.bbn-middle-line:before,
+.bbn-middle-line:after {
+  overflow: hidden;
+  background-color: @default-text;
+  content: "";
+  display: inline-block;
+  height: @default-border-width;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.bbn-middle-line:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.bbn-middle-line:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.bbn-middle-line.bbn-alt-text:before,
+.bbn-middle-line.bbn-alt-text:after {
+  background-color: @alt-text !important;
 }
 
 /** @todo Non va!!! */

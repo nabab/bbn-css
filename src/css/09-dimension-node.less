@@ -93,6 +93,9 @@
   &.bbn-reverse{
     flex-direction: row-reverse;
   }
+  > .bbn-flex-fill {
+    max-width: 100%;
+  }
   /*
   > *{
     .bbn-transition-width
@@ -106,6 +109,9 @@
   &.bbn-reverse{
     flex-direction: column-reverse;
   }
+  > .bbn-flex-fill {
+    max-height: 100%;
+  }
   /*
   > *{
     .bbn-transition-height
@@ -116,6 +122,7 @@
   flex-grow: 1;
   position: relative;
 }
+
 .bbn-button-group{
   .bbn-flex-width;
   padding: 0;
