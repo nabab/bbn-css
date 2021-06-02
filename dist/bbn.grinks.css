@@ -2302,6 +2302,7 @@ iframe.bbn-hidden {
   -webkit-align-items: center;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .bbn-flex-vcentered {
   display: flex !important;
@@ -2319,6 +2320,7 @@ iframe.bbn-hidden {
   -webkit-align-items: center;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .bbn-alt {
   background-color: #eae8e8;
@@ -3008,7 +3010,7 @@ input:hover:focus:not(.bbn-disabled),
   display: inline-block;
 }
 .bbn-mobile .bbn-button {
-  white-space: pre-line;
+  white-space: normal;
   line-height: 2em;
   min-height: 2em;
 }
