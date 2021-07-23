@@ -362,10 +362,12 @@ iframe.bbn-hidden{
   }
 }
 @media (max-width: 779px) {
-  .bbn-grid-fields{
-    .bbn-w-100;
-    > *:not(.bbn-label) {
-      padding-bottom: 0.5em;
+  .bbn-grid-fields {
+    > div, > label {
+      .bbn-w-100;
+    }
+    > *:not(.bbn-label):not(label) {
+      margin-bottom: 1em;
     }
   }
 }
