@@ -112,7 +112,6 @@ input,select,textarea{
   font-size: 100%;
 }
 hr {
-  border-style: solid;
   clear: both;
 }
 .bbn-no-reset{
@@ -135,6 +134,9 @@ fieldset {
   border-width: @default-border-width;
   border-style: @default-border-style;
   border-radius: @default-border-radius;
+}
+::placeholder {
+  opacity: 0.65;
 }
 
 ul.bbn-reset{
@@ -160,9 +162,7 @@ ul.bbn-reset{
   cursor:pointer;
 }
 .bbn-hr {
-  border-width: 0px;
-  border-color: inherit;
-  border-style: solid;
+  .bbn-bordered-top;
   margin: 1em;
   border-top-width: 1px;
 }

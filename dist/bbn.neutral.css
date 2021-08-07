@@ -320,7 +320,6 @@ textarea {
   font-size: 100%;
 }
 hr {
-  border-style: solid;
   clear: both;
 }
 .bbn-no-reset {
@@ -348,6 +347,9 @@ fieldset {
   border-style: solid;
   border-radius: inherit;
 }
+::placeholder {
+  opacity: 0.65;
+}
 ul.bbn-reset {
   list-style: none;
   padding: 0;
@@ -369,24 +371,18 @@ ul.bbn-reset li {
   cursor: pointer;
 }
 .bbn-hr {
-  border-width: 0px;
-  border-color: inherit;
-  border-style: solid;
+  border-top: inherit solid inherit !important;
   margin: 1em;
   border-top-width: 1px;
 }
 .bbn-hr-m {
-  border-width: 0px;
-  border-color: inherit;
-  border-style: solid;
+  border-top: inherit solid inherit !important;
   margin: 1em;
   border-top-width: 1px;
   border-top-width: 2px;
 }
 .bbn-hr-l {
-  border-width: 0px;
-  border-color: inherit;
-  border-style: solid;
+  border-top: inherit solid inherit !important;
   margin: 1em;
   border-top-width: 1px;
   border-top-width: 4px;
@@ -2318,6 +2314,8 @@ iframe.bbn-hidden {
   background-color: inherit !important;
 }
 .bbn-section {
+  border: inherit inherit solid;
+  box-sizing: border-box;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
@@ -2325,11 +2323,7 @@ iframe.bbn-hidden {
   position: relative;
   box-sizing: border-box !important;
   display: block;
-  vertical-align: top;
   background-image: none;
-  border-color: inherit;
-  border-width: 0.1em;
-  border-style: solid;
   margin: 2em 1em 1em;
   padding: 1em;
 }
@@ -2340,9 +2334,7 @@ iframe.bbn-hidden {
   border-style: dotted;
 }
 .bbn-section hr {
-  border-width: 0px;
-  border-color: inherit;
-  border-style: solid;
+  border-top: inherit solid inherit !important;
   margin: 1em;
   border-top-width: 1px;
 }
