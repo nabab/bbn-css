@@ -2547,7 +2547,7 @@ iframe.bbn-hidden {
   }
   .bbn-grid-fields.bbn-c,
   .bbn-grid-fields.bbn-centered {
-    grid-template-columns: 46.25% auto;
+    grid-template-columns: 49% auto;
   }
   .bbn-grid-fields.bbn-c > *:not(label):not(.bbn-label):not(.bbn-grid-full),
   .bbn-grid-fields.bbn-centered > *:not(label):not(.bbn-label):not(.bbn-grid-full) {
