@@ -78,74 +78,6 @@
   --pastelorange: #fff2cc;
   --pastelblue: #ddebf6;
   --webblue: #2196f3;
-  --font: 'Lato', sans-serif;
-}
-:root {
-  --effect: rgba(255,255,255,0.2);
-  --default-text: #fff;
-  --default-border: #666;
-  --default-background: #4d4d4d;
-  --default-border-style: solid;
-  --default-border-width: 1px;
-  --default-border-radius: 4px;
-  --link-color: #37d6d6;
-  --alt-text: #fff;
-  --alt-border: #5f0202;
-  --alt-background: #2a2a2a;
-  --alt-border-style: solid;
-  --alt-border-width: 1px;
-  --alt-border-radius: 0.6em;
-  --hover-background: #292525;
-  --hover-border: #2a2a2a;
-  --hover-text: #fff;
-  --hover-border-style: solid;
-  --active-text: #fff;
-  --active-border: #2a2a2a;
-  --active-background: #4d4d4d;
-  --active-border-style: solid;
-  --primary-border: #0078f0;
-  --primary-background: #0078f0;
-  --primary-text: #fff;
-  --state-selected-background: #4d4d4d;
-  --state-selected-border: #0078f0;
-  --disabled-color: #574f4f;
-  --disabled-background: #141312;
-  --disabled-border: #574f4f;
-  --header: #000000;
-  --header-alt: #4d4d4d;
-  --header-text: #fff;
-  --button-text: #fff;
-  --font: 'Lato', sans-serif;
-}
-:root {
-  --line-height: 1.7em;
-  --line-height-mobile: 2em;
-  --black: #000000;
-  --anthracite: #454545;
-  --orange: #ff9900;
-  --red: #db3340;
-  --green: #00a03e;
-  --blue: #6e9ecf;
-  --yellow: #fdf200;
-  --beige: #fdfdfd;
-  --white: #ffffff;
-  --purple: #a333c8;
-  --grey: #d3d3d3;
-  --brown: #8c6954;
-  --olive: #92b06a;
-  --pink: #eb65a0;
-  --turquoise: #1fda9a;
-  --cyan: #00c8f8;
-  --navy: #354458;
-  --darkgrey: #5a6a62;
-  --lightgrey: #dcdcdc;
-  --teal: #009688;
-  --indigo: #3f51b5;
-  --palegreen: #ccffcc;
-  --pastelgreen: #e2efda;
-  --pastelorange: #fff2cc;
-  --pastelblue: #ddebf6;
-  --webblue: #2196f3;
 }
 ::after,
 ::before {
@@ -375,14 +307,17 @@ ul.bbn-reset li {
   cursor: pointer;
 }
 .bbn-hr {
-  border-width: 0px;
+  border-width: #666;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;
 }
+.bbn-hr…bbn-alt {
+  color: #5f0202;
+}
 .bbn-hr-m {
-  border-width: 0px;
+  border-width: #666;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
@@ -390,7 +325,7 @@ ul.bbn-reset li {
   border-top-width: 2px;
 }
 .bbn-hr-l {
-  border-width: 0px;
+  border-width: #666;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
@@ -2336,7 +2271,7 @@ iframe.bbn-hidden {
   border-style: dotted;
 }
 .bbn-section hr {
-  border-width: 0px;
+  border-width: #666;
   border-color: inherit;
   border-style: solid;
   margin: 1em;

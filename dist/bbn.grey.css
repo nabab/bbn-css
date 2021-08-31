@@ -78,70 +78,6 @@
   --pastelorange: #fff2cc;
   --pastelblue: #ddebf6;
   --webblue: #2196f3;
-  --font: 'Lato', sans-serif;
-}
-:root {
-  --default-text: #fff;
-  --default-border: #2a2a2a;
-  --default-background: #4d4d4d;
-  --default-border-style: solid;
-  --default-border-width: 1px;
-  --default-border-radius: 0px;
-  --alt-text: #fff;
-  --alt-border: #4d4d4d;
-  --alt-background: #2a2a2a;
-  --alt-border-style: solid;
-  --alt-border-width: 1px;
-  --alt-border-radius: 2px;
-  --hover-background: #999999;
-  --hover-border: #4D4D4D;
-  --hover-text: #2a2a2a;
-  --hover-border-style: solid;
-  --active-text: #fff;
-  --active-border: #2a2a2a;
-  --active-background: #4d4d4d;
-  --active-border-style: solid;
-  --primary-border: #0078f0;
-  --primary-background: #0078f0;
-  --primary-text: #fff;
-  --state-selected-background: #4d4d4d;
-  --state-selected-border: #0078f0;
-  --header: #4d4d4d;
-  --header-alt: #2a2a2a;
-  --header-text: #fff;
-  --button-text: #fff;
-  --effect: rgba(255,255,255,0.4);
-  --font: 'Lato', sans-serif;
-}
-:root {
-  --line-height: 1.7em;
-  --line-height-mobile: 2em;
-  --black: #000000;
-  --anthracite: #454545;
-  --orange: #ff9900;
-  --red: #db3340;
-  --green: #00a03e;
-  --blue: #6e9ecf;
-  --yellow: #fdf200;
-  --beige: #fdfdfd;
-  --white: #ffffff;
-  --purple: #a333c8;
-  --grey: #d3d3d3;
-  --brown: #8c6954;
-  --olive: #92b06a;
-  --pink: #eb65a0;
-  --turquoise: #1fda9a;
-  --cyan: #00c8f8;
-  --navy: #354458;
-  --darkgrey: #5a6a62;
-  --lightgrey: #dcdcdc;
-  --teal: #009688;
-  --indigo: #3f51b5;
-  --palegreen: #ccffcc;
-  --pastelgreen: #e2efda;
-  --pastelorange: #fff2cc;
-  --pastelblue: #ddebf6;
-  --webblue: #2196f3;
 }
 ::after,
 ::before {
@@ -371,14 +307,17 @@ ul.bbn-reset li {
   cursor: pointer;
 }
 .bbn-hr {
-  border-width: 0px;
+  border-width: #2a2a2a;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;
 }
+.bbn-hr…bbn-alt {
+  color: #4d4d4d;
+}
 .bbn-hr-m {
-  border-width: 0px;
+  border-width: #2a2a2a;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
@@ -386,7 +325,7 @@ ul.bbn-reset li {
   border-top-width: 2px;
 }
 .bbn-hr-l {
-  border-width: 0px;
+  border-width: #2a2a2a;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
@@ -2332,7 +2271,7 @@ iframe.bbn-hidden {
   border-style: dotted;
 }
 .bbn-section hr {
-  border-width: 0px;
+  border-width: #2a2a2a;
   border-color: inherit;
   border-style: solid;
   margin: 1em;
