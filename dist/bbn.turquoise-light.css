@@ -307,26 +307,26 @@ ul.bbn-reset li {
   cursor: pointer;
 }
 .bbn-hr {
-  border-width: #38d2a8;
-  border-color: inherit;
+  border-width: 1px;
+  border-color: #38d2a8;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;
 }
 .bbn-hr…bbn-alt {
-  color: #fff;
+  border-color: #fff;
 }
 .bbn-hr-m {
-  border-width: #38d2a8;
-  border-color: inherit;
+  border-width: 1px;
+  border-color: #38d2a8;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;
   border-top-width: 2px;
 }
 .bbn-hr-l {
-  border-width: #38d2a8;
-  border-color: inherit;
+  border-width: 1px;
+  border-color: #38d2a8;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;
@@ -2271,8 +2271,8 @@ iframe.bbn-hidden {
   border-style: dotted;
 }
 .bbn-section hr {
-  border-width: #38d2a8;
-  border-color: inherit;
+  border-width: 1px;
+  border-color: #38d2a8;
   border-style: solid;
   margin: 1em;
   border-top-width: 1px;

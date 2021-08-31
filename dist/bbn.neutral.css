@@ -314,7 +314,7 @@ ul.bbn-reset li {
   border-top-width: 1px;
 }
 .bbn-hr…bbn-alt {
-  color: inherit;
+  border-color: inherit;
 }
 .bbn-hr-m {
   border-width: inherit;
