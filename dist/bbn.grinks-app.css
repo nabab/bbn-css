@@ -2489,6 +2489,7 @@ iframe.bbn-hidden {
     grid-template-columns: minmax(auto,max-content) auto;
   }
   .bbn-grid-fields > *:not(.bbn-grid-full) {
+    box-sizing: border-box;
     word-break: break-word;
     overflow: hidden;
   }
@@ -2548,6 +2549,7 @@ iframe.bbn-hidden {
     text-align: right;
   }
   .bbn-grid-fields > .bbn-grid-full {
+    box-sizing: border-box;
     grid-column-start: 1;
     grid-column-end: span 2;
   }

@@ -313,7 +313,8 @@ iframe.bbn-hidden{
     .bbn-grid;
     grid-column-gap: 2em;
     grid-template-columns: minmax(auto,max-content) auto;
-    > *:not(.bbn-grid-full){
+    > *:not(.bbn-grid-full) {
+      box-sizing: border-box;
       word-break: break-word;
       overflow: hidden;
       &.bbn-c, &.bbn-centered, > .bbn-c, > .bbn-centered{
@@ -354,6 +355,7 @@ iframe.bbn-hidden{
       }
     }
     > .bbn-grid-full{
+      box-sizing: border-box;
       grid-column-start: 1;
       grid-column-end: span 2;
     }
