@@ -573,6 +573,9 @@ i.nf.bbn-xxxxl {
 .bbn-nowrap {
   white-space: nowrap;
 }
+.bbn-pre {
+  white-space: pre;
+}
 .bbn-primary-text-alt {
   color: #10c4b2 !important;
 }
@@ -2874,7 +2877,8 @@ input:hover:focus:not(.bbn-disabled),
   -ms-user-select: none;
   user-select: none;
 }
-.bbn-unselectable * {
+.bbn-unselectable *:not(input,
+textarea) {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
