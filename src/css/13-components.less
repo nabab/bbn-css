@@ -112,12 +112,12 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 }
 
 .bbn-checkbox:focus + .bbn-checkbox-label:before {
-  border-color: @state-selected-border;
+  border-color: @selected-border;
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:before{
   .bbn-bordered-internal;
   .bbn-background-internal;
-  color: @state-selected-border;
+  color: @selected-border;
 }
 .bbn-checkbox-label:before{
   .bbn-bordered-internal;
@@ -147,7 +147,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   color: @disabled-color;
   background: @disabled-background;
   border-color: @disabled-border;
-  border-radius: 3px;
+  border-radius: @default-border-radius;
 }
 
 .bbn-radio-label:before{
@@ -164,7 +164,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-style: solid;
 }
 .bbn-radio:checked+.bbn-radio-label:after {
-  background-color: @state-selected-border;
+  background-color: @selected-border;
   border-radius: 50%;
   content: "";
   width: 0.8em;
@@ -177,12 +177,12 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   cursor: auto;
 }
 .bbn-radio:disabled:checked + .bbn-radio-label:after {
-  //background-color: @state-selected-background;
+  //background-color: @selected-background;
   opacity: 0.5;
 }
 .bbn-radio:focus + .bbn-radio-label:before {
-  border-color: @state-selected-border;
-  box-shadow: 0 0 3px 0 @state-selected-background;
+  border-color: @selected-border;
+  box-shadow: 0 0 3px 0 @selected-background;
 }
 .bbn-radio:disabled + .bbn-radio-label {
   color: @disabled-color;
@@ -279,9 +279,11 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     background: @primary-background;
     &::-webkit-slider-thumb {
       background: @primary-text;
+      border: 1px solid @default-border;
     }
     &::-moz-range-thumb {
       background: @primary-text;
+      border: 1px solid @default-border;
     }
   }
 }
