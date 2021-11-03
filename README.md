@@ -4,21 +4,81 @@
   
 
 # A small CSS framework
-
   
 
-BBN CSS is a non intrusive and adaptable set of classes for creating fast and powerful UIs.
+BBN CSS is a non intrusive and adaptable set of classes for creating fast, powerful, and coherent User Interfaces.
 
+
+With its intuitive names you'll quickly become familiar with its structure, and will naturally add class names instead of style properties.
+
+There is not a class for every single color, dimension, spacing, etc... as they all rely on the few variables that are set up in the theme, but that makes it highly adaptable and very light.
+
+
+## A few examples of classes you'll immediately understand:
+
+```
+bbn-padded
+bbn-lpadded
+bbn-xlpadded
+bbn-spadded
+bbn-xspadded
+bbn-left-padded
+bbn-left-spadded
+// ... and so on
+
+bbn-margin
+bbn-lmargin
+bbn-left-margin
+// same thing than padded
+
+bbn-bordered
+bbn-radius
+
+```
   
 
-## Check out some demo [here](https://bbn.io/bbn-css/home)
+```
+// These are all colors
 
-  
+bbn-text
+bbn-alt-text
+bbn-primary-text
+bbn-secondary-text
+bbn-tertiary-text
+
+bbn-background
+bbn-alt-background
+bbn-primary-background
+bbn-secondary-background
+bbn-tertiary-background
+
+bbn-border
+bbn-alt-border
+bbn-primary-border
+bbn-secondary-border
+bbn-tertiary-border
+```
   
 
-## Or the [theme generator](https://bbn.io/theme)
+```
+bbn-b       // bold
+bbn-i       // italic
+bbn-c       // centered
+bbn-l       // left aligned
+bbn-r       // right aligned
+bbn-j       // justified
+bbn-xxxs    // super very tiny
+bbn-xxs     // very tiny
+bbn-xs      // tiny
+bbn-s       // small
+bbn-regular // not small, nor big
+bbn-m       // medium sized
+bbn-lg      // this is large and l was taken
+bbn-xl      // very large
+bbn-xxl     // enormous
+bbn-xxxl    // gigantic
+```
 
-  
 
 ## Try it in your app
 
@@ -26,7 +86,7 @@ BBN CSS is a non intrusive and adaptable set of classes for creating fast and po
 
 ```html
 
-<link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/bbnjs/dist/bbn.default.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bbnjs/dist/bbn.default.css">
 
 ```
 
@@ -34,7 +94,7 @@ BBN CSS is a non intrusive and adaptable set of classes for creating fast and po
 
 All the classes are based on only a few variables that will make your theme unique
 
-```less
+```css
 /** Default configuration*/
 @default-text: #2e2e2e;
 @default-border: #d5d5d5;
@@ -100,3 +160,11 @@ All the classes are based on only a few variables that will make your theme uniq
 @font: 'Helvetica', 'Arial', sans-serif; // You can also use Web fonts
 
 ```
+
+
+
+### Check out our [theme generator](https://bbn.io/theme) 
+
+Still a work in progress...
+
+
