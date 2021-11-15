@@ -112,7 +112,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-family: FiraCode, monospace;
   font-size: 1em;
 }
 small {
@@ -538,8 +538,11 @@ ul.bbn-reset li {
 .bbn-hover-text-internal {
   color: #2e2e2e;
 }
+i.nf {
+  zoom: 1.2;
+}
 i.nf.bbn-m {
-  line-height: 0.9em;
+  line-height: 0.85em;
 }
 i.nf.bbn-lg {
   line-height: 1em;
@@ -3119,7 +3122,7 @@ input[type=radio].bbn-radio {
   box-sizing: border-box;
   background-color: #2e2e2e;
   border-radius: 3px;
-  font: 1.2em 'NerdFontsSymbols Nerd Font', monospace;
+  font: 1.2em Firacode, monospace;
   content: "\f00c";
   color: transparent;
   border-width: 1px;
