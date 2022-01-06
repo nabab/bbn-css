@@ -373,9 +373,11 @@ iframe.bbn-hidden {
     grid-template-columns: minmax(auto, max-content) auto;
 
     >*:not(.bbn-grid-full) {
+      &::first-line {
+        line-height: 1.7em;
+      }
       box-sizing: border-box;
       word-break: break-word;
-      overflow: hidden;
 
       &.bbn-c,
       &.bbn-centered,
@@ -428,7 +430,7 @@ iframe.bbn-hidden {
 
     &.bbn-c,
     &.bbn-centered {
-      grid-template-columns: 49% auto;
+      grid-template-columns: auto auto;
 
       >*:not(label):not(.bbn-label):not(.bbn-grid-full) {
         text-align: left;
