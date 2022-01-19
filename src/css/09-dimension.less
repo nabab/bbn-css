@@ -41,7 +41,14 @@
     margin-top: @num + ~"%";
     margin-bottom: @num + ~"%";
   }
-
+  @media (max-width: calc(@mobile-limit)) {
+    .bbn-mobile-@{name}, .bbn-mobile-w-@{name} {
+      width: @num + ~"%" !important;
+    }
+    .bbn-mobile-@{name}, .bbn-mobile-h-@{name} {
+      height: @num + ~"%" !important;
+    }
+  }
 }
 .create-dimensions-rules(90, 90);
 .create-dimensions-rules(80, 80);
@@ -58,6 +65,19 @@
 .create-dimensions-rules(15, 15);
 .create-dimensions-rules(10, 10);
 .create-dimensions-rules(5, 5);
+@media (max-width: @mobile-limit) {
+  .bbn-mobile-w-100{
+    width: 100%;
+    clear: both;
+  }
+  .bbn-mobile-h-100{
+    height: 100% !important;
+  }
+  .bbn-mobile-100{
+    .bbn-h-100;
+    .bbn-w-100;
+  }
+}
 .bbn-full-width{
   .bbn-block;
   .bbn-w-100;

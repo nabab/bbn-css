@@ -1,6 +1,7 @@
 :root {
   --vh: 1vh;
   --vw: 1vw;
+  --mobile-limit: @mobile-limit;
   --default-text: @default-text;
   --default-border: @default-border;
   --default-background: @default-background;
@@ -114,7 +115,7 @@ abbr[title] {
 
 b,
 strong {
-  font-weight: bolder
+  font-weight: @bold;
 }
 
 code,
@@ -233,9 +234,9 @@ html {
   font-variant: unset;
   text-transform: unset;
   font-size: 100%;
-  font-family: @font  !important;
+  font-family: @font;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   text-align: left;
   /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
   /*
@@ -254,12 +255,7 @@ body {
 }
 
 html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5 {
+body {
   font-family: @font;
 }
 
@@ -309,7 +305,7 @@ h2,
 h3,
 h4,
 h5 {
-  clear: both;
+  font-weight: @bold;
 }
 
 fieldset {
