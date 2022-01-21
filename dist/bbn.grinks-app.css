@@ -323,6 +323,7 @@ h2,
 h3,
 h4,
 h5 {
+  clear: both;
   font-weight: 600;
 }
 fieldset {
