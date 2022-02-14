@@ -114,7 +114,6 @@ kbd,
 pre,
 samp {
   font-family: FiraCode, monospace;
-  font-size: 1em;
 }
 small {
   font-size: 80%;
@@ -141,6 +140,8 @@ textarea {
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
+  color: black;
+  background-color: white;
 }
 button,
 select {
@@ -205,7 +206,7 @@ html {
   line-height: unset;
   font-variant: unset;
   text-transform: unset;
-  font-size: 100%;
+  font-size: 13px;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -224,7 +225,7 @@ body {
   line-height: unset;
   font-variant: unset;
   text-transform: unset;
-  font-size: 100%;
+  font-size: 13px;
   font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -334,93 +335,93 @@ ul.bbn-reset li {
   }
 }
 .bbn-alt-background {
-  background-color: #daecf4 !important;
+  background-color: #daecf4;
 }
 .bbn-alt-background-internal {
   background-color: #daecf4;
 }
 .bbn-background-primary {
-  background: #177fab !important;
+  background: #177fab;
 }
 .bbn-background-primary-internal {
   background: #177fab;
 }
 .bbn-background-secondary {
-  background: #C9351C !important;
+  background: #C9351C;
 }
 .bbn-background-secondary-internal {
   background: #C9351C;
 }
 .bbn-background-tertiary {
-  background: #1AABFF !important;
+  background: #1AABFF;
 }
 .bbn-background-tertiary-internal {
   background: #1AABFF;
 }
 .bbn-background-effect-hover {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #d9ecf5 !important;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #d9ecf5;
 }
 .bbn-background-effect-hover-internal {
   background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #d9ecf5;
 }
 .bbn-background-header-alt {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.25) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #00435e !important;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.25) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #00435e;
 }
 .bbn-background-header-alt-internal {
   background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #00435e;
 }
 .bbn-background-header {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #f0f8ff !important;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #f0f8ff;
 }
 .bbn-background-header-internal {
   background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #f0f8ff;
 }
 .bbn-background {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 .bbn-background-internal {
   background-color: #fff;
 }
 .bbn-hover-background {
-  background-color: #d9ecf5 !important;
+  background-color: #d9ecf5;
 }
 .bbn-hover-background-internal {
   background-color: #d9ecf5;
 }
 .bbn-active-background {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 .bbn-active-background-internal {
   background-color: #fff;
 }
 .bbn-selected-background {
-  background-color: #f35800 !important;
+  background-color: #f35800;
 }
 .bbn-selected-background-internal {
   background-color: #f35800;
 }
 .bbn-disabled-background {
-  background-color: #edebea !important;
+  background-color: #edebea;
 }
 .bbn-disabled-background-internal {
   background-color: #edebea;
 }
 .bbn-success-background {
-  background-color: #cacaca !important;
+  background-color: #cacaca;
 }
 .bbn-success-background-internal {
   background-color: #cacaca;
 }
 .bbn-error-background {
-  background-color: #cacaca !important;
+  background-color: #cacaca;
 }
 .bbn-error-background-internal {
   background-color: #cacaca;
 }
 .bbn-alt-dark {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125) !important;
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125) !important;
-  box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125) !important;
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
+  box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
 }
 .bbn-alt-dark-internal {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
@@ -428,9 +429,9 @@ ul.bbn-reset li {
   box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
 }
 .bbn-alt-light {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125) !important;
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125) !important;
-  box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125) !important;
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125);
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125);
+  box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125);
 }
 .bbn-alt-light-internal {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125);
@@ -438,52 +439,52 @@ ul.bbn-reset li {
   box-shadow: inset 0px 0px 1000px 1000px rgba(255,255,255,0.125);
 }
 .bbn-modal {
-  background-color: rgba(0,0,0,0.4) !important;
+  background-color: rgba(0,0,0,0.4);
 }
 .bbn-modal-internal {
   background-color: rgba(0,0,0,0.4);
 }
 .bbn-background-transparent {
-  background-color: transparent !important;
+  background-color: transparent;
 }
 .bbn-background-transparent-internal {
   background-color: transparent;
 }
 .bbn-xxxxl,
 .bbn-xxxxlarge {
-  font-size: 4em !important;
+  font-size: 4em;
 }
 .bbn-xxxl,
 .bbn-xxxlarge {
-  font-size: 2.5em !important;
+  font-size: 2.5em;
 }
 .bbn-xxl,
 .bbn-xxlarge {
-  font-size: 1.8em !important;
+  font-size: 1.8em;
 }
 .bbn-xl,
 .bbn-xlarge {
-  font-size: 1.5em !important;
+  font-size: 1.5em;
 }
 .bbn-lg,
 .bbn-large {
-  font-size: 1.3em !important;
+  font-size: 1.3em;
 }
 .bbn-m,
 .bbn-medium {
-  font-size: 1.10em !important;
+  font-size: 1.10em;
 }
 .bbn-s,
 .bbn-small {
-  font-size: 0.85em !important;
+  font-size: 0.85em;
 }
 .bbn-xs,
 .bbn-xsmall {
-  font-size: 0.75em !important;
+  font-size: 0.75em;
 }
 .bbn-xxs,
 .bbn-xxsmall {
-  font-size: 0.66em !important;
+  font-size: 0.66em;
 }
 .bbn-alt-text {
   color: #00435e !important;
@@ -907,165 +908,165 @@ i.nf:before {
   padding-bottom: 0 !important;
 }
 .bbn-padded {
-  padding: 1em;
+  padding: 2vmin;
 }
 .bbn-hpadded {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
 }
 .bbn-vpadded {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2vmin;
+  padding-bottom: 2vmin;
 }
 .bbn-top-padded {
-  padding-top: 1em;
+  padding-top: 2vmin;
 }
 .bbn-bottom-padded {
-  padding-bottom: 1em;
+  padding-bottom: 2vmin;
 }
 .bbn-left-padded {
-  padding-left: 1em;
+  padding-left: 2vmin;
 }
 .bbn-right-padded {
-  padding-right: 1em;
+  padding-right: 2vmin;
 }
 .bbn-lpadded {
-  padding: 2em;
+  padding: 4vmin;
 }
 .bbn-hlpadded {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 4vmin;
+  padding-right: 4vmin;
 }
 .bbn-vlpadded {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: 4vmin;
+  padding-bottom: 4vmin;
 }
 .bbn-top-lpadded {
-  padding-top: 2em;
+  padding-top: 4vmin;
 }
 .bbn-bottom-lpadded {
-  padding-bottom: 2em;
+  padding-bottom: 4vmin;
 }
 .bbn-left-lpadded {
-  padding-left: 2em;
+  padding-left: 4vmin;
 }
 .bbn-right-lpadded {
-  padding-right: 2em;
+  padding-right: 4vmin;
 }
 .bbn-xlpadded {
-  padding: 4em;
+  padding: 8vmin;
 }
 .bbn-hxlpadded {
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-left: 8vmin;
+  padding-right: 8vmin;
 }
 .bbn-vxlpadded {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 8vmin;
+  padding-bottom: 8vmin;
 }
 .bbn-top-xlpadded {
-  padding-top: 4em;
+  padding-top: 8vmin;
 }
 .bbn-bottom-xlpadded {
-  padding-bottom: 4em;
+  padding-bottom: 8vmin;
 }
 .bbn-left-xlpadded {
-  padding-left: 4em;
+  padding-left: 8vmin;
 }
 .bbn-right-xlpadded {
-  padding-right: 4em;
+  padding-right: 8vmin;
 }
 .bbn-xxlpadded {
-  padding: 8em;
+  padding: 16vmin;
 }
 .bbn-hxxlpadded {
-  padding-left: 8em;
-  padding-right: 8em;
+  padding-left: 16vmin;
+  padding-right: 16vmin;
 }
 .bbn-vxxlpadded {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 16vmin;
+  padding-bottom: 16vmin;
 }
 .bbn-top-xxlpadded {
-  padding-top: 8em;
+  padding-top: 16vmin;
 }
 .bbn-bottom-xxlpadded {
-  padding-bottom: 8em;
+  padding-bottom: 16vmin;
 }
 .bbn-left-xxlpadded {
-  padding-left: 8em;
+  padding-left: 16vmin;
 }
 .bbn-right-xxlpadded {
-  padding-right: 8em;
+  padding-right: 16vmin;
 }
 .bbn-spadded {
-  padding: 0.5em;
+  padding: 1vmin;
 }
 .bbn-hspadded {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
 }
 .bbn-vspadded {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
 }
 .bbn-top-spadded {
-  padding-top: 0.5em;
+  padding-top: 1vmin;
 }
 .bbn-bottom-spadded {
-  padding-bottom: 0.5em;
+  padding-bottom: 1vmin;
 }
 .bbn-left-spadded {
-  padding-left: 0.5em;
+  padding-left: 1vmin;
 }
 .bbn-right-spadded {
-  padding-right: 0.5em;
+  padding-right: 1vmin;
 }
 .bbn-xspadded {
-  padding: 0.25em;
+  padding: 0.5vmin;
 }
 .bbn-hxspadded {
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+  padding-left: 0.5vmin;
+  padding-right: 0.5vmin;
 }
 .bbn-vxspadded {
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
+  padding-top: 0.5vmin;
+  padding-bottom: 0.5vmin;
 }
 .bbn-top-xspadded {
-  padding-top: 0.25em;
+  padding-top: 0.5vmin;
 }
 .bbn-bottom-xspadded {
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5vmin;
 }
 .bbn-left-xspadded {
-  padding-left: 0.25em;
+  padding-left: 0.5vmin;
 }
 .bbn-right-xspadded {
-  padding-right: 0.25em;
+  padding-right: 0.5vmin;
 }
 .bbn-xxspadded {
-  padding: 0.125em;
+  padding: 0.25vmin;
 }
 .bbn-hxxspadded {
-  padding-left: 0.125em;
-  padding-right: 0.125em;
+  padding-left: 0.25vmin;
+  padding-right: 0.25vmin;
 }
 .bbn-vxxspadded {
-  padding-top: 0.125em;
-  padding-bottom: 0.125em;
+  padding-top: 0.25vmin;
+  padding-bottom: 0.25vmin;
 }
 .bbn-top-xxspadded {
-  padding-top: 0.125em;
+  padding-top: 0.25vmin;
 }
 .bbn-bottom-xxspadded {
-  padding-bottom: 0.125em;
+  padding-bottom: 0.25vmin;
 }
 .bbn-left-xxspadded {
-  padding-left: 0.125em;
+  padding-left: 0.25vmin;
 }
 .bbn-right-xxspadded {
-  padding-right: 0.125em;
+  padding-right: 0.25vmin;
 }
 .bbn-top-space {
   margin-top: 1em;
@@ -1430,7 +1431,7 @@ i.nf:before {
   clear: both;
   height: 100% !important;
   overflow: auto;
-  background-color: #daecf4 !important;
+  background-color: #daecf4;
 }
 .bbn-flex {
   display: flex !important;
@@ -2259,7 +2260,7 @@ i.nf:before {
   clear: both;
   height: 100% !important;
   overflow: auto;
-  background-color: #daecf4 !important;
+  background-color: #daecf4;
 }
 .bbn-transition-width {
   transition: width 0.3s;
@@ -2492,10 +2493,10 @@ iframe.bbn-hidden {
   float: left;
 }
 .bbn-background .bbn-legend {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 .bbn-alt-background .bbn-legend {
-  background-color: #daecf4 !important;
+  background-color: #daecf4;
 }
 .bbn-section {
   border: #e0edf1 1px solid;
@@ -2583,7 +2584,7 @@ iframe.bbn-hidden {
   position: relative;
   box-sizing: border-box !important;
   overflow: auto;
-  background-color: #daecf4 !important;
+  background-color: #daecf4;
 }
 .bbn-line-breaker {
   position: relative;
@@ -2967,9 +2968,9 @@ ul.bbn-ul {
   border: #e0edf1 1px solid;
   box-sizing: border-box;
   color: #00435e;
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #f0f8ff;
 }
-.bbn-reactive-block:hover {
+.bbn-reactive-block:hover:not(.bbn-disabled),
+.bbn-reactive-block.bbn-hover:not(.bbn-disabled) {
   background-color: #d9ecf5;
 }
 .bbn-reactive-block:focus:not(.bbn-disabled),
@@ -3033,12 +3034,12 @@ input:hover:focus:not(.bbn-disabled),
   border-color: #a3d0e4;
 }
 .bbn-state-active {
-  background-color: #fff !important;
+  background-color: #fff;
   color: #003f59 !important;
   border-color: #e0edf1 !important;
 }
 .bbn-state-selected {
-  background-color: #f35800 !important;
+  background-color: #f35800;
   color: #fff !important;
   border-color: #00435e !important;
 }
@@ -3084,28 +3085,28 @@ input:hover:focus:not(.bbn-disabled),
 }
 .bbn-reactive:active:not(.bbn-disabled):not(:disabled),
 .bbn-reactive.bbn-active:not(.bbn-disabled):not(:disabled) {
-  background-color: #fff !important;
+  background-color: #fff;
   color: #003f59 !important;
   border-color: #e0edf1 !important;
 }
 .bbn-reactive:focus:not(.bbn-disabled):not(:disabled),
 .bbn-reactive.bbn-focus:not(.bbn-disabled):not(:disabled) {
-  background-color: #fff !important;
+  background-color: #fff;
   color: #003f59 !important;
   border-color: #e0edf1 !important;
 }
 .bbn-primary {
-  background: #177fab !important;
+  background: #177fab;
   color: #00435e !important;
   border-color: #FFF;
 }
 .bbn-secondary {
-  background: #C9351C !important;
+  background: #C9351C;
   color: #fff !important;
   border-color: #B22222;
 }
 .bbn-tertiary {
-  background: #1AABFF !important;
+  background: #1AABFF;
   color: #fff !important;
   border-color: #0974B3;
 }
@@ -3173,6 +3174,7 @@ textarea) {
   opacity: 0.5;
 }
 .bbn-button {
+  background-color: inherit;
   padding: 0.0833em 1em;
   box-sizing: border-box;
   border-width: 1px;
@@ -3192,7 +3194,6 @@ textarea) {
   outline: none;
   border: #e0edf1 1px solid;
   color: #00435e;
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat #f0f8ff;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -3254,8 +3255,6 @@ textarea) {
   border-right-width: 0;
 }
 .bbn-textbox input {
-  font-family: inherit;
-  color: inherit;
   border: 0;
   width: 100%;
   padding: 0.0833em 0.25em;
@@ -3405,7 +3404,7 @@ input[type=radio].bbn-radio {
 .bbn-table table > tbody > tr > td,
 .bbn-table table > thead > tr > td {
   background-color: #fff;
-  padding: 0.5em;
+  padding: 1vmin;
 }
 .bbn-table:is(table) > tbody > tr.bbn-alt > td,
 .bbn-table table > tbody > tr.bbn-alt > td {
@@ -3740,7 +3739,7 @@ input[type=radio].bbn-radio {
   cursor: pointer;
 }
 .bbn-nav-dots li:active {
-  background-color: #f35800 !important;
+  background-color: #f35800;
   color: #fff !important;
   border-color: #00435e !important;
 }
