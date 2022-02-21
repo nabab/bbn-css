@@ -512,6 +512,7 @@ i.nf:before {
   text-decoration: inherit;
   text-rendering: optimizeLegibility;
   text-transform: none;
+  vertical-align: middle;
 }
 .bbn-capital {
   text-transform: capitalize;
@@ -908,165 +909,165 @@ i.nf:before {
   padding-bottom: 0 !important;
 }
 .bbn-padded {
-  padding: 2vmin;
+  padding: 1rem;
 }
 .bbn-hpadded {
-  padding-left: 2vmin;
-  padding-right: 2vmin;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .bbn-vpadded {
-  padding-top: 2vmin;
-  padding-bottom: 2vmin;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .bbn-top-padded {
-  padding-top: 2vmin;
+  padding-top: 1rem;
 }
 .bbn-bottom-padded {
-  padding-bottom: 2vmin;
+  padding-bottom: 1rem;
 }
 .bbn-left-padded {
-  padding-left: 2vmin;
+  padding-left: 1rem;
 }
 .bbn-right-padded {
-  padding-right: 2vmin;
+  padding-right: 1rem;
 }
 .bbn-lpadded {
-  padding: 4vmin;
+  padding: 2rem;
 }
 .bbn-hlpadded {
-  padding-left: 4vmin;
-  padding-right: 4vmin;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .bbn-vlpadded {
-  padding-top: 4vmin;
-  padding-bottom: 4vmin;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .bbn-top-lpadded {
-  padding-top: 4vmin;
+  padding-top: 2rem;
 }
 .bbn-bottom-lpadded {
-  padding-bottom: 4vmin;
+  padding-bottom: 2rem;
 }
 .bbn-left-lpadded {
-  padding-left: 4vmin;
+  padding-left: 2rem;
 }
 .bbn-right-lpadded {
-  padding-right: 4vmin;
+  padding-right: 2rem;
 }
 .bbn-xlpadded {
-  padding: 8vmin;
+  padding: 4rem;
 }
 .bbn-hxlpadded {
-  padding-left: 8vmin;
-  padding-right: 8vmin;
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 .bbn-vxlpadded {
-  padding-top: 8vmin;
-  padding-bottom: 8vmin;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .bbn-top-xlpadded {
-  padding-top: 8vmin;
+  padding-top: 4rem;
 }
 .bbn-bottom-xlpadded {
-  padding-bottom: 8vmin;
+  padding-bottom: 4rem;
 }
 .bbn-left-xlpadded {
-  padding-left: 8vmin;
+  padding-left: 4rem;
 }
 .bbn-right-xlpadded {
-  padding-right: 8vmin;
+  padding-right: 4rem;
 }
 .bbn-xxlpadded {
-  padding: 16vmin;
+  padding: 8rem;
 }
 .bbn-hxxlpadded {
-  padding-left: 16vmin;
-  padding-right: 16vmin;
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 .bbn-vxxlpadded {
-  padding-top: 16vmin;
-  padding-bottom: 16vmin;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .bbn-top-xxlpadded {
-  padding-top: 16vmin;
+  padding-top: 8rem;
 }
 .bbn-bottom-xxlpadded {
-  padding-bottom: 16vmin;
+  padding-bottom: 8rem;
 }
 .bbn-left-xxlpadded {
-  padding-left: 16vmin;
+  padding-left: 8rem;
 }
 .bbn-right-xxlpadded {
-  padding-right: 16vmin;
+  padding-right: 8rem;
 }
 .bbn-spadded {
-  padding: 1vmin;
+  padding: 0.5rem;
 }
 .bbn-hspadded {
-  padding-left: 1vmin;
-  padding-right: 1vmin;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .bbn-vspadded {
-  padding-top: 1vmin;
-  padding-bottom: 1vmin;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .bbn-top-spadded {
-  padding-top: 1vmin;
+  padding-top: 0.5rem;
 }
 .bbn-bottom-spadded {
-  padding-bottom: 1vmin;
+  padding-bottom: 0.5rem;
 }
 .bbn-left-spadded {
-  padding-left: 1vmin;
+  padding-left: 0.5rem;
 }
 .bbn-right-spadded {
-  padding-right: 1vmin;
+  padding-right: 0.5rem;
 }
 .bbn-xspadded {
-  padding: 0.5vmin;
+  padding: 0.25rem;
 }
 .bbn-hxspadded {
-  padding-left: 0.5vmin;
-  padding-right: 0.5vmin;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 .bbn-vxspadded {
-  padding-top: 0.5vmin;
-  padding-bottom: 0.5vmin;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 .bbn-top-xspadded {
-  padding-top: 0.5vmin;
+  padding-top: 0.25rem;
 }
 .bbn-bottom-xspadded {
-  padding-bottom: 0.5vmin;
+  padding-bottom: 0.25rem;
 }
 .bbn-left-xspadded {
-  padding-left: 0.5vmin;
+  padding-left: 0.25rem;
 }
 .bbn-right-xspadded {
-  padding-right: 0.5vmin;
+  padding-right: 0.25rem;
 }
 .bbn-xxspadded {
-  padding: 0.25vmin;
+  padding: 0.125rem;
 }
 .bbn-hxxspadded {
-  padding-left: 0.25vmin;
-  padding-right: 0.25vmin;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
 }
 .bbn-vxxspadded {
-  padding-top: 0.25vmin;
-  padding-bottom: 0.25vmin;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 .bbn-top-xxspadded {
-  padding-top: 0.25vmin;
+  padding-top: 0.125rem;
 }
 .bbn-bottom-xxspadded {
-  padding-bottom: 0.25vmin;
+  padding-bottom: 0.125rem;
 }
 .bbn-left-xxspadded {
-  padding-left: 0.25vmin;
+  padding-left: 0.125rem;
 }
 .bbn-right-xxspadded {
-  padding-right: 0.25vmin;
+  padding-right: 0.125rem;
 }
 .bbn-top-space {
   margin-top: 1em;
@@ -3174,7 +3175,6 @@ textarea) {
   opacity: 0.5;
 }
 .bbn-button {
-  background-color: inherit;
   padding: 0.0833em 1em;
   box-sizing: border-box;
   border-width: 1px;
@@ -3404,7 +3404,7 @@ input[type=radio].bbn-radio {
 .bbn-table table > tbody > tr > td,
 .bbn-table table > thead > tr > td {
   background-color: #eee;
-  padding: 1vmin;
+  padding: 0.5rem;
 }
 .bbn-table:is(table) > tbody > tr.bbn-alt > td,
 .bbn-table table > tbody > tr.bbn-alt > td {
