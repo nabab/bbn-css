@@ -48,7 +48,9 @@
 }
 
 .bbn-bordered {
-  border: @default-border @default-border-width @default-border-style  !important;
+  border-color: @default-border !important;
+  border-width: @default-border-width !important;
+  border-style: @default-border-style;
   box-sizing: border-box;
 }
 
@@ -287,4 +289,17 @@
 
 .bbn-shadow {
   .bbn-shadow-bottom-right;
+}
+
+.bbn-dotted {
+  border-style: dotted;
+}
+.bbn-dashed {
+  border-style: dashed;
+}
+.bbn-ridge {
+  border-style: ridge;
+}
+.bbn-groove {
+  border-style: groove;
 }
