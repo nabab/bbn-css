@@ -462,7 +462,7 @@ iframe.bbn-hidden {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 100%;
+  aspect-ratio: 1;
 }
 .bbn-container-ratio-inside-internal {
   position: absolute;
@@ -473,28 +473,28 @@ iframe.bbn-hidden {
 }
 .bbn-container-ratio-4-3 {
   .bbn-container-ratio;
-  padding-top: 75%;
+  aspect-ratio: 4/3;
   > *:first {
     .bbn-container-ratio-inside-internal;
   }
 }
 .bbn-container-ratio-3-4 {
   .bbn-container-ratio;
-  padding-top: 133%;
+  aspect-ratio: 3/4;
   > *:first {
     .bbn-container-ratio-inside-internal;
   }
 }
 .bbn-container-ratio-16-9 {
   .bbn-container-ratio;
-  padding-top: 56.25%;
+  aspect-ratio: 16/9;
   > *:first {
     .bbn-container-ratio-inside-internal;
   }
 }
 .bbn-container-ratio-9-16 {
   .bbn-container-ratio;
-  padding-top: 43.75%;
+  aspect-ratio: 9/16;
   > *:first {
     .bbn-container-ratio-inside-internal;
   }
