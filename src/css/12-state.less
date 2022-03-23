@@ -163,3 +163,27 @@
   display: none;
   opacity: 0.5;
 }
+.bbn-resizable {
+  &.bbn-resizable-resizing {
+    * {
+      pointer-events: none !important;
+      .bbn-unselectable;
+    }
+  }
+  &.bbn-resizable-over-left,
+  &.bbn-resizable-over-right {
+    cursor: ew-resize !important;
+  }
+  &.bbn-resizable-over-top,
+  &.bbn-resizable-over-bottom {
+    cursor: ns-resize !important;
+  }
+  &.bbn-resizable-over-top.bbn-resizable-over-left,
+  &.bbn-resizable-over-bottom.bbn-resizable-over-right {
+    cursor: nwse-resize !important;
+  }
+  &.bbn-resizable-over-top.bbn-resizable-over-right,
+  &.bbn-resizable-over-bottom.bbn-resizable-over-left {
+    cursor: nesw-resize !important;
+  }
+}
