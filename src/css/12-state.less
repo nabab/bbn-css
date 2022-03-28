@@ -187,3 +187,21 @@
     cursor: nesw-resize !important;
   }
 }
+
+/* mouse pointer */
+.bbn-p,
+.bbn-pointer {
+  cursor: pointer;
+}
+
+/** Blinking animation */
+.bbn-anim-blink {
+  animation: bbn-anim-blinker 1s linear infinite;
+}
+
+@keyframes bbn-anim-blinker {
+  50% {
+    opacity: 0.25;
+  }
+}
+

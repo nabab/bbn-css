@@ -246,11 +246,6 @@ html {
 }
 
 body {
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
   transition: opacity 1s;
   .bbn-reset;
 }
@@ -339,42 +334,5 @@ ul.bbn-reset {
   font-style: inherit;
   font-weight: inherit;
   text-align: inherit;
-}
-
-/* mouse pointer */
-.bbn-p,
-.bbn-pointer {
-  cursor: pointer;
-}
-
-.bbn-hr {
-  .bbn-bordered-top;
-  .bbn-top-space;
-  .bbn-bottom-space;
-  border-top-width: 1px;
-}
-
-.bbn-hr.bbn-alt {
-  border-color: @alt-border;
-}
-
-.bbn-hr-m {
-  .bbn-hr;
-  border-top-width: 2px;
-}
-
-.bbn-hr-l {
-  .bbn-hr;
-  border-top-width: 4px;
-}
-
-.bbn-anim-blink {
-  animation: bbn-anim-blinker 1s linear infinite;
-}
-
-@keyframes bbn-anim-blinker {
-  50% {
-    opacity: 0.25;
-  }
 }
 
