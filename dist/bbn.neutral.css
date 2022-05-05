@@ -45,7 +45,7 @@
   --success-background: #cacaca;
   --success-border: #00a03e;
   --error-text: #db3340;
-  --error-background: #cacaca;
+  --error-background: #fff;
   --success-alt-text: #00a03e;
   --error-alt-text: #db3340;
   --error-border: #db3340;
@@ -347,10 +347,16 @@ ul.bbn-reset li {
   background: #1AABFF;
 }
 .bbn-background-effect-hover {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat inherit;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.2) 100%) 50% 50% repeat inherit;
 }
 .bbn-background-effect-hover-internal {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat inherit;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.2) 100%) 50% 50% repeat inherit;
+}
+.bbn-background-effect-dark-hover {
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(0,0,0,0.2) 100%) 50% 50% repeat inherit;
+}
+.bbn-background-effect-dark-hover-internal {
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(0,0,0,0.2) 100%) 50% 50% repeat inherit;
 }
 .bbn-background-header-alt {
   background: none, linear-gradient(to bottom,rgba(255,255,255,0.25) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat inherit;
@@ -401,10 +407,10 @@ ul.bbn-reset li {
   background-color: #cacaca;
 }
 .bbn-error-background {
-  background-color: #cacaca;
+  background-color: #fff;
 }
 .bbn-error-background-internal {
-  background-color: #cacaca;
+  background-color: #fff;
 }
 .bbn-alt-dark {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0,0,0,0.125);
@@ -3077,6 +3083,12 @@ ul.bbn-ul {
 .bbn-middle-line.bbn-alt-text:after {
   background-color: inherit !important;
 }
+.bbn-hover-effect-element:hover {
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.2) 100%) 50% 50% repeat inherit;
+}
+.bbn-hover-effect-dark-element:hover {
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(0,0,0,0.2) 100%) 50% 50% repeat inherit;
+}
 .bbn-textbox:focus:not(.bbn-disabled),
 .bbn-textbox:focus-within:not(.bbn-disabled),
 .bbn-textbox:hover:focus:not(.bbn-disabled),
@@ -3119,7 +3131,7 @@ input:hover:focus:not(.bbn-disabled),
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  background-color: #cacaca;
+  background-color: #fff;
   color: #db3340;
 }
 .bbn-error-colored {
@@ -3292,6 +3304,12 @@ textarea) {
     opacity: 0.25;
   }
 }
+button {
+  border: inherit inherit solid;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: inherit;
+}
 .bbn-button {
   padding: 0.0833em 1em;
   box-sizing: border-box;
@@ -3310,9 +3328,6 @@ textarea) {
   user-select: none;
   cursor: pointer;
   outline: none;
-  border: inherit inherit solid;
-  background-color: #fff;
-  color: inherit;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
@@ -3345,7 +3360,7 @@ textarea) {
   line-height: inherit !important;
 }
 .bbn-button:hover:not(.bbn-disabled):not(:disabled) {
-  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0) 100%) 50% 50% repeat inherit;
+  background: none, linear-gradient(to bottom,rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.2) 100%) 50% 50% repeat inherit;
 }
 .bbn-button:active,
 .bbn-button.bbn-active {
