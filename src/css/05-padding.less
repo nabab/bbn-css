@@ -10,68 +10,60 @@
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
-@space: 1rem;
-@lspace: 2rem;
-@xlspace: 4rem;
-@xxlspace: 8rem;
-@sspace: 0.5rem;
-@xsspace: 0.25rem;
-@xxsspace: 0.125rem;
-@space-name: "space";
-@padded-name: "padded";
-.create-rule-padding(@prefix) {
+.create-rule-padding(@prefix, @name) {
   @cn: "@{prefix}space";
-  .bbn-@{prefix}padded{
+  .bbn-@{prefix}@{name} {
      padding: @@cn;
   }
-  .bbn-h@{prefix}padded{
+  .bbn-h@{prefix}@{name} {
     padding-left: @@cn;
     padding-right: @@cn;
   }
-  .bbn-v@{prefix}padded{
+  .bbn-v@{prefix}@{name} {
     padding-top: @@cn;
     padding-bottom: @@cn;
   }
-  .bbn-top-@{prefix}padded{
+  .bbn-top-@{prefix}@{name} {
     padding-top: @@cn;
   }
-  .bbn-bottom-@{prefix}padded{
+  .bbn-bottom-@{prefix}@{name} {
     padding-bottom: @@cn;
   }
-  .bbn-left-@{prefix}padded{
+  .bbn-left-@{prefix}@{name} {
     padding-left: @@cn;
   }
-  .bbn-right-@{prefix}padded{
+  .bbn-right-@{prefix}@{name} {
     padding-right: @@cn;
   }
 }
-.bbn-padded{
-  padding: @space;
-}
-.bbn-hpadded{
- padding-left: @space;
- padding-right: @space;
-}
-.bbn-vpadded{
- padding-top: @space;
- padding-bottom: @space;
-}
-.bbn-top-padded{
- padding-top: @space;
-}
-.bbn-bottom-padded{
- padding-bottom: @space;
-}
-.bbn-left-padded{
- padding-left: @space;
-}
-.bbn-right-padded{
- padding-right: @space;
-}
+.create-rule-padding(~"", padded);
+.create-rule-padding(l, padded);
+.create-rule-padding(xl, padded);
+.create-rule-padding(xxl, padded);
+.create-rule-padding(s, padded);
+.create-rule-padding(xs, padded);
+.create-rule-padding(xxs, padded);
+.create-rule-padding(~"", space);
+.create-rule-padding(l, space);
+.create-rule-padding(xl, space);
+.create-rule-padding(xxl, space);
+.create-rule-padding(s, space);
+.create-rule-padding(xs, space);
+.create-rule-padding(xxs, space);
 
-.create-rule-padding(l);
-.create-rule-padding(xl);
-.create-rule-padding(xxl);
-.create-rule-padding(s);
-.create-rule-padding(xs);
-.create-rule-padding(xxs);
+.create-rule-padding(no, padding);
+.create-rule-padding(~"", padding);
+.create-rule-padding(l, padding);
+.create-rule-padding(xl, padding);
+.create-rule-padding(xxl, padding);
+.create-rule-padding(s, padding);
+.create-rule-padding(xs, padding);
+.create-rule-padding(xxs, padding);
+.create-rule-padding(no, margin);
+.create-rule-padding(~"", margin);
+.create-rule-padding(l, margin);
+.create-rule-padding(xl, margin);
+.create-rule-padding(xxl, margin);
+.create-rule-padding(s, margin);
+.create-rule-padding(xs, margin);
+.create-rule-padding(xxs, margin);
