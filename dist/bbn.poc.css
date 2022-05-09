@@ -102,6 +102,14 @@
   --effect: rgba(255,255,255,0.4);
   --line-height: 1.7em;
   --line-height-mobile: 2em;
+  --nospace: 0px;
+  --space: 1em;
+  --lspace: 2em;
+  --xlspace: 4em;
+  --xxlspace: 8em;
+  --sspace: 0.5em;
+  --xsspace: 0.25em;
+  --xxsspace: 0.125em;
   --black: #000000;
   --anthracite: #454545;
   --orange: #ff9900;
@@ -2928,6 +2936,17 @@ hr {
   display: flex !important;
   flex-wrap: nowrap;
   box-sizing: border-box;
+}
+.bbn-flex-items {
+  display: flex !important;
+  flex-wrap: nowrap;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 0.5em;
 }
 .bbn-flex-width {
   display: flex !important;
