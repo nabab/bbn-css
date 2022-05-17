@@ -57,3 +57,44 @@
   .bbn-hxsmargin;
   .bbn-vxsmargin;
 }
+.create-rule-margin(@prefix, @name) {
+  @cn: "@{prefix}space";
+  .bbn-@{prefix}@{name} {
+     margin: @@cn;
+  }
+  .bbn-h@{prefix}@{name} {
+    margin-left: @@cn;
+    margin-right: @@cn;
+  }
+  .bbn-v@{prefix}@{name} {
+    margin-top: @@cn;
+    margin-bottom: @@cn;
+  }
+  .bbn-top-@{prefix}@{name} {
+    margin-top: @@cn;
+  }
+  .bbn-bottom-@{prefix}@{name} {
+    margin-bottom: @@cn;
+  }
+  .bbn-left-@{prefix}@{name} {
+    margin-left: @@cn;
+  }
+  .bbn-right-@{prefix}@{name} {
+    margin-right: @@cn;
+  }
+}
+.create-rule-margin(no, margin);
+.create-rule-margin(~"", margin);
+.create-rule-margin(l, margin);
+.create-rule-margin(xl, margin);
+.create-rule-margin(xxl, margin);
+.create-rule-margin(s, margin);
+.create-rule-margin(xs, margin);
+.create-rule-margin(xxs, margin);
+.create-rule-margin(~"", space);
+.create-rule-margin(l, space);
+.create-rule-margin(xl, space);
+.create-rule-margin(xxl, space);
+.create-rule-margin(s, space);
+.create-rule-margin(xs, space);
+.create-rule-margin(xxs, space);
