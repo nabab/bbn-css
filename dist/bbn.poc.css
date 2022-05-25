@@ -3312,7 +3312,7 @@ hr {
   }
   .bbn-grid-fields >*:not(.bbn-grid-full) {
     box-sizing: border-box;
-    word-break: break-word;
+    word-break: normal;
   }
   .bbn-grid-fields >*:not(.bbn-grid-full)::first-line {
     line-height: 1.7em;
