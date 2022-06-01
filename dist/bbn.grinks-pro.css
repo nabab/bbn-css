@@ -3096,6 +3096,7 @@ hr {
   box-sizing: border-box !important;
   display: block;
   background-image: none;
+  background-color: inherit;
   margin: 2rem 1rem 1rem;
   padding: 1rem;
 }
