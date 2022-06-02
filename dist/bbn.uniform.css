@@ -1909,7 +1909,6 @@ i.nf:before {
   flex-direction: row;
   width: 100%;
   -webkit-flex-direction: row;
-  padding: 0;
   border-radius: 6px;
   display: flex;
   justify-content: flex-end;
@@ -2980,13 +2979,12 @@ hr {
   flex-direction: row;
   width: 100%;
   -webkit-flex-direction: row;
-  padding: 0;
   border-radius: 6px;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  -webkit-justify-content: flex-end;
-  justify-content: flex-end;
+  -webkit-justify-content: center;
+  justify-content: center;
   border-width: 0;
 }
 .bbn-button-group.bbn-reverse {
@@ -3005,10 +3003,10 @@ hr {
   border-radius: 0;
 }
 .bbn-button-group >.bbn-button:first-child {
-  border-radius: inherit 0 0 inherit;
+  border-radius: 6px 0 0 6px;
 }
 .bbn-button-group >.bbn-button:last-child {
-  border-radius: 0 inherit inherit 0;
+  border-radius: 0 6px 6px 0;
 }
 .bbn-flex-hcentered {
   display: flex !important;
