@@ -481,7 +481,7 @@ hr{
     >.bbn-grid-full {
       box-sizing: border-box;
       grid-column-start: 1;
-      grid-column-end: span 2;
+      grid-column-end: -1;
     }
   }
 }
@@ -613,9 +613,9 @@ hr{
   text-decoration: none;
 
   li {
+    padding: @xsspace @lspace @xsspace @xsspace;
     border-width: 0;
     white-space: nowrap;
-    padding: 0.25rem 1.5rem 0.25rem 1rem;
     overflow: hidden;
     cursor: pointer;
 
