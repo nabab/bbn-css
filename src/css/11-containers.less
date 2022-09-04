@@ -426,8 +426,6 @@ hr{
       box-sizing: border-box;
       word-break: normal;
 
-      &.bbn-c,
-      &.bbn-centered,
       >.bbn-c,
       >.bbn-centered {
         text-align: center !important;
@@ -477,7 +475,7 @@ hr{
 
     &.bbn-c,
     &.bbn-centered {
-      grid-template-columns: auto auto;
+      grid-template-columns: 1fr 1fr;
 
       >*:not(label):not(.bbn-label):not(.bbn-grid-full) {
         text-align: left;
@@ -663,8 +661,7 @@ hr{
   }
 
   input {
-    line-height: @line-height;
-    min-height: @line-height;
+    line-height: 100%;
 
     .bbn-mobile & {
       line-height: @line-height-mobile;
