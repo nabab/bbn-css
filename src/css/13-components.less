@@ -534,3 +534,31 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-transition-bcolor {
   transition-property: background-color;
 }
+.bbn-toplabel {
+  .bbn-bordered;
+  .bbn-radius;
+  .bbn-block;
+  .bbn-b;
+  .bbn-upper;
+  font-size: 0.7rem;
+  padding: var(--xsspace) var(--sspace);
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: translateY(1px);
+  z-index: 1;
+  &:not(.bbn-disabled) {
+    background-color: var(--default-background);
+  }
+  &:has(+ *.bbn-state-invalid) {
+    border-color: var(--error-border) !important;
+  }
+  &:has(+ *:focus-within) {
+    border-color: var(--selected-border) !important;
+  }
+  & + * {
+    border-top-left-radius: 0;
+    float: left;
+    clear: both;
+  }
+}
