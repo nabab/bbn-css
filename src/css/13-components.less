@@ -550,6 +550,9 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   &:not(.bbn-disabled) {
     background-color: var(--default-background);
   }
+  &.bbn-disabled {
+    color: inherit !important;
+  }
   &:has(+ *.bbn-state-invalid) {
     border-color: var(--error-border) !important;
   }
