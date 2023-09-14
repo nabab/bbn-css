@@ -534,18 +534,14 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-transition-bcolor {
   transition-property: background-color;
 }
-.bbn-toplabel {
+.bbn-toplabel,
+.bbn-leftlabel {
   .bbn-bordered;
   .bbn-radius;
   .bbn-block;
   .bbn-b;
   .bbn-upper;
-  font-size: 0.7rem;
-  padding: var(--xsspace) var(--sspace);
-  border-bottom: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  transform: translateY(1px);
+  font-size: 0.8rem;
   z-index: 1;
   &:not(.bbn-disabled) {
     background-color: var(--default-background);
@@ -560,8 +556,30 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     border-color: var(--selected-border) !important;
   }
   & + * {
-    border-top-left-radius: 0;
     float: left;
+  }
+}
+.bbn-toplabel {
+  padding: var(--xsspace) var(--sspace);
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: translateY(var(--default-border-width));
+  & + * {
+    border-top-left-radius: 0;
     clear: both;
+  }
+}
+.bbn-leftlabel {
+  padding: 0 var(--sspace);
+  border-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: translateX(var(--default-border-width));
+  vertical-align: baseline;
+  line-height: var(--line-height);
+  & + * {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 }
