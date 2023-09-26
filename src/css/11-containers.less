@@ -289,7 +289,7 @@ hr{
   .bbn-bordered-internal;
   .bbn-radius;
   .bbn-border-box;
-  display: block;
+  display: flex;
   background-image: none;
   background-color: inherit;
   margin: 2rem 1rem 1rem;
@@ -458,6 +458,10 @@ hr{
   .bbn-grid-@{prefix}gap {
     grid-column-gap: calc(@@cn * 2);
     grid-row-gap: @@cn;
+  }
+  .bbn-grid-internal-@{prefix}gap {
+    grid-column-gap: calc(@@cn * 2) !important;
+    grid-row-gap: @@cn !important;
   }
 }
 
