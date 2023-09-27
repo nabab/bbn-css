@@ -564,7 +564,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-bottom: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  transform: translateY(var(--default-border-width));
+  transform: translateY(calc(var(--default-border-width) + 0.2px));
   & + * {
     border-top-left-radius: 0;
     clear: both;
@@ -575,11 +575,23 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-right: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transform: translateX(var(--default-border-width));
+  transform: translateX(calc(var(--default-border-width) + 0.2px));
   vertical-align: baseline;
   line-height: var(--line-height);
   & + * {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+  }
+}
+@media (max-width: calc(@mobile-limit - 1px)) {
+  .bbn-form {
+    .bbn-form-container {
+      .bbn-form-buttons.bbn-button-group {
+        .bbn-button {
+          min-width: max-content !important;
+          width: auto !important;
+        }
+      }
+    }
   }
 }
