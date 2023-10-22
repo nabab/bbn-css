@@ -1,4 +1,5 @@
-.bbn-state-default{
+.bbn-state-default, a .bbn-state-default{
+  color: @default-text;
   cursor: pointer;
 }
 .bbn-state-hover{
@@ -27,7 +28,7 @@
   .bbn-error-background-internal;
   .bbn-error-text-internal;
 }
-.bbn-error-colored{
+.bbn-error-colored {
   color: @error-text;
   background-color: @default-background;
   border: @error-border;
@@ -47,7 +48,7 @@
   cursor: default !important;
 }
 
-.bbn-reactive{
+.bbn-reactive {
   .bbn-state-default;
   &:hover:not(.bbn-disabled):not(:disabled),
   &.bbn-hover:not(.bbn-disabled):not(:disabled){
@@ -67,6 +68,7 @@
 
 .bbn-text-state-default{
   cursor: pointer;
+  color: @default-text;
 }
 .bbn-text-state-hover{
   color: @hover-text;

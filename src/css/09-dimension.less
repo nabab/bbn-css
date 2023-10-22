@@ -14,39 +14,39 @@
 .create-dimensions-rules(@name, @num) {
   .bbn-@{name}, .bbn-w-@{name} {
     .bbn-block;
-    width: @num + ~"%";
+    width: ~"@{num}%";
   }
   .bbn-w-@{name}.bbn-block-right{
-    width: ~"-webkit-calc(" + @num + "% - 2rem)";
-    width: ~"-moz-calc(" + @num + "% - 2rem)";
-    width: ~"calc(" + @num + "% - 2rem)";
+    width: ~"-webkit-calc(@{num}% - 2rem)";
+    width: ~"-moz-calc(@{num}% - 2rem)";
+    width: ~"calc(@{num}% - 2rem)";
   }
   .bbn-@{name}, .bbn-h-@{name} {
     .bbn-border-box;
-    height: @num + ~"%";
+    height: ~"@{num}%";
   }
   .bbn-padded-@{name}, .bbn-hpadded-@{name} {
-    padding-left: @num + ~"%";
-    padding-right: @num + ~"%";
+    padding-left: ~"@{num}%";
+    padding-right: ~"@{num}%";
   }
   .bbn-padded-@{name}, .bbn-vpadded-@{name} {
-    padding-top: @num + ~"%";
-    padding-bottom: @num + ~"%";
+    padding-top: ~"@{num}%";
+    padding-bottom: ~"@{num}%";
   }
   .bbn-margin-@{name}, .bbn-hmargin-@{name} {
-    margin-left: @num + ~"%";
-    margin-right: @num + ~"%";
+    margin-left: ~"@{num}%";
+    margin-right: ~"@{num}%";
   }
   .bbn-margin-@{name}, .bbn-vmargin-@{name} {
-    margin-top: @num + ~"%";
-    margin-bottom: @num + ~"%";
+    margin-top: ~"@{num}%";
+    margin-bottom: ~"@{num}%";
   }
   @media (max-width: calc(@mobile-limit)) {
     .bbn-mobile-@{name}, .bbn-mobile-w-@{name} {
-      width: @num + ~"%" !important;
+      width: ~"@{num}%" !important;
     }
     .bbn-mobile-@{name}, .bbn-mobile-h-@{name} {
-      height: @num + ~"%" !important;
+      height: ~"@{num}%" !important;
     }
   }
 }
