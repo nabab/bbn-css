@@ -5461,15 +5461,6 @@ input[type=radio].bbn-radio {
   border-style: solid;
   box-sizing: border-box;
 }
-/*
-.bbn-switch{
-  position: relative;
-  display: inline-block;
-  // changed to rem because in the component css rem is used for the size of internal square of bbn-switch
-  width: 2.96rem;
-  height: 1.7rem;
-}
- */
 .bbn-form-full {
   box-sizing: border-box !important;
   float: left;
