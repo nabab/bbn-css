@@ -12,7 +12,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "pack": "./node_modules/.bin/webpack --config webpack.config.js"
+    "gitauto": "git stage ./src/* ./*.json ./*.js && git stage -f ./dist/* && git commit -m \"Latest changes\"",
+    "gitend": "git stage ./package.json && git stage -f ./dist/* && git commit -m \"Latest changes\" && git push",
+    "pub": "npm version patch && npm publish",
+    "build": "npx gulp",
+    "all": "npm run gitauto && npm version patch && npm run build && npm run gitend && npm publish"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
