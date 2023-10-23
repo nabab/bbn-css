@@ -16,11 +16,10 @@
     "fonts/**/*"
   ],
   "scripts": {
-    "gitauto": "git stage ./fonts/* ./src/* ./*.json ./*.js && git stage -f ./dist/* && git commit -m \"Latest changes\"",
-    "gitend": "git stage ./package.json && git stage -f ./dist/* && git commit -m \"Latest changes\" && git push",
-    "pub": "npm version patch && npm publish",
+    "vcs": "git stage ./fonts/* ./src/* ./*.json ./*.js && git stage -f ./dist/* && git commit -m \"Latest changes\"",
+    "pub": "npm version patch && npm publish && git stage ./package.json && git stage -f ./dist/* && git commit -m \"Latest changes\" && git push",
     "build": "npx gulp",
-    "all": "npm run gitauto && npm version patch && npm run build && npm run gitend && npm publish"
+    "all": "npm run vcs && npm run build && npm run pub"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
