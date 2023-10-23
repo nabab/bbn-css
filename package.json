@@ -11,6 +11,9 @@
     "appui"
   ],
   "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "gitauto": "git stage ./src/* ./*.json ./*.js && git stage -f ./dist/* && git commit -m \"Latest changes\"",
     "gitend": "git stage ./package.json && git stage -f ./dist/* && git commit -m \"Latest changes\" && git push",
