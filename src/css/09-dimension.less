@@ -41,7 +41,7 @@
     margin-top: ~"@{num}%";
     margin-bottom: ~"@{num}%";
   }
-  @media (max-width: calc(@mobile-limit)) {
+  @media (max-width: calc(@mq-mobile-limit)) {
     .bbn-mobile-@{name}, .bbn-mobile-w-@{name} {
       width: ~"@{num}%" !important;
     }
@@ -65,7 +65,7 @@
 .create-dimensions-rules(15, 15);
 .create-dimensions-rules(10, 10);
 .create-dimensions-rules(5, 5);
-@media (max-width: @mobile-limit) {
+@media (max-width: @mq-mobile-limit) {
   .bbn-mobile-w-100{
     width: 100%;
     clear: both;
