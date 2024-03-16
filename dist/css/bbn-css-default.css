@@ -5170,14 +5170,17 @@ a .bbn-state-default {
   border-color: var(--tertiary-border);
   text-shadow: 0 0 0.1rem var(--tertiary-text);
 }
-.bbn-primary:active,
-.bbn-primary.bbn-active {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background);
+/*
+.bbn-primary:active,.bbn-primary.bbn-active{
+  .bbn-background-effect-primary-internal;
 }
-.bbn-secondary:active,
-.bbn-secondary.bbn-active {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--secondary-background);
+.bbn-secondary:active,.bbn-secondary.bbn-active{
+  .bbn-background-effect-secondary-internal;
 }
+.bbn-tertiary:active,.bbn-tertiary.bbn-active{
+  .bbn-background-effect-tertiary-internal;
+}
+*/
 .bbn-primary:disabled,
 .bbn-primary.bbn-disabled,
 .bbn-secondary:disabled,
