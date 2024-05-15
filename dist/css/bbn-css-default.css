@@ -2939,6 +2939,9 @@ i.nf:before {
   border-bottom-right-radius: var(--xxsspace);
 }
 .bbn-w-100 {
+  position: relative;
+  box-sizing: border-box !important;
+  float: left;
   width: 100%;
   clear: both;
 }
@@ -2948,9 +2951,10 @@ i.nf:before {
   height: 100% !important;
 }
 .bbn-100 {
+  height: 100% !important;
   position: relative;
   box-sizing: border-box !important;
-  height: 100% !important;
+  float: left;
   width: 100%;
   clear: both;
 }
@@ -3683,9 +3687,10 @@ i.nf:before {
     height: 100% !important;
   }
   .bbn-mobile-100 {
+    height: 100% !important;
     position: relative;
     box-sizing: border-box !important;
-    height: 100% !important;
+    float: left;
     width: 100%;
     clear: both;
   }
@@ -3755,6 +3760,7 @@ i.nf:before {
 }}
 */
 .bbn-full-content {
+  float: left;
   width: 100%;
   clear: both;
   height: 100% !important;
@@ -4490,6 +4496,9 @@ hr {
   grid-row-gap: var(--xxsspace) !important;
 }
 .bbn-grid-fields-force {
+  position: relative;
+  box-sizing: border-box !important;
+  float: left;
   width: 100%;
   display: grid;
   clear: both;
@@ -4593,6 +4602,9 @@ hr {
 }
 @media (min-width: 700px) {
   .bbn-grid-fields {
+    position: relative;
+    box-sizing: border-box !important;
+    float: left;
     width: 100%;
     display: grid;
     clear: both;
@@ -4697,11 +4709,17 @@ hr {
 }
 @media (max-width: calc(700px - 1px)) {
   .bbn-grid-fields:not(.bbn-grid-fields-force) {
+    position: relative;
+    box-sizing: border-box !important;
+    float: left;
     width: 100%;
     clear: both;
   }
   .bbn-grid-fields:not(.bbn-grid-fields-force) > div,
   .bbn-grid-fields:not(.bbn-grid-fields-force) > label {
+    position: relative;
+    box-sizing: border-box !important;
+    float: left;
     width: 100%;
     clear: both;
   }
