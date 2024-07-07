@@ -132,7 +132,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-checkbox:disabled + .bbn-checkbox-label:hover:before {
   box-shadow: none;
 }
-.bbn-checkbox:disabled + .k-checkbox-label:before,
+.bbn-checkbox:disabled + .bbn-checkbox-label:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:active:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:hover:before {
@@ -170,11 +170,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   //background-color: @selected-background;
   opacity: 0.5;
 }
-.bbn-radio:focus + .bbn-radio-label:before {
-  border-color: @selected-border;
-  box-shadow: 0 0 3px 0 @selected-background;
-}
-.bbn-radio:focus .bbn-radio-label:before {
+.bbn-radio .bbn-radio-label:focus:before {
   border-color: @selected-border;
   box-shadow: 0 0 3px 0 @selected-background;
 }
