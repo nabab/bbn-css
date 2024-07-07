@@ -5474,7 +5474,7 @@ input[type=radio].bbn-radio {
   border-style: solid;
   border-width: 0;
 }
-.bbn-checkbox:focus > .bbn-checkbox-label:before {
+.bbn-checkbox > .bbn-checkbox-label:focus:before {
   border-color: var(--selected-border);
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:before {
