@@ -5420,14 +5420,15 @@ input[type=radio].bbn-radio {
   border-style: solid;
   border-width: 0;
 }
-.bbn-checkbox > .bbn-checkbox-label:focus:before {
-  border-color: var(--selected-border);
-}
 .bbn-checkbox:checked + .bbn-checkbox-label:before {
   border: var(--default-border) var(--default-border-width) var(--default-border-style);
   box-sizing: border-box;
   background-color: var(--default-background);
   color: var(--selected-border);
+}
+.bbn-checkbox:checked + .bbn-checkbox-label:focus:before,
+.bbn-checkbox > .bbn-checkbox-label:focus:before {
+  border-color: var(--selected-border);
 }
 .bbn-checkbox-label:before {
   border: var(--default-border) var(--default-border-width) var(--default-border-style);

@@ -106,13 +106,13 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-width: 0;
 }
 
-.bbn-checkbox > .bbn-checkbox-label:focus:before {
-  border-color: @selected-border;
-}
 .bbn-checkbox:checked + .bbn-checkbox-label:before{
   .bbn-bordered-internal;
   .bbn-background-internal;
   color: @selected-border;
+}
+.bbn-checkbox:checked + .bbn-checkbox-label:focus:before, .bbn-checkbox > .bbn-checkbox-label:focus:before {
+  border-color: @selected-border;
 }
 .bbn-checkbox-label:before{
   .bbn-bordered-internal;
