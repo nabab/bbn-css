@@ -5251,7 +5251,7 @@ a .bbn-state-default {
   }
 }
 :focus {
-  outline: 0;
+  outline: auto;
 }
 .bbn-negative {
   background-color: var(--default-text);
