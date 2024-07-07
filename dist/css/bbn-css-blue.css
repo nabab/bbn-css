@@ -5219,7 +5219,7 @@ a .bbn-state-default {
   }
 }
 :focus {
-  outline: auto;
+  outline: 0;
 }
 .bbn-negative {
   background-color: var(--default-text);
@@ -5426,7 +5426,7 @@ input[type=radio].bbn-radio {
   border-style: solid;
   border-width: 0;
 }
-.bbn-checkbox:focus + .bbn-checkbox-label:before {
+.bbn-checkbox:focus > .bbn-checkbox-label:before {
   border-color: var(--selected-border);
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:before {
@@ -5490,7 +5490,7 @@ input[type=radio].bbn-radio {
 .bbn-radio:disabled:checked + .bbn-radio-label:after {
   opacity: 0.5;
 }
-.bbn-radio:focus + .bbn-radio-label:before {
+.bbn-radio:focus > .bbn-radio-label:before {
   border-color: var(--selected-border);
   box-shadow: 0 0 3px 0 var(--selected-background);
 }

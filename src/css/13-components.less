@@ -106,7 +106,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   border-width: 0;
 }
 
-.bbn-checkbox:focus + .bbn-checkbox-label:before {
+.bbn-checkbox:focus > .bbn-checkbox-label:before {
   border-color: @selected-border;
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:before{
@@ -170,7 +170,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   //background-color: @selected-background;
   opacity: 0.5;
 }
-.bbn-radio:focus + .bbn-radio-label:before {
+.bbn-radio:focus > .bbn-radio-label:before {
   border-color: @selected-border;
   box-shadow: 0 0 3px 0 @selected-background;
 }
