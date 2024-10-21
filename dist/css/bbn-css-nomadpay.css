@@ -3081,7 +3081,6 @@ i.nf:before {
 .bbn-w-90 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 90%;
 }
 .bbn-w-90.bbn-block-right {
@@ -3129,7 +3128,6 @@ i.nf:before {
 .bbn-w-80 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 80%;
 }
 .bbn-w-80.bbn-block-right {
@@ -3177,7 +3175,6 @@ i.nf:before {
 .bbn-w-75 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 75%;
 }
 .bbn-w-75.bbn-block-right {
@@ -3225,7 +3222,6 @@ i.nf:before {
 .bbn-w-70 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 70%;
 }
 .bbn-w-70.bbn-block-right {
@@ -3273,7 +3269,6 @@ i.nf:before {
 .bbn-w-66 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 66.6666%;
 }
 .bbn-w-66.bbn-block-right {
@@ -3321,7 +3316,6 @@ i.nf:before {
 .bbn-w-60 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 60%;
 }
 .bbn-w-60.bbn-block-right {
@@ -3369,7 +3363,6 @@ i.nf:before {
 .bbn-w-50 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 50%;
 }
 .bbn-w-50.bbn-block-right {
@@ -3417,7 +3410,6 @@ i.nf:before {
 .bbn-w-40 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 40%;
 }
 .bbn-w-40.bbn-block-right {
@@ -3465,7 +3457,6 @@ i.nf:before {
 .bbn-w-30 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 30%;
 }
 .bbn-w-30.bbn-block-right {
@@ -3513,7 +3504,6 @@ i.nf:before {
 .bbn-w-33 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 33.3333%;
 }
 .bbn-w-33.bbn-block-right {
@@ -3561,7 +3551,6 @@ i.nf:before {
 .bbn-w-25 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 25%;
 }
 .bbn-w-25.bbn-block-right {
@@ -3609,7 +3598,6 @@ i.nf:before {
 .bbn-w-20 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 20%;
 }
 .bbn-w-20.bbn-block-right {
@@ -3657,7 +3645,6 @@ i.nf:before {
 .bbn-w-15 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 15%;
 }
 .bbn-w-15.bbn-block-right {
@@ -3705,7 +3692,6 @@ i.nf:before {
 .bbn-w-10 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 10%;
 }
 .bbn-w-10.bbn-block-right {
@@ -3753,7 +3739,6 @@ i.nf:before {
 .bbn-w-5 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
   width: 5%;
 }
 .bbn-w-5.bbn-block-right {
