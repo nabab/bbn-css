@@ -4140,6 +4140,7 @@ hr {
   -webkit-flex-direction: row;
   flex-direction: row;
   width: 100%;
+  max-width: inherit;
   /** @todo Why this rule? Fucking up the bbn-block-right
   > *:not(.bbn-flex-fill) {
     flex-shrink: 0;
@@ -4199,6 +4200,7 @@ hr {
   box-sizing: border-box;
   -webkit-flex-direction: column;
   flex-direction: column;
+  max-height: inherit;
   height: 100%;
 }
 .bbn-flex-height.bbn-reverse {
@@ -4235,6 +4237,7 @@ hr {
   -webkit-flex-direction: row;
   flex-direction: row;
   width: 100%;
+  max-width: inherit;
   /** @todo Why this rule? Fucking up the bbn-block-right
   > *:not(.bbn-flex-fill) {
     flex-shrink: 0;
