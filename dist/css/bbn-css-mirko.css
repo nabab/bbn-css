@@ -4176,7 +4176,6 @@ hr {
   position: relative;
   -webkit-flex-grow: 1;
   flex-grow: 1;
-  overflow: hidden;
 }
 .bbn-button-group {
   display: -webkit-box !important;
@@ -4215,7 +4214,6 @@ hr {
   position: relative;
   -webkit-flex-grow: 1;
   flex-grow: 1;
-  overflow: hidden;
   border-radius: 0;
 }
 .bbn-button-group > .bbn-button:first-child {
@@ -5596,7 +5594,6 @@ input[type=radio].bbn-radio {
   position: relative;
   -webkit-flex-grow: 1;
   flex-grow: 1;
-  overflow: hidden;
   width: 100%;
   margin: 0.3rem 0;
   min-height: 1.5rem;
