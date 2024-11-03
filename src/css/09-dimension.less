@@ -3,53 +3,75 @@
   width: 100%;
   clear: both;
 }
-.bbn-h-100{
+
+.bbn-h-100 {
   .bbn-border-box;
   height: 100% !important;
 }
-.bbn-100{
+
+.bbn-100 {
   .bbn-h-100;
   .bbn-w-100;
 }
+
 .create-dimensions-rules(@name, @num) {
-  .bbn-@{name}, .bbn-w-@{name} {
+
+  .bbn-@{name},
+  .bbn-w-@{name} {
     .bbn-border-box;
-    width: ~"@{num}%";
+    width:~"@{num}%";
   }
-  .bbn-w-@{name}.bbn-block-right{
-    width: ~"-webkit-calc(@{num}% - 2rem)";
-    width: ~"-moz-calc(@{num}% - 2rem)";
-    width: ~"calc(@{num}% - 2rem)";
+
+  .bbn-w-@{name}.bbn-block-right {
+    width:~"-webkit-calc(@{num}% - 2rem)";
+    width:~"-moz-calc(@{num}% - 2rem)";
+    width:~"calc(@{num}% - 2rem)";
   }
-  .bbn-@{name}, .bbn-h-@{name} {
+
+  .bbn-@{name},
+  .bbn-h-@{name} {
     .bbn-border-box;
-    height: ~"@{num}%";
+    height:~"@{num}%";
   }
-  .bbn-padded-@{name}, .bbn-hpadded-@{name} {
-    padding-left: ~"@{num}%";
-    padding-right: ~"@{num}%";
+
+  .bbn-padded-@{name},
+  .bbn-hpadded-@{name} {
+    padding-left:~"@{num}%";
+    padding-right:~"@{num}%";
   }
-  .bbn-padded-@{name}, .bbn-vpadded-@{name} {
-    padding-top: ~"@{num}%";
-    padding-bottom: ~"@{num}%";
+
+  .bbn-padded-@{name},
+  .bbn-vpadded-@{name} {
+    padding-top:~"@{num}%";
+    padding-bottom:~"@{num}%";
   }
-  .bbn-margin-@{name}, .bbn-hmargin-@{name} {
-    margin-left: ~"@{num}%";
-    margin-right: ~"@{num}%";
+
+  .bbn-margin-@{name},
+  .bbn-hmargin-@{name} {
+    margin-left:~"@{num}%";
+    margin-right:~"@{num}%";
   }
-  .bbn-margin-@{name}, .bbn-vmargin-@{name} {
-    margin-top: ~"@{num}%";
-    margin-bottom: ~"@{num}%";
+
+  .bbn-margin-@{name},
+  .bbn-vmargin-@{name} {
+    margin-top:~"@{num}%";
+    margin-bottom:~"@{num}%";
   }
+
   @media (max-width: calc(@mq-mobile-limit)) {
-    .bbn-mobile-@{name}, .bbn-mobile-w-@{name} {
-      width: ~"@{num}%" !important;
+
+    .bbn-mobile-@{name},
+    .bbn-mobile-w-@{name} {
+      width:~"@{num}%" !important;
     }
-    .bbn-mobile-@{name}, .bbn-mobile-h-@{name} {
-      height: ~"@{num}%" !important;
+
+    .bbn-mobile-@{name},
+    .bbn-mobile-h-@{name} {
+      height:~"@{num}%" !important;
     }
   }
 }
+
 .create-dimensions-rules(90, 90);
 .create-dimensions-rules(80, 80);
 .create-dimensions-rules(75, 75);
@@ -66,54 +88,75 @@
 .create-dimensions-rules(10, 10);
 .create-dimensions-rules(5, 5);
 @media (max-width: @mq-mobile-limit) {
-  .bbn-mobile-w-100{
+  .bbn-mobile-w-100 {
     width: 100%;
     clear: both;
   }
-  .bbn-mobile-h-100{
+
+  .bbn-mobile-h-100 {
     height: 100% !important;
   }
-  .bbn-mobile-100{
+
+  .bbn-mobile-100 {
     .bbn-h-100;
     .bbn-w-100;
   }
 }
-.bbn-full-width{
+
+.bbn-full-width {
   .bbn-block;
   .bbn-w-100;
 }
-.bbn-full-height{
+
+.bbn-full-height {
   .bbn-block;
   height: 100%;
 }
-.bbn-auto-width{
+
+.bbn-auto-width {
   width: auto;
 }
-.bbn-narrow{
+
+.bbn-narrow {
   width: 8rem;
 }
-.bbn-narrower{
+
+.bbn-narrower {
   width: 4rem;
 }
-.bbn-regular{
+
+.bbn-narrowest {
+  width: 2rem;
+}
+
+.bbn-regular {
   width: 12rem;
   max-width: 100%;
 }
-.bbn-wide{
+
+.bbn-wide {
   width: 20rem;
   max-width: 100%;
 }
-.bbn-wider{
+
+.bbn-wider {
   width: 30rem;
   max-width: 100%;
 }
-.bbn-full-screen{
+
+.bbn-widest {
+  width: 45rem;
+  max-width: 100%;
+}
+
+.bbn-full-screen {
   box-sizing: border-box;
   .bbn-abs;
   .bbn-top-left;
   .bbn-bottom-right;
 }
-.bbn-overlay{
+
+.bbn-overlay {
   .bbn-full-screen;
   /* Important for Safari
   width: 100%;
@@ -122,6 +165,7 @@
   height: 100%;
   max-width: 100%;
 }
+
 /*
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
 { @media {
@@ -131,7 +175,7 @@
     }
 }}
 */
-.bbn-full-content{
+.bbn-full-content {
   .bbn-w-100;
   .bbn-h-100;
   .bbn-content;

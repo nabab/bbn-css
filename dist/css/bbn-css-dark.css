@@ -3828,6 +3828,9 @@ i.nf:before {
 .bbn-narrower {
   width: 4rem;
 }
+.bbn-narrowest {
+  width: 2rem;
+}
 .bbn-regular {
   width: 12rem;
   max-width: 100%;
@@ -3838,6 +3841,10 @@ i.nf:before {
 }
 .bbn-wider {
   width: 30rem;
+  max-width: 100%;
+}
+.bbn-widest {
+  width: 45rem;
   max-width: 100%;
 }
 .bbn-full-screen {
