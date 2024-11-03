@@ -3050,7 +3050,7 @@ i.nf:before {
 .bbn-w-100 {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
 }
@@ -3063,7 +3063,7 @@ i.nf:before {
   height: 100% !important;
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
 }
@@ -3784,7 +3784,7 @@ i.nf:before {
     height: 100% !important;
     position: relative;
     box-sizing: border-box !important;
-    float: left;
+    display: block;
     width: 100%;
     clear: both;
   }
@@ -3792,14 +3792,14 @@ i.nf:before {
 .bbn-full-width {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
 }
 .bbn-full-height {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   height: 100%;
 }
 .bbn-auto-width {
@@ -3854,7 +3854,7 @@ i.nf:before {
 }}
 */
 .bbn-full-content {
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
   height: 100% !important;
@@ -4336,7 +4336,7 @@ hr {
 .bbn-block {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
 }
 .bbn-background .bbn-legend {
   background-color: var(--default-background);
@@ -4436,7 +4436,7 @@ hr {
 .bbn-line-breaker {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
   padding-bottom: 1rem;
@@ -4444,19 +4444,19 @@ hr {
 .bbn-fl {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
 }
 .bbn-nl {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
 }
 .bbn-vspace {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   clear: both;
   height: 1.2rem;
@@ -4603,7 +4603,7 @@ hr {
 .bbn-grid-fields-force {
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   width: 100%;
   display: grid;
   clear: both;
@@ -4709,7 +4709,7 @@ hr {
   .bbn-grid-fields {
     position: relative;
     box-sizing: border-box !important;
-    float: left;
+    display: block;
     width: 100%;
     display: grid;
     clear: both;
@@ -4816,7 +4816,7 @@ hr {
   .bbn-grid-fields:not(.bbn-grid-fields-force) {
     position: relative;
     box-sizing: border-box !important;
-    float: left;
+    display: block;
     width: 100%;
     clear: both;
   }
@@ -4824,7 +4824,7 @@ hr {
   .bbn-grid-fields:not(.bbn-grid-fields-force) > label {
     position: relative;
     box-sizing: border-box !important;
-    float: left;
+    display: block;
     width: 100%;
     clear: both;
   }
@@ -5624,7 +5624,7 @@ input[type=radio].bbn-radio {
 }
 .bbn-form-full {
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   position: relative;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -6038,7 +6038,7 @@ input[type=radio].bbn-radio {
   border-bottom-right-radius: var(--default-border-radius);
   position: relative;
   box-sizing: border-box !important;
-  float: left;
+  display: block;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.7rem;
