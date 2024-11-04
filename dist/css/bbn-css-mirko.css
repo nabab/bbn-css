@@ -687,6 +687,12 @@ i.nf:before {
 .bbn-nowrap * {
   white-space: nowrap;
 }
+.bbn-wrap {
+  white-space: normal;
+}
+.bbn-wrap * {
+  white-space: normal;
+}
 .bbn-pre {
   white-space: pre;
 }
@@ -4498,6 +4504,7 @@ hr {
   box-sizing: border-box;
   grid-column-start: 1;
   grid-column-end: -1;
+  overflow: hidden;
 }
 .bbn-grid > .bbn-grid-fill {
   grid-column-start: 2;
@@ -4590,6 +4597,7 @@ hr {
   box-sizing: border-box;
   grid-column-start: 1;
   grid-column-end: -1;
+  overflow: hidden;
 }
 .bbn-grid-fields-force > .bbn-grid-fill {
   grid-column-start: 2;
@@ -4696,6 +4704,7 @@ hr {
     box-sizing: border-box;
     grid-column-start: 1;
     grid-column-end: -1;
+    overflow: hidden;
   }
   .bbn-grid-fields > .bbn-grid-fill {
     grid-column-start: 2;
