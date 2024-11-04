@@ -6005,6 +6005,7 @@ input[type=radio].bbn-radio {
   text-transform: uppercase;
   font-size: 0.7rem;
   z-index: 1;
+  width: max-content;
 }
 .bbn-toplabel:not(.bbn-disabled),
 .bbn-leftlabel:not(.bbn-disabled) {
@@ -6021,10 +6022,6 @@ input[type=radio].bbn-radio {
 .bbn-toplabel:has(+ *:focus-within),
 .bbn-leftlabel:has(+ *:focus-within) {
   border-color: var(--selected-border) !important;
-}
-.bbn-toplabel + *,
-.bbn-leftlabel + * {
-  float: left;
 }
 .bbn-toplabel {
   padding: var(--xsspace) var(--sspace);
