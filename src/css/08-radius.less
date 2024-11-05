@@ -34,7 +34,7 @@
 }
 
 .create-rule-radius(@prefix) {
-  @cn: "@{prefix}space";
+  @cn: "@{prefix}radius";
   .bbn-@{prefix}radius{
     border-top-left-radius: @@cn;
     border-top-right-radius: @@cn;
@@ -70,10 +70,6 @@
     border-bottom-right-radius: @@cn;
   }
 }
-.create-rule-radius(no);
 .create-rule-radius(l);
-.create-rule-radius(xl);
-.create-rule-radius(xxl);
 .create-rule-radius(s);
-.create-rule-radius(xs);
-.create-rule-radius(xxs);
+.create-rule-radius(no);
