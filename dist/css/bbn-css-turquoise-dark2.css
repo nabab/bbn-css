@@ -4236,7 +4236,7 @@ hr {
   background-color: inherit;
   margin: 2rem 1rem 1rem;
   padding: 1rem;
-  overflow: visible;
+  overflow: visible !important;
   /* Attempt for nesting forms */
 }
 .bbn-section .bbn-section {
