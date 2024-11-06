@@ -293,14 +293,6 @@ hr{
   white-space: nowrap;
 }
 
-.bbn-section .bbn-legend {
-  position: absolute;
-  width: auto;
-  white-space: nowrap;
-  top: -0.8rem;
-  background-color: inherit;
-}
-
 .bbn-border-box {
   position: relative;
   box-sizing: border-box !important;
@@ -328,7 +320,7 @@ hr{
   background-color: inherit;
   margin: 2rem 1rem 1rem;
   padding: 1rem;
-
+  overflow: visible;
   /* Attempt for nesting forms */
   .bbn-section {
     border-style: dashed;
@@ -344,6 +336,12 @@ hr{
     font-size: 1.2rem;
     padding: 0 1rem;
     cursor: pointer;
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+    background-color: inherit;
+    top: 0px;
+    transform: translateY(-50%);
   }
 }
 
