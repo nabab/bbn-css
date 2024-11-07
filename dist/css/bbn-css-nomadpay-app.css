@@ -5270,12 +5270,11 @@ button {
   box-sizing: border-box;
 }
 .bbn-button {
-  padding: 0.1rem 1rem;
+  padding: 0.1rem 0.25rem;
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   white-space: nowrap;
-  line-height: var(--line-height);
   min-height: var(--line-height);
   text-align: center;
   text-decoration: none;
@@ -5356,7 +5355,7 @@ button {
 .bbn-textbox input {
   border: 0;
   width: 100%;
-  padding: 0.0833rem 0.25rem;
+  padding: 0.1rem 0.25rem;
   box-sizing: border-box;
   background-color: transparent;
 }
