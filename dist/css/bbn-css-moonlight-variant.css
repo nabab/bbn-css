@@ -5968,9 +5968,6 @@ input[type=radio].bbn-radio {
   border-top-right-radius: var(--default-border-radius);
   border-bottom-left-radius: var(--default-border-radius);
   border-bottom-right-radius: var(--default-border-radius);
-  position: relative;
-  box-sizing: border-box !important;
-  display: block;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.7rem;
@@ -5994,6 +5991,9 @@ input[type=radio].bbn-radio {
   border-color: var(--selected-border) !important;
 }
 .bbn-toplabel {
+  position: relative;
+  box-sizing: border-box !important;
+  display: block;
   padding: var(--xsspace) var(--sspace);
   border-bottom: 0;
   border-bottom-left-radius: 0;
@@ -6005,6 +6005,8 @@ input[type=radio].bbn-radio {
   clear: both;
 }
 .bbn-leftlabel {
+  display: inline-block;
+  position: relative;
   padding: 0 var(--sspace);
   border-right: 0;
   border-top-right-radius: 0;
