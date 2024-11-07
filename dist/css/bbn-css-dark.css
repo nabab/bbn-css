@@ -4543,8 +4543,8 @@ hr {
   display: grid;
   clear: both;
   grid-template-columns: minmax(auto, max-content) auto;
-  grid-row-gap: var(--space);
-  grid-column-gap: calc(var(--space)*2);
+  grid-row-gap: var(--sspace);
+  grid-column-gap: var(--space);
 }
 .bbn-grid-fields-force > .bbn-grid-full {
   box-sizing: border-box;
@@ -4650,8 +4650,8 @@ hr {
     display: grid;
     clear: both;
     grid-template-columns: minmax(auto, max-content) auto;
-    grid-row-gap: var(--space);
-    grid-column-gap: calc(var(--space)*2);
+    grid-row-gap: var(--sspace);
+    grid-column-gap: var(--space);
   }
   .bbn-grid-fields > .bbn-grid-full {
     box-sizing: border-box;
