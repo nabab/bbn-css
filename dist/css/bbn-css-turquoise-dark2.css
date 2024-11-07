@@ -5338,11 +5338,12 @@ button {
   box-sizing: border-box;
 }
 .bbn-button {
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   white-space: nowrap;
+  line-height: var(--line-height);
   min-height: var(--line-height);
   text-align: center;
   text-decoration: none;
@@ -5361,6 +5362,7 @@ button {
 }
 .bbn-mobile .bbn-button {
   white-space: normal;
+  line-height: var(--line-height-mobile);
   min-height: var(--line-height-mobile);
 }
 .bbn-button .bbn-button-secondary {
@@ -5963,7 +5965,6 @@ input[type=radio].bbn-radio {
   text-transform: uppercase;
   font-size: 0.7rem;
   z-index: 1;
-  width: max-content;
 }
 .bbn-toplabel:not(.bbn-disabled),
 .bbn-leftlabel:not(.bbn-disabled) {
@@ -5980,6 +5981,10 @@ input[type=radio].bbn-radio {
 .bbn-toplabel:has(+ *:focus-within),
 .bbn-leftlabel:has(+ *:focus-within) {
   border-color: var(--selected-border) !important;
+}
+.bbn-toplabel + *,
+.bbn-leftlabel + * {
+  float: left;
 }
 .bbn-toplabel {
   padding: var(--xsspace) var(--sspace);
