@@ -5337,12 +5337,11 @@ button {
   box-sizing: border-box;
 }
 .bbn-button {
-  padding: 0.1rem 0.25rem;
+  padding: 0.25rem 0.5rem;
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   white-space: nowrap;
-  min-height: var(--line-height);
   text-align: center;
   text-decoration: none;
   display: inline-flex;
@@ -5369,9 +5368,7 @@ button {
 .bbn-button.bbn-button-icon-only {
   text-align: center;
   vertical-align: middle;
-  line-height: 1em;
   padding: 0;
-  height: 1.4em;
   aspect-ratio: 1;
 }
 .bbn-mobile .bbn-button.bbn-button-icon-only {
