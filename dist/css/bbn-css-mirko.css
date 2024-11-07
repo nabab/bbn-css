@@ -3774,6 +3774,42 @@ iframe.bbn-hidden {
   height: 1px;
   overflow: hidden;
 }
+.bbn-overflow-h {
+  overflow: hidden;
+}
+.bbn-overflow-h {
+  overflow: visible;
+}
+.bbn-overflow-a {
+  overflow: auto;
+}
+.bbn-overflowx-s {
+  overflow: scroll;
+}
+.bbn-overflowx-h {
+  overflow-x: hidden;
+}
+.bbn-overflowx-h {
+  overflow-x: visible;
+}
+.bbn-overflowx-a {
+  overflow-x: auto;
+}
+.bbn-overflowx-s {
+  overflow-x: scroll;
+}
+.bbn-overflowy-h {
+  overflow-y: hidden;
+}
+.bbn-overflowy-h {
+  overflow-y: visible;
+}
+.bbn-overflowy-a {
+  overflow-y: auto;
+}
+.bbn-overflowy-s {
+  overflow-y: scroll;
+}
 .bbn-hr {
   border: 0;
   border-top: var(--default-border) var(--default-border-style) var(--default-border-width);
