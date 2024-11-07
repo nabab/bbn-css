@@ -4700,6 +4700,10 @@ hr {
   .bbn-grid-fields > .bbn-grid-fill {
     grid-column-end: -1;
   }
+  .bbn-grid-fields.bbn-grid-spaced {
+    grid-row-gap: var(--space);
+    grid-column-gap: var(--lspace);
+  }
 }
 @media (max-width: calc(700px - 1px)) {
   .bbn-grid-fields:not(.bbn-grid-fields-force) {
