@@ -3743,7 +3743,7 @@ iframe.bbn-hidden {
 .bbn-overflow-h {
   overflow: hidden;
 }
-.bbn-overflow-h {
+.bbn-overflow-v {
   overflow: visible;
 }
 .bbn-overflow-a {
@@ -3755,7 +3755,7 @@ iframe.bbn-hidden {
 .bbn-overflowx-h {
   overflow-x: hidden;
 }
-.bbn-overflowx-h {
+.bbn-overflowx-v {
   overflow-x: visible;
 }
 .bbn-overflowx-a {
@@ -3767,7 +3767,7 @@ iframe.bbn-hidden {
 .bbn-overflowy-h {
   overflow-y: hidden;
 }
-.bbn-overflowy-h {
+.bbn-overflowy-v {
   overflow-y: visible;
 }
 .bbn-overflowy-a {
@@ -4665,7 +4665,7 @@ hr {
   .bbn-grid-fields > .bbn-grid-fill {
     grid-column-end: -1;
   }
-  .bbn-grid-fields.bbn-grid-spaced {
+  .bbn-grid-fields.bbn-grid-lgap {
     grid-row-gap: var(--space);
     grid-column-gap: var(--lspace);
   }
