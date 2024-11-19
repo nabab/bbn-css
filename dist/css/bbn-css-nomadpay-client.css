@@ -5361,6 +5361,7 @@ button {
   padding: 0.1rem 0.25rem;
   box-sizing: border-box;
   background-color: transparent;
+  min-height: var(--line-height);
 }
 input[type=checkbox].bbn-checkbox,
 input[type=radio].bbn-radio {
