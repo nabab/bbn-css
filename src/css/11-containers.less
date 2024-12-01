@@ -360,7 +360,7 @@ hr{
 }
 
 .bbn-section {
-  .bbn-bordered-internal;
+  .bbn-border-internal;
   .bbn-radius;
   .bbn-border-box;
   display: flex;
@@ -486,13 +486,15 @@ hr{
 .bbn-badge {
   border-radius: 50%
 }
-.bbn-badge.bbn-bordered {
+.bbn-badge.bbn-border {
   color: inherit;
   background-color: transparent;
 }
 
 .bbn-card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+  .bbn-shadow;
+  .bbn-radius;
+  .bbn-border;
 }
 
 .bbn-stats {
@@ -765,13 +767,13 @@ hr{
   }
 
   >.bbn-header {
-    .bbn-bordered-bottom;
+    .bbn-border-bottom;
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
   }
 
   >.bbn-footer {
-    .bbn-bordered-top;
+    .bbn-border-top;
     border-bottom-left-radius: inherit;
     border-bottom-right-radius: inherit;
   }
@@ -792,8 +794,8 @@ hr{
 
 .bbn-bblock,
 .bbn-box {
-  .bbn-bordered-internal;
-  //I've bbn-alt-bordered also because if bbn-bordered is 0px I don't have border on the inputs DON'T WORKS FOR FLAT THEME
+  .bbn-border-internal;
+  //I've bbn-alt-bordered also because if bbn-border is 0px I don't have border on the inputs DON'T WORKS FOR FLAT THEME
 
   .bbn-radius;
   .bbn-background-internal;
@@ -832,7 +834,7 @@ hr{
 }
 
 .bbn-textbox {
-  .bbn-bordered-internal;
+  .bbn-border-internal;
   .bbn-background-internal;
   .bbn-radius;
   color: @default-text;
@@ -887,7 +889,7 @@ ul.bbn-ul {
 }
 
 .bbn-reactive-block {
-  .bbn-bordered-internal;
+  .bbn-border-internal;
   .bbn-background-internal;
   color: @button-text;
   box-sizing: border-box;
