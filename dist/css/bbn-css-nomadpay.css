@@ -3512,10 +3512,12 @@ hr {
   border-radius: 0;
 }
 .bbn-button-group > .bbn-button:first-child {
-  border-radius: var(--default-border-radius) 0 0 var(--default-border-radius);
+  border-top-left-radius: var(--default-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
 }
 .bbn-button-group > .bbn-button:last-child {
-  border-radius: 0 var(--default-border-radius) var(--default-border-radius) 0;
+  border-top-right-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
 }
 .bbn-flex-hcentered {
   display: -webkit-box !important;
