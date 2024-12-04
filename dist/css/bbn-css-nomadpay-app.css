@@ -5261,9 +5261,17 @@ input[type=radio].bbn-radio {
   border-color: var(--selected-border) !important;
 }
 .bbn-toplabel {
-  position: relative;
-  box-sizing: border-box !important;
-  display: block;
+  display: -webkit-box !important;
+  /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box !important;
+  /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox !important;
+  /* TWEENER - IE 10 */
+  display: -webkit-flex !important;
+  /* NEW - Chrome */
+  display: flex !important;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
   padding: var(--xsspace) var(--sspace);
   border-bottom: 0;
   border-bottom-left-radius: 0;
@@ -5275,19 +5283,19 @@ input[type=radio].bbn-radio {
   clear: both;
 }
 .bbn-leftlabel {
-  display: inline-block;
-  position: relative;
+  display: -webkit-inline-flex;
+  display: inline-flex;
   padding: 0 var(--sspace);
   border-right: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transform: translateX(calc(var(--default-border-width) + 0.2px));
-  vertical-align: baseline;
+  align-items: center;
   line-height: var(--line-height);
 }
 .bbn-leftlabel + * {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  border-left: 0 !important;
 }
 @media (max-width: calc(700px - 1px)) {
   .bbn-form .bbn-form-container .bbn-form-buttons.bbn-button-group .bbn-button {
