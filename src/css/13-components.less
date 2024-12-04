@@ -541,7 +541,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   }
 }
 .bbn-toplabel {
-  .bbn-block;
+  .bbn-flex;
   padding: var(--xsspace) var(--sspace);
   border-bottom: 0;
   border-bottom-left-radius: 0;
@@ -553,17 +553,18 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   }
 }
 .bbn-leftlabel {
-  .bbn-iblock;
+  .bbn-iflex;
   padding: 0 var(--sspace);
   border-right: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  transform: translateX(calc(var(--default-border-width) + 0.2px));
-  vertical-align: baseline;
+  //transform: translateX(calc(var(--default-border-width) + 0.2px));
+  align-items: center;
   line-height: var(--line-height);
   & + * {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-left: 0 !important;
   }
 }
 @media (max-width: calc(@mq-mobile-limit - 1px)) {
