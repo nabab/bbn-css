@@ -5310,6 +5310,7 @@ input[type=radio].bbn-radio {
   font-size: 0.7rem;
   z-index: 1;
   width: max-content;
+  position: relative;
 }
 .bbn-toplabel:not(.bbn-disabled),
 .bbn-leftlabel:not(.bbn-disabled) {
