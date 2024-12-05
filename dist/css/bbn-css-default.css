@@ -337,6 +337,9 @@ a {
   color: inherit;
   cursor: pointer;
 }
+a:hover {
+  text-decoration: underline;
+}
 table {
   font-size: inherit;
 }
@@ -669,6 +672,9 @@ i.nf:before {
   text-decoration: none;
   color: var(--link-color);
   cursor: pointer;
+}
+.bbn-link:hover {
+  text-decoration: underline;
 }
 .bbn-no-wrap,
 .bbn-nowrap {
