@@ -268,6 +268,21 @@ hr{
   overflow: hidden;
 }
 
+.bbn-flex-no-grow {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+}
+
+.bbn-flex-no-shrink {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.bbn-flex-original {
+  .bbn-flex-no-shrink;
+  .bbn-flex-no-grow;
+}
+
 .bbn-button-group {
   .bbn-flex-width;
   border-radius: @default-border-radius;

@@ -3409,6 +3409,20 @@ hr {
   flex-grow: 1;
   overflow: hidden;
 }
+.bbn-flex-no-grow {
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+}
+.bbn-flex-no-shrink {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+}
+.bbn-flex-original {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  -webkit-flex-grow: 0;
+  flex-grow: 0;
+}
 .bbn-button-group {
   display: -webkit-box !important;
   /* OLD - iOS 6-, Safari 3.1-6 */
