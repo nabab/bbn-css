@@ -193,7 +193,7 @@ hr{
   .bbn-flex-row;
   width: 100%;
   max-width: inherit;
-  > * {
+  > *:not(.bbn-flex-fill) {
     flex-shrink: 0;
   }
 
@@ -203,6 +203,7 @@ hr{
   }
 
   /** @todo Why this rule? Fucking up the bbn-block-right
+  Because otherwise it's shrinking blocks to which we give a height!
   > *:not(.bbn-flex-fill) {
     flex-shrink: 0;
   }
@@ -247,7 +248,7 @@ hr{
   .bbn-flex-column;
   max-height: inherit;
   height: 100%;
-  > * {
+  > *:not(.bbn-flex-fill) {
     flex-shrink: 0;
   }
 
