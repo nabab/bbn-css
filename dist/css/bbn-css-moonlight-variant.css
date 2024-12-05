@@ -396,11 +396,10 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
 }
-a,
-.bbn-link {
+a {
   outline-style: none;
   text-decoration: none;
-  color: var(--link-color);
+  color: inherit;
   cursor: pointer;
 }
 table {
@@ -729,6 +728,12 @@ i.nf:before {
 }
 .bbn-number {
   font-variant-numeric: tabular-nums;
+}
+.bbn-link {
+  outline-style: none;
+  text-decoration: none;
+  color: var(--link-color);
+  cursor: pointer;
 }
 .bbn-no-wrap,
 .bbn-nowrap {
