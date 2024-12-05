@@ -3530,6 +3530,19 @@ hr {
   border-top-right-radius: var(--default-border-radius);
   border-bottom-right-radius: var(--default-border-radius);
 }
+.bbn-content-width {
+  width: max-content;
+}
+.bbn-content-height {
+  height: max-content;
+}
+.bbn-centered-margin {
+  margin-inline: auto;
+}
+.bbn-centered-block {
+  width: max-content;
+  margin-inline: auto;
+}
 .bbn-flex-hcentered {
   display: -webkit-box !important;
   /* OLD - iOS 6-, Safari 3.1-6 */
