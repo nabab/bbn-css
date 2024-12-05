@@ -193,6 +193,9 @@ hr{
   .bbn-flex-row;
   width: 100%;
   max-width: inherit;
+  > * {
+    flex-shrink: 0;
+  }
 
   &.bbn-reverse {
     -webkit-flex-direction: row-reverse;
@@ -244,6 +247,9 @@ hr{
   .bbn-flex-column;
   max-height: inherit;
   height: 100%;
+  > * {
+    flex-shrink: 0;
+  }
 
   &.bbn-reverse {
     -webkit-flex-direction: column-reverse;
