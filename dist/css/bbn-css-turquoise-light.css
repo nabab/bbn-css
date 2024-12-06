@@ -393,7 +393,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a i {
+a i,
+a i:hover {
   text-decoration: none !important;
 }
 table {
@@ -732,7 +733,8 @@ i.nf:before {
 .bbn-link:hover {
   text-decoration: underline;
 }
-.bbn-link i {
+.bbn-link i,
+.bbn-link i:hover {
   text-decoration: none !important;
 }
 .bbn-no-wrap,
