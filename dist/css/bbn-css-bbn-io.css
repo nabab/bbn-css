@@ -460,6 +460,9 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a i {
+  text-decoration: none !important;
+}
 table {
   font-size: inherit;
 }
@@ -795,6 +798,9 @@ i.nf:before {
 }
 .bbn-link:hover {
   text-decoration: underline;
+}
+.bbn-link i {
+  text-decoration: none !important;
 }
 .bbn-no-wrap,
 .bbn-nowrap {
