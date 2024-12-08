@@ -4360,7 +4360,6 @@ hr {
     margin-bottom: 1rem;
   }
 }
-.bbn-mobile .bbn-grid-fields,
 .bbn-mobile.bbn-grid-fields {
   position: relative;
   box-sizing: border-box !important;
@@ -4368,9 +4367,7 @@ hr {
   width: 100%;
   clear: both;
 }
-.bbn-mobile .bbn-grid-fields > div,
 .bbn-mobile.bbn-grid-fields > div,
-.bbn-mobile .bbn-grid-fields > label,
 .bbn-mobile.bbn-grid-fields > label {
   position: relative;
   box-sizing: border-box !important;
@@ -4378,11 +4375,9 @@ hr {
   width: 100%;
   clear: both;
 }
-.bbn-mobile .bbn-grid-fields > *:not(.bbn-label):not(label),
 .bbn-mobile.bbn-grid-fields > *:not(.bbn-label):not(label) {
   margin-bottom: 1rem;
 }
-.bbn-desktop .bbn-grid-fields,
 .bbn-desktop.bbn-grid-fields {
   position: relative;
   box-sizing: border-box !important;
@@ -4394,147 +4389,103 @@ hr {
   grid-row-gap: var(--sspace);
   grid-column-gap: var(--space);
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-full,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-full,
-.bbn-desktop .bbn-grid-fields hr,
 .bbn-desktop.bbn-grid-fields hr {
   box-sizing: border-box;
   grid-column-start: 1;
   grid-column-end: -1;
   overflow: hidden;
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-fill,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-fill {
   grid-column-start: 2;
   grid-column-end: -1;
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-fill-third,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-fill-third {
   grid-column-start: 3;
   grid-column-end: -1;
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-fill-fourth,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-fill-fourth {
   grid-column-start: 4;
   grid-column-end: -1;
 }
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr),
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) {
   height: max-content;
   box-sizing: border-box;
   word-break: normal;
 }
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr)::first-line,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr)::first-line {
   line-height: 1.7rem;
 }
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-c,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-c,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-centered,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-centered {
   text-align: center !important;
 }
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-r,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-r,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-right,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-right,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-r,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-r,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-right,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-right {
   text-align: right !important;
 }
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-l,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-l,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-left,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr).bbn-left,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-l,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-l,
-.bbn-desktop .bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-left,
 .bbn-desktop.bbn-grid-fields > *:not(.bbn-grid-full):not(hr) > .bbn-left {
   text-align: left !important;
 }
-.bbn-desktop .bbn-grid-fields > *:not(label):not(.bbn-label):not(.bbn-grid-full),
 .bbn-desktop.bbn-grid-fields > *:not(label):not(.bbn-label):not(.bbn-grid-full) {
   text-align: left;
 }
-.bbn-desktop .bbn-grid-fields > label,
 .bbn-desktop.bbn-grid-fields > label,
-.bbn-desktop .bbn-grid-fields > .bbn-label,
 .bbn-desktop.bbn-grid-fields > .bbn-label {
   text-align: right;
 }
-.bbn-desktop .bbn-grid-fields.bbn-l,
 .bbn-desktop.bbn-grid-fields.bbn-l,
-.bbn-desktop .bbn-grid-fields.bbn-left,
 .bbn-desktop.bbn-grid-fields.bbn-left {
   grid-template-columns: minmax(auto, max-content) auto;
 }
-.bbn-desktop .bbn-grid-fields.bbn-l > *,
 .bbn-desktop.bbn-grid-fields.bbn-l > *,
-.bbn-desktop .bbn-grid-fields.bbn-left > *,
 .bbn-desktop.bbn-grid-fields.bbn-left > * {
   text-align: left;
 }
-.bbn-desktop .bbn-grid-fields.bbn-r,
 .bbn-desktop.bbn-grid-fields.bbn-r,
-.bbn-desktop .bbn-grid-fields.bbn-right,
 .bbn-desktop.bbn-grid-fields.bbn-right {
   grid-template-columns: auto minmax(auto, max-content);
 }
-.bbn-desktop .bbn-grid-fields.bbn-r > *,
 .bbn-desktop.bbn-grid-fields.bbn-r > *,
-.bbn-desktop .bbn-grid-fields.bbn-right > *,
 .bbn-desktop.bbn-grid-fields.bbn-right > * {
   text-align: right;
 }
-.bbn-desktop .bbn-grid-fields.bbn-c,
 .bbn-desktop.bbn-grid-fields.bbn-c,
-.bbn-desktop .bbn-grid-fields.bbn-centered,
 .bbn-desktop.bbn-grid-fields.bbn-centered {
   grid-template-columns: 1fr 1fr;
 }
-.bbn-desktop .bbn-grid-fields.bbn-c > *:not(label):not(.bbn-label):not(.bbn-grid-full),
 .bbn-desktop.bbn-grid-fields.bbn-c > *:not(label):not(.bbn-label):not(.bbn-grid-full),
-.bbn-desktop .bbn-grid-fields.bbn-centered > *:not(label):not(.bbn-label):not(.bbn-grid-full),
 .bbn-desktop.bbn-grid-fields.bbn-centered > *:not(label):not(.bbn-label):not(.bbn-grid-full) {
   text-align: left;
 }
-.bbn-desktop .bbn-grid-fields.bbn-c > label,
 .bbn-desktop.bbn-grid-fields.bbn-c > label,
-.bbn-desktop .bbn-grid-fields.bbn-centered > label,
 .bbn-desktop.bbn-grid-fields.bbn-centered > label,
-.bbn-desktop .bbn-grid-fields.bbn-c > .bbn-label,
 .bbn-desktop.bbn-grid-fields.bbn-c > .bbn-label,
-.bbn-desktop .bbn-grid-fields.bbn-centered > .bbn-label,
 .bbn-desktop.bbn-grid-fields.bbn-centered > .bbn-label {
   text-align: right;
 }
-.bbn-desktop .bbn-grid-fields.bbn-j,
 .bbn-desktop.bbn-grid-fields.bbn-j,
-.bbn-desktop .bbn-grid-fields.bbn-justified,
 .bbn-desktop.bbn-grid-fields.bbn-justified {
   grid-template-columns: 1fr 1fr;
 }
-.bbn-desktop .bbn-grid-fields.bbn-j > *,
 .bbn-desktop.bbn-grid-fields.bbn-j > *,
-.bbn-desktop .bbn-grid-fields.bbn-justified > *,
 .bbn-desktop.bbn-grid-fields.bbn-justified > * {
   text-align: justify;
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-full,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-full,
-.bbn-desktop .bbn-grid-fields hr,
 .bbn-desktop.bbn-grid-fields hr {
   box-sizing: border-box;
   grid-column-start: 1;
   grid-column-end: -1;
 }
-.bbn-desktop .bbn-grid-fields > .bbn-grid-fill,
 .bbn-desktop.bbn-grid-fields > .bbn-grid-fill {
   grid-column-end: -1;
 }
-.bbn-desktop .bbn-grid-fields.bbn-grid-lgap,
 .bbn-desktop.bbn-grid-fields.bbn-grid-lgap {
   grid-row-gap: var(--space);
   grid-column-gap: var(--lspace);
