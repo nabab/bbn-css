@@ -596,7 +596,7 @@ hr{
 .bbn-grid {
   display: grid;
   clear: both;
-  >.bbn-grid-full {
+  >.bbn-grid-full,hr {
     box-sizing: border-box;
     grid-column-start: 1;
     grid-column-end: -1;
@@ -632,7 +632,7 @@ hr{
   grid-row-gap: @sspace;
   grid-column-gap: @space;
 
-  >*:not(.bbn-grid-full) {
+  >*:not(.bbn-grid-full):not(hr) {
     height: max-content;
     &::first-line {
       line-height: 1.7rem;
@@ -710,7 +710,7 @@ hr{
     }
   }
 
-  >.bbn-grid-full {
+  >.bbn-grid-full, hr {
     box-sizing: border-box;
     grid-column-start: 1;
     grid-column-end: -1;
