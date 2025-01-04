@@ -344,13 +344,6 @@ a {
   color: inherit;
   cursor: pointer;
 }
-a:hover {
-  text-decoration: underline;
-}
-a i,
-a i:hover {
-  text-decoration: none !important;
-}
 table {
   font-size: inherit;
 }
