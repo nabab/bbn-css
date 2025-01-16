@@ -5626,6 +5626,13 @@ input[type=radio].bbn-radio {
  *# [Nerd Fonts]  The following is generated from the build script
  */
 @font-face {
+  font-family: 'FiraCode';
+  /* @TODO you need to adjust the path to the font: */
+  src: url("../../fonts/FiraCode-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: 'NerdFontsSymbols Nerd Font';
   /* @TODO you need to adjust the path to the font: */
   src: url("../../fonts/Symbols-2048-em Nerd Font Complete.woff2") format("woff2");
