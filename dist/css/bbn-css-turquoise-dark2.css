@@ -3636,12 +3636,6 @@ hr {
   box-sizing: border-box !important;
   display: block;
 }
-.bbn-background .bbn-legend {
-  background-color: var(--default-background);
-}
-.bbn-alt-background .bbn-legend {
-  background-color: var(--alt-background);
-}
 .bbn-section {
   border-color: var(--default-border);
   border-width: var(--default-border-width);
@@ -3679,6 +3673,12 @@ hr {
   background-color: inherit;
   top: 0px;
   transform: translateY(-50%);
+}
+.bbn-background .bbn-legend {
+  background-color: var(--default-background);
+}
+.bbn-alt-background .bbn-legend {
+  background-color: var(--alt-background);
 }
 .bbn-block-left {
   box-sizing: content-box;
