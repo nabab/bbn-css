@@ -3662,7 +3662,6 @@ hr {
   display: flex;
   background-image: none;
   background-color: inherit;
-  margin: 2rem 1rem 1rem;
   padding: 1rem;
   overflow: visible !important;
   /* Attempt for nesting forms */
@@ -3685,6 +3684,10 @@ hr {
   background-color: inherit;
   top: 0px;
   transform: translateY(-50%);
+}
+.bbn-section:has(legend),
+.bbn-section:has(.bbn-legend) {
+  margin: 2rem 1rem 1rem;
 }
 .bbn-background .bbn-legend {
   background-color: var(--default-background);
