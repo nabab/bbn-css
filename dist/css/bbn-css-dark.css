@@ -4163,7 +4163,8 @@ hr {
   clear: both;
 }
 .bbn-mobile-grid-fields > div,
-.bbn-mobile-grid-fields > label {
+.bbn-mobile-grid-fields > label,
+.bbn-mobile-grid-fields > .bbn-label {
   position: relative;
   box-sizing: border-box !important;
   display: block;
@@ -4296,7 +4297,8 @@ hr {
     clear: both;
   }
   .bbn-grid-fields:not(.bbn-grid-fields-force) > div,
-  .bbn-grid-fields:not(.bbn-grid-fields-force) > label {
+  .bbn-grid-fields:not(.bbn-grid-fields-force) > label,
+  .bbn-grid-fields:not(.bbn-grid-fields-force) > .bbn-label {
     position: relative;
     box-sizing: border-box !important;
     display: block;
@@ -4315,7 +4317,8 @@ hr {
   clear: both;
 }
 .bbn-mobile.bbn-grid-fields > div,
-.bbn-mobile.bbn-grid-fields > label {
+.bbn-mobile.bbn-grid-fields > label,
+.bbn-mobile.bbn-grid-fields > .bbn-label {
   position: relative;
   box-sizing: border-box !important;
   display: block;
