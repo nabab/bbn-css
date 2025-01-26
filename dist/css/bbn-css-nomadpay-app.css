@@ -4933,6 +4933,9 @@ a .bbn-state-default {
 .bbn-component:not(.bbn-component-mounted) {
   opacity: 0;
 }
+bbn-floater:not(.bbn-floater) {
+  display: none;
+}
 button {
   border-color: var(--default-border);
   border-width: var(--default-border-width);
