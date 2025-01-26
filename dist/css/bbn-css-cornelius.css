@@ -5010,11 +5010,8 @@ a .bbn-state-default {
     content: '';
   }
 }
-.bbn-component {
+.bbn-component:not(.bbn-component-mounted) {
   opacity: 0;
-}
-.bbn-component.bbn-component-mounted {
-  opacity: 1;
 }
 button {
   border-color: var(--default-border);
