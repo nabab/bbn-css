@@ -5024,6 +5024,12 @@ button {
   border-color: var(--disabled-border);
   cursor: default !important;
 }
+.bbn-pressed {
+  box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.3), inset -3px -3px 5px rgba(0, 0, 0, 0.3);
+}
+.bbn-pressed.bbn-white {
+  box-shadow: inset 3px 3px 5px rgba(255, 255, 255, 0.3), inset -3px -3px 5px rgba(255, 255, 255, 0.3);
+}
 .bbn-disabled > .bbn-button {
   opacity: 1;
 }
