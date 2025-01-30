@@ -1,35 +1,37 @@
 /** Default configuration*/
 :root {
   --mobile-limit: 700px;
-  --default-text: #2e2e2e;
-  --default-background: #fff;
-  --default-border: #d5d5d5;
-  --default-border-style: solid;
-  --default-border-width: 1px;
-  --default-border-radius: 0.4rem;
-  --alt-text: #2e2e2e;
-  --alt-border: #d5d5d5;
-  --alt-background: #EFEFF0;
-  --alt-border-style: solid;
-  --alt-border-width: 1px;
-  --alt-border-radius: 0.6rem;
-  --primary-border: #e45200;
-  --primary-background: #ff6b18;
-  --primary-text: #fff;
-  --secondary-border: #0974B3;
-  --secondary-background: #53798f;
-  --secondary-text: #fff;
-  --tertiary-border: #829766;
-  --tertiary-background: #adbb8c;
-  --tertiary-text: #fff;
+  --text-size: 13px;
+  --bold: 600;
+  --font: 'Helvetica', 'Arial', sans-serif;
   --link-color: #3f51b5;
-  --header: #eae8e8;
-  --header-alt: #B8B6B6;
-  --header-alt-text: #999;
-  --header-text: #2e2e2e;
   --shadow-text: #0009;
   --shadow-box: #0009;
-  --text-size: 13px;
+  --default-text: #2e2e2e;
+  --alt-text: #2e2e2e;
+  --primary-text: #fff;
+  --secondary-text: #fff;
+  --tertiary-text: #fff;
+  --header-alt-text: #999;
+  --header-text: #2e2e2e;
+  --default-background: #fff;
+  --alt-background: #f7f9f9;
+  --primary-background: #ff6b18;
+  --secondary-background: #53798f;
+  --tertiary-background: #adbb8c;
+  --header-background: #eaeded;
+  --header-alt-background: #B8B6B6;
+  --default-border: #d5d5d5;
+  --alt-border: #d5d5d5;
+  --primary-border: #e45200;
+  --secondary-border: #0974B3;
+  --tertiary-border: #829766;
+  --default-border-style: solid;
+  --alt-border-style: solid;
+  --default-border-width: 1px;
+  --alt-border-width: 1px;
+  --default-border-radius: 0.4rem;
+  --alt-border-radius: 0.6rem;
   --nospace: 0px;
   --space: 1rem;
   --lspace: 2rem;
@@ -46,16 +48,16 @@
   --effect: rgba(255, 255, 255, 0.4);
   --line-height: 1.7rem;
   --line-height-mobile: 2rem;
-  --hover-background: #bcb4b0;
-  --hover-border: #b6b6b6;
   --hover-text: #2e2e2e;
+  --hover-border: #b6b6b6;
+  --hover-background: #bcb4b0;
   --active-text: #2e2e2e;
   --active-border: #b6b6b6;
   --active-background: #C9C1B3;
   --selected-text: #fff;
   --selected-background: #f35800;
   --selected-border: #FF5E00;
-  --disabled-color: #c3c3c3;
+  --disabled-text: #c3c3c3;
   --disabled-background: #edebea;
   --disabled-border: #cacaca;
   --success-text: #00a03e;
@@ -69,8 +71,6 @@
   --success-alt-border: #00a03e;
   --error-alt-text: #db3340;
   --error-alt-border: #db3340;
-  --bold: 600;
-  --font: 'Helvetica', 'Arial', sans-serif;
 }
 :root {
   --black: #000000;
@@ -125,8 +125,8 @@
   --selected-background: #87e4ca;
   --selected-border: #87e4ca;
   --button-text: #2e2e2e;
-  --header: #38d2a8;
-  --header-alt: #fff;
+  --header-background: #38d2a8;
+  --header-alt-background: #fff;
   --header-text: #2e2e2e;
   --effect: rgba(255, 255, 255, 0.6);
   --font: 'Open Sans', sans-serif;
@@ -513,16 +513,16 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background);
 }
 .bbn-background-header-alt {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt);
+  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
 }
 .bbn-background-header-alt-internal {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
 }
 .bbn-background-header {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
 }
 .bbn-background-header-internal {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
 }
 .bbn-background {
   background-color: var(--default-background);
@@ -849,10 +849,10 @@ i.nf:before {
   color: var(--selected-text);
 }
 .bbn-disabled-text {
-  color: var(--disabled-color) !important;
+  color: var(--disabled-text) !important;
 }
 .bbn-disabled-text-internal {
-  color: var(--disabled-color);
+  color: var(--disabled-text);
 }
 .bbn-error-text {
   color: var(--error-text) !important;
@@ -4612,7 +4612,7 @@ hr {
 .bbn-header {
   border: var(--alt-border) var(--alt-border-width) var(--alt-border-style);
   box-sizing: border-box;
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
   color: var(--header-text);
   position: relative;
   vertical-align: middle;
@@ -4750,7 +4750,7 @@ a .bbn-state-default {
 }
 .bbn-disabled,
 .bbn-state-disabled {
-  color: var(--disabled-color) !important;
+  color: var(--disabled-text) !important;
   background-color: var(--disabled-background);
   border-color: var(--disabled-border);
   cursor: default !important;
@@ -4804,7 +4804,7 @@ a .bbn-state-default {
 }
 .bbn-text-disabled,
 .bbn-text-state-disabled {
-  color: var(--disabled-color) !important;
+  color: var(--disabled-text) !important;
 }
 .bbn-reactive-text {
   cursor: pointer;
@@ -5065,7 +5065,7 @@ button {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--alt-background);
 }
 .bbn-button:disabled {
-  color: var(--disabled-color) !important;
+  color: var(--disabled-text) !important;
   background-color: var(--disabled-background);
   border-color: var(--disabled-border);
   cursor: default !important;
@@ -5152,7 +5152,7 @@ input[type=radio].bbn-radio {
   text-align: center;
 }
 .bbn-checkbox:disabled + .bbn-checkbox-label {
-  color: var(--disabled-color);
+  color: var(--disabled-text);
 }
 .bbn-checkbox:disabled + .bbn-checkbox-label:hover:before {
   box-shadow: none;
@@ -5161,7 +5161,7 @@ input[type=radio].bbn-radio {
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:active:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:hover:before {
-  color: var(--disabled-color);
+  color: var(--disabled-text);
   background: var(--disabled-background);
   border-color: var(--disabled-border);
   border-radius: var(--default-border-radius);
@@ -5200,7 +5200,7 @@ input[type=radio].bbn-radio {
   box-shadow: 0 0 3px 0 var(--selected-background);
 }
 .bbn-radio:disabled + .bbn-radio-label {
-  color: var(--disabled-color);
+  color: var(--disabled-text);
 }
 .bbn-radio:disabled + .bbn-radio-label:hover:after,
 .bbn-radio:disabled + .bbn-radio-label:hover:before,
@@ -5281,7 +5281,7 @@ input[type=radio].bbn-radio {
 .bbn-table table > thead > tr > th {
   border: var(--alt-border) var(--alt-border-width) var(--alt-border-style);
   box-sizing: border-box;
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
   color: var(--header-text);
   position: relative;
   vertical-align: middle;
