@@ -267,6 +267,18 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     border-style: @alt-border-style;
   }
 }
+.bbn-table tbody > tr.bbn-alt {
+  &:hover {
+    td {
+      .bbn-alt-background-internal;
+    }
+  }
+
+  td {
+    .bbn-alt-background-internal;
+  }
+}
+
 .bbn-range {
   .bbn-range-input {
     background: @primary-background;
