@@ -3035,6 +3035,10 @@ i.nf:before {
   width: 12rem;
   max-width: 100%;
 }
+.bbn-lregular {
+  width: 16rem;
+  max-width: 100%;
+}
 .bbn-wide {
   width: 20rem;
   max-width: 100%;
@@ -4502,12 +4506,6 @@ hr {
 .bbn-widget svg {
   fill: var(--alt-text);
 }
-.bbn-widget .bbn-table tbody > tr.bbn-alt:hover td {
-  background-color: var(--alt-background);
-}
-.bbn-widget .bbn-table tbody > tr.bbn-alt td {
-  background-color: var(--alt-background);
-}
 .bbn-widget > .bbn-header {
   border-bottom: var(--default-border-width) var(--default-border-style) var(--default-border) !important;
   border-top-left-radius: inherit;
@@ -5298,6 +5296,12 @@ input[type=radio].bbn-radio {
 .bbn-table table > thead > tr > td .bbn-widget-header-buttons,
 .bbn-table table > thead > tr > th .bbn-widget-header-buttons {
   color: var(--link-color);
+}
+.bbn-table tbody > tr.bbn-alt:hover td {
+  background-color: var(--alt-background);
+}
+.bbn-table tbody > tr.bbn-alt td {
+  background-color: var(--alt-background);
 }
 .bbn-range .bbn-range-input {
   background: var(--primary-background);
