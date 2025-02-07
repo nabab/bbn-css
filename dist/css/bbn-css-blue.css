@@ -26,24 +26,6 @@
   --primary-border: #e45200;
   --secondary-border: #0974B3;
   --tertiary-border: #829766;
-  --default-border-style: solid;
-  --alt-border-style: solid;
-  --default-border-width: 1px;
-  --alt-border-width: 1px;
-  --default-border-radius: 0.4rem;
-  --alt-border-radius: 0.6rem;
-  --nospace: 0px;
-  --space: 1rem;
-  --lspace: 2rem;
-  --xlspace: 4rem;
-  --xxlspace: 8rem;
-  --sspace: 0.5rem;
-  --xsspace: 0.25rem;
-  --xxsspace: 0.125rem;
-  --radius: 0.8rem;
-  --lradius: 1.2rem;
-  --sradius: 0.4rem;
-  --noradius: 0;
   --button-text: #2e2e2e;
   --effect: rgba(255, 255, 255, 0.4);
   --line-height: 1.7rem;
@@ -71,6 +53,24 @@
   --success-alt-border: #00a03e;
   --error-alt-text: #db3340;
   --error-alt-border: #db3340;
+  --default-border-style: solid;
+  --alt-border-style: solid;
+  --default-border-width: 1px;
+  --alt-border-width: 1px;
+  --default-border-radius: 0.4rem;
+  --alt-border-radius: 0.6rem;
+  --nospace: 0px;
+  --space: 1rem;
+  --lspace: 2rem;
+  --xlspace: 4rem;
+  --xxlspace: 8rem;
+  --sspace: 0.5rem;
+  --xsspace: 0.25rem;
+  --xxsspace: 0.125rem;
+  --radius: 0.8rem;
+  --lradius: 1.2rem;
+  --sradius: 0.4rem;
+  --noradius: 0;
 }
 :root {
   --black: #000000;
@@ -5209,42 +5209,42 @@ input[type=radio].bbn-radio {
   clear: both;
   visibility: hidden;
 }
-.bbn-table:is(table) {
+.bbn-cleantable:is(table) {
   border-collapse: collapse;
 }
-.bbn-table:is(table),
-.bbn-table .bbn-table-container table.bbn-table-table {
+.bbn-cleantable:is(table),
+.bbn-cleantable .bbn-table-container table.bbn-table-table {
   outline: 0;
   width: auto;
   table-layout: fixed;
   border-spacing: 0px;
   padding: 0px;
 }
-.bbn-table:is(table) > tbody > tr > td,
-.bbn-table:is(table) > thead > tr > td,
-.bbn-table table > tbody > tr > td,
-.bbn-table table > thead > tr > td {
+.bbn-cleantable:is(table) > tbody > tr > td,
+.bbn-cleantable:is(table) > thead > tr > td,
+.bbn-cleantable table > tbody > tr > td,
+.bbn-cleantable table > thead > tr > td {
   background-color: var(--default-background);
   padding: var(--sspace);
 }
-.bbn-table:is(table) > tbody > tr:hover > td,
-.bbn-table table > tbody > tr:hover > td {
+.bbn-cleantable:is(table) > tbody > tr:hover > td,
+.bbn-cleantable table > tbody > tr:hover > td {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--alt-background);
 }
-.bbn-table:is(table) > tbody > tr.bbn-alt > td,
-.bbn-table table > tbody > tr.bbn-alt > td {
+.bbn-cleantable:is(table) > tbody > tr.bbn-alt > td,
+.bbn-cleantable table > tbody > tr.bbn-alt > td {
   background-color: var(--alt-background);
 }
-.bbn-table:is(table) > tbody > tr > td,
-.bbn-table table > tbody > tr > td {
+.bbn-cleantable:is(table) > tbody > tr > td,
+.bbn-cleantable table > tbody > tr > td {
   border-color: var(--default-border);
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
 }
-.bbn-table:is(table) > thead > tr > td,
-.bbn-table:is(table) > thead > tr > th,
-.bbn-table table > thead > tr > td,
-.bbn-table table > thead > tr > th {
+.bbn-cleantable:is(table) > thead > tr > td,
+.bbn-cleantable:is(table) > thead > tr > th,
+.bbn-cleantable table > thead > tr > td,
+.bbn-cleantable table > thead > tr > th {
   border: var(--alt-border) var(--alt-border-width) var(--alt-border-style);
   box-sizing: border-box;
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
@@ -5263,16 +5263,16 @@ input[type=radio].bbn-radio {
   border-width: var(--alt-border-width);
   border-style: var(--alt-border-style);
 }
-.bbn-table:is(table) > thead > tr > td .bbn-widget-header-buttons,
-.bbn-table:is(table) > thead > tr > th .bbn-widget-header-buttons,
-.bbn-table table > thead > tr > td .bbn-widget-header-buttons,
-.bbn-table table > thead > tr > th .bbn-widget-header-buttons {
+.bbn-cleantable:is(table) > thead > tr > td .bbn-widget-header-buttons,
+.bbn-cleantable:is(table) > thead > tr > th .bbn-widget-header-buttons,
+.bbn-cleantable table > thead > tr > td .bbn-widget-header-buttons,
+.bbn-cleantable table > thead > tr > th .bbn-widget-header-buttons {
   color: var(--link-color);
 }
-.bbn-table tbody > tr.bbn-alt:hover td {
+.bbn-cleantable tbody > tr.bbn-alt:hover td {
   background-color: var(--alt-background);
 }
-.bbn-table tbody > tr.bbn-alt td {
+.bbn-cleantable tbody > tr.bbn-alt td {
   background-color: var(--alt-background);
 }
 .bbn-range .bbn-range-input {
