@@ -3717,7 +3717,6 @@ hr {
   border-bottom-right-radius: var(--default-border-radius);
   position: relative;
   box-sizing: border-box !important;
-  display: flex;
   background-image: none;
   background-color: inherit;
   padding: 1rem;
