@@ -5101,8 +5101,6 @@ button {
   border-radius: inherit;
 }
 .bbn-textbox .bbn-button {
-  line-height: inherit;
-  padding: 0 0.5rem;
   /*
   min-width: 2rem;
   min-height: 100%;
