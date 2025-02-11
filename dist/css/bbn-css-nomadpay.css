@@ -28,7 +28,7 @@
   --tertiary-border: #829766;
   --button-text: #2e2e2e;
   --effect: rgba(255, 255, 255, 0.4);
-  --line-height: 1rem;
+  --line-height: 1.7rem;
   --line-height-mobile: 2rem;
   --hover-text: #2e2e2e;
   --hover-border: #b6b6b6;
@@ -2442,16 +2442,16 @@ i.nf:before {
   vertical-align: middle;
 }
 .bbn-line-xl {
-  line-height: calc(2*var(--line-height));
+  line-height: calc(2*var(--space));
 }
 .bbn-line-lg {
-  line-height: calc(1.5*var(--line-height));
+  line-height: calc(1.5*var(--space));
 }
 .bbn-line-xs {
-  line-height: calc(0.5*var(--line-height));
+  line-height: calc(0.5*var(--space));
 }
 .bbn-line-s {
-  line-height: calc(0.75*var(--line-height));
+  line-height: calc(0.75*var(--space));
 }
 .bbn-radius {
   border-top-left-radius: var(--default-border-radius);
