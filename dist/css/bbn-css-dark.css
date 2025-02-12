@@ -5229,8 +5229,8 @@ input[type=radio].bbn-radio {
 }
 .bbn-legend-block {
   display: inline-block;
-  height: var(--line-height);
-  width: calc(2.5*var(--line-height));
+  height: 1rem;
+  width: 2.5rem;
   margin-right: 1rem;
   border: 1px solid;
 }
