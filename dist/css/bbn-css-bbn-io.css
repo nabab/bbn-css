@@ -5276,6 +5276,13 @@ input[type=radio].bbn-radio {
   border-color: var(--disabled-border);
   border-radius: var(--default-border-radius);
 }
+.bbn-legend-block {
+  display: inline-block;
+  height: 1rem;
+  width: 3rem;
+  margin-right: 1rem;
+  border: 1px solid;
+}
 .bbn-radio-label:before {
   border-color: var(--default-border);
   border-width: var(--default-border-width);
