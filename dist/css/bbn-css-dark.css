@@ -590,6 +590,18 @@ ul.bbn-reset li {
 .bbn-error-background-internal {
   background-color: var(--error-background);
 }
+.bbn-info-background {
+  background-color: var(--info-background);
+}
+.bbn-info-background-internal {
+  background-color: var(--info-background);
+}
+.bbn-warning-background {
+  background-color: var(--warning-background);
+}
+.bbn-warning-background-internal {
+  background-color: var(--warning-background);
+}
 .bbn-alt-dark {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
   -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
@@ -896,11 +908,29 @@ i.nf:before {
 .bbn-success-text-internal {
   color: var(--success-text);
 }
+.bbn-success-text {
+  color: var(--success-text) !important;
+}
+.bbn-success-text-internal {
+  color: var(--success-text);
+}
 .bbn-success-alt-text {
   color: var(--success-alt-text) !important;
 }
 .bbn-success-alt-text-internal {
   color: var(--success-alt-text);
+}
+.bbn-info-text {
+  color: var(--info-text) !important;
+}
+.bbn-info-text-internal {
+  color: var(--info-text);
+}
+.bbn-warning-text {
+  color: var(--warning-text) !important;
+}
+.bbn-warning-text-internal {
+  color: var(--warning-text);
 }
 .bbn-text-border {
   text-shadow: -1px 0 var(--default-border), 0 1px var(--default-border), 1px 0 var(--default-border), 0 -1px var(--default-border);
