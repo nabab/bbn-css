@@ -5233,6 +5233,7 @@ input[type=radio].bbn-radio {
   width: 2.5rem;
   margin-right: 1rem;
   border: 1px solid;
+  vertical-align: middle;
 }
 .bbn-radio-label:before {
   border-color: var(--default-border);
