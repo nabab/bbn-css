@@ -1,7 +1,7 @@
 /** Default configuration*/
 :root {
   --mobile-limit: 700px;
-  --text-size: 0.8rem;
+  --text-size: 13px;
   --bold: 600;
   --font: 'Helvetica', 'Arial', sans-serif;
   --link-color: #3f51b5;
