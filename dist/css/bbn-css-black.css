@@ -4443,7 +4443,6 @@ hr {
 .bbn-container-ratio {
   position: relative;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
 }
 .bbn-container-ratio-inside-internal {
@@ -4456,7 +4455,6 @@ hr {
 .bbn-container-ratio-4-3 {
   position: relative;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
   aspect-ratio: 4/3;
 }
@@ -4470,7 +4468,6 @@ hr {
 .bbn-container-ratio-3-4 {
   position: relative;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
   aspect-ratio: 3/4;
 }
@@ -4484,7 +4481,6 @@ hr {
 .bbn-container-ratio-16-9 {
   position: relative;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
   aspect-ratio: 16/9;
 }
@@ -4498,7 +4494,6 @@ hr {
 .bbn-container-ratio-9-16 {
   position: relative;
   overflow: hidden;
-  width: 100%;
   aspect-ratio: 1;
   aspect-ratio: 9/16;
 }
