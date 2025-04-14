@@ -544,19 +544,19 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--alt-background);
 }
 .bbn-background-primary {
-  background: var(--primary-background);
+  background: var(--primary-background) !important;
 }
 .bbn-background-primary-internal {
   background: var(--primary-background);
 }
 .bbn-background-effect-primary {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background);
+  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background) !important;
 }
 .bbn-background-effect-primary-internal {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background);
 }
 .bbn-background-secondary {
-  background: var(--secondary-background);
+  background: var(--secondary-background) !important;
 }
 .bbn-background-secondary-internal {
   background: var(--secondary-background);
@@ -568,93 +568,93 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--secondary-background);
 }
 .bbn-background-tertiary {
-  background: var(--tertiary-background);
+  background: var(--tertiary-background) !important;
 }
 .bbn-background-tertiary-internal {
   background: var(--tertiary-background);
 }
 .bbn-background-effect-hover {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background) !important;
 }
 .bbn-background-effect-hover-internal {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background);
 }
 .bbn-background-effect-dark-hover {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background) !important;
 }
 .bbn-background-effect-dark-hover-internal {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background);
 }
 .bbn-background-header-alt {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
+  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background) !important;
 }
 .bbn-background-header-alt-internal {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
 }
 .bbn-background-header {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background) !important;
 }
 .bbn-background-header-internal {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
 }
 .bbn-background {
-  background-color: var(--default-background);
+  background-color: var(--default-background) !important;
 }
 .bbn-background-internal {
   background-color: var(--default-background);
 }
 .bbn-hover-background {
-  background-color: var(--hover-background);
+  background-color: var(--hover-background) !important;
 }
 .bbn-hover-background-internal {
   background-color: var(--hover-background);
 }
 .bbn-active-background {
-  background-color: var(--active-background);
+  background-color: var(--active-background) !important;
 }
 .bbn-active-background-internal {
   background-color: var(--active-background);
 }
 .bbn-selected-background {
-  background-color: var(--selected-background);
+  background-color: var(--selected-background) !important;
 }
 .bbn-selected-background-internal {
   background-color: var(--selected-background);
 }
 .bbn-disabled-background {
-  background-color: var(--disabled-background);
+  background-color: var(--disabled-background) !important;
 }
 .bbn-disabled-background-internal {
   background-color: var(--disabled-background);
 }
 .bbn-success-background {
-  background-color: var(--success-background);
+  background-color: var(--success-background) !important;
 }
 .bbn-success-background-internal {
   background-color: var(--success-background);
 }
 .bbn-error-background {
-  background-color: var(--error-background);
+  background-color: var(--error-background) !important;
 }
 .bbn-error-background-internal {
   background-color: var(--error-background);
 }
 .bbn-info-background {
-  background-color: var(--info-background);
+  background-color: var(--info-background) !important;
 }
 .bbn-info-background-internal {
   background-color: var(--info-background);
 }
 .bbn-warning-background {
-  background-color: var(--warning-background);
+  background-color: var(--warning-background) !important;
 }
 .bbn-warning-background-internal {
   background-color: var(--warning-background);
 }
 .bbn-alt-dark {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125) !important;
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125) !important;
+  box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125) !important;
 }
 .bbn-alt-dark-internal {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
@@ -662,9 +662,9 @@ ul.bbn-reset li {
   box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, 0.125);
 }
 .bbn-alt-light {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125);
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125);
-  box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125);
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125) !important;
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125) !important;
+  box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125) !important;
 }
 .bbn-alt-light-internal {
   -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125);
@@ -672,13 +672,13 @@ ul.bbn-reset li {
   box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, 0.125);
 }
 .bbn-modal {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.4) !important;
 }
 .bbn-modal-internal {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .bbn-background-transparent {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 .bbn-background-transparent-internal {
   background-color: transparent;
@@ -3795,7 +3795,7 @@ hr {
   margin: 2rem 1rem 1rem;
 }
 .bbn-background .bbn-legend {
-  background-color: var(--default-background);
+  background-color: var(--default-background) !important;
 }
 .bbn-alt-background .bbn-legend {
   background-color: var(--alt-background);
@@ -4785,10 +4785,10 @@ ul.bbn-ul {
   background-color: var(--alt-text) !important;
 }
 .bbn-hover-effect-element:hover {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background) !important;
 }
 .bbn-hover-effect-dark-element:hover {
-  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background);
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat var(--hover-background) !important;
 }
 /** @todo Non va!!! */
 .bbn-textbox:focus:not(.bbn-disabled),
@@ -4818,12 +4818,12 @@ a .bbn-state-default {
   border-color: var(--hover-border);
 }
 .bbn-state-active {
-  background-color: var(--active-background);
+  background-color: var(--active-background) !important;
   color: var(--active-text) !important;
   border-color: var(--active-border) !important;
 }
 .bbn-state-selected {
-  background-color: var(--selected-background);
+  background-color: var(--selected-background) !important;
   color: var(--selected-text) !important;
   border-color: var(--selected-border) !important;
 }
@@ -4874,13 +4874,13 @@ a .bbn-state-default {
 }
 .bbn-reactive:active:not(.bbn-disabled):not(:disabled),
 .bbn-reactive.bbn-active:not(.bbn-disabled):not(:disabled) {
-  background-color: var(--active-background);
+  background-color: var(--active-background) !important;
   color: var(--active-text) !important;
   border-color: var(--active-border) !important;
 }
 .bbn-reactive:focus:not(.bbn-disabled):not(:disabled),
 .bbn-reactive.bbn-focus:not(.bbn-disabled):not(:disabled) {
-  background-color: var(--active-background);
+  background-color: var(--active-background) !important;
   color: var(--active-text) !important;
   border-color: var(--active-border) !important;
 }
@@ -4950,17 +4950,17 @@ a .bbn-state-default {
 }
 */
 .bbn-primary {
-  background: var(--primary-background);
+  background: var(--primary-background) !important;
   color: var(--primary-text) !important;
   border-color: var(--primary-border);
 }
 .bbn-secondary {
-  background: var(--secondary-background);
+  background: var(--secondary-background) !important;
   color: var(--secondary-text) !important;
   border-color: var(--secondary-border);
 }
 .bbn-tertiary {
-  background: var(--tertiary-background);
+  background: var(--tertiary-background) !important;
   color: var(--tertiary-text) !important;
   border-color: var(--tertiary-border);
 }
@@ -5722,7 +5722,7 @@ input[type=radio].bbn-radio {
   cursor: pointer;
 }
 .bbn-nav-dots li:active {
-  background-color: var(--selected-background);
+  background-color: var(--selected-background) !important;
   color: var(--selected-text) !important;
   border-color: var(--selected-border) !important;
 }

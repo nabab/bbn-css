@@ -23,7 +23,7 @@
 }
 
 .bbn-background-primary {
-  background: @primary-background;
+  background: @primary-background !important;
 }
 
 .bbn-background-primary-internal {
@@ -31,7 +31,7 @@
 }
 
 .bbn-background-effect-primary {
-  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @primary-background;
+  background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @primary-background !important;
 }
 
 .bbn-background-effect-primary-internal {
@@ -39,7 +39,7 @@
 }
 
 .bbn-background-secondary {
-  background: @secondary-background ;
+  background: @secondary-background !important;
 }
 
 .bbn-background-secondary-internal {
@@ -55,7 +55,7 @@
 }
 
 .bbn-background-tertiary {
-  background: @tertiary-background ;
+  background: @tertiary-background !important;
 }
 
 .bbn-background-tertiary-internal {
@@ -71,7 +71,7 @@
 }
 
 .bbn-background-effect-hover {
-  background: none, linear-gradient(to bottom, @effect 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat @hover-background;
+  background: none, linear-gradient(to bottom, @effect 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat @hover-background !important;
 }
 
 .bbn-background-effect-hover-internal {
@@ -79,7 +79,7 @@
 }
 
 .bbn-background-effect-dark-hover {
-  background: none, linear-gradient(to bottom, @effect 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat @hover-background;
+  background: none, linear-gradient(to bottom, @effect 0%, rgba(0, 0, 0, 0.2) 100%) 50% 50% repeat @hover-background !important;
 }
 
 .bbn-background-effect-dark-hover-internal {
@@ -88,7 +88,7 @@
 
 .bbn-background-header-alt {
   background: none,
-    linear-gradient(to bottom, rgba(255, 255, 255, .25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @header-alt-background;
+    linear-gradient(to bottom, rgba(255, 255, 255, .25) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @header-alt-background !important;
 }
 
 .bbn-background-header-alt-internal {
@@ -98,7 +98,7 @@
 
 .bbn-background-header {
   background: none,
-    linear-gradient(to bottom, @effect 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @header-background;
+    linear-gradient(to bottom, @effect 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat @header-background !important;
 }
 
 .bbn-background-header-internal {
@@ -107,7 +107,7 @@
 }
 
 .bbn-background {
-  background-color: @default-background ;
+  background-color: @default-background !important;
 }
 
 .bbn-background-internal {
@@ -115,7 +115,7 @@
 }
 
 .bbn-hover-background {
-  background-color: @hover-background ;
+  background-color: @hover-background !important;
 }
 
 .bbn-hover-background-internal {
@@ -123,7 +123,7 @@
 }
 
 .bbn-active-background {
-  background-color: @active-background ;
+  background-color: @active-background !important;
 }
 
 .bbn-active-background-internal {
@@ -131,7 +131,7 @@
 }
 
 .bbn-selected-background {
-  background-color: @selected-background ;
+  background-color: @selected-background !important;
 }
 
 .bbn-selected-background-internal {
@@ -139,7 +139,7 @@
 }
 
 .bbn-disabled-background {
-  background-color: @disabled-background ;
+  background-color: @disabled-background !important;
 }
 
 .bbn-disabled-background-internal {
@@ -147,7 +147,7 @@
 }
 
 .bbn-success-background {
-  background-color: @success-background ;
+  background-color: @success-background !important;
 }
 
 .bbn-success-background-internal {
@@ -155,7 +155,7 @@
 }
 
 .bbn-error-background {
-  background-color: @error-background ;
+  background-color: @error-background !important;
 }
 
 .bbn-error-background-internal {
@@ -163,7 +163,7 @@
 }
 
 .bbn-info-background {
-  background-color: @info-background ;
+  background-color: @info-background !important;
 }
 
 .bbn-info-background-internal {
@@ -171,7 +171,7 @@
 }
 
 .bbn-warning-background {
-  background-color: @warning-background ;
+  background-color: @warning-background !important;
 }
 
 .bbn-warning-background-internal {
@@ -179,9 +179,9 @@
 }
 
 .bbn-alt-dark {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125);
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125);
-  box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125);
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125) !important;
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125) !important;
+  box-shadow: inset 0px 0px 1000px 1000px rgba(0, 0, 0, .125) !important;
 }
 
 .bbn-alt-dark-internal {
@@ -191,9 +191,9 @@
 }
 
 .bbn-alt-light {
-  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125);
-  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125);
-  box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125);
+  -moz-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125) !important;
+  -webkit-box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125) !important;
+  box-shadow: inset 0px 0px 1000px 1000px rgba(255, 255, 255, .125) !important;
 }
 
 .bbn-alt-light-internal {
@@ -203,7 +203,7 @@
 }
 
 .bbn-modal {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, .4) !important;
 }
 
 .bbn-modal-internal {
@@ -211,7 +211,7 @@
 }
 
 .bbn-background-transparent {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .bbn-background-transparent-internal {
