@@ -438,10 +438,10 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--alt-background);
 }
 .bbn-background-primary {
-  background: var(--primary-background) !important;
+  background-color: var(--primary-background) !important;
 }
 .bbn-background-primary-internal {
-  background: var(--primary-background);
+  background-color: var(--primary-background);
 }
 .bbn-background-effect-primary {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background) !important;
@@ -450,10 +450,10 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--primary-background);
 }
 .bbn-background-secondary {
-  background: var(--secondary-background) !important;
+  background-color: var(--secondary-background) !important;
 }
 .bbn-background-secondary-internal {
-  background: var(--secondary-background);
+  background-color: var(--secondary-background);
 }
 .bbn-background-effect-secondary {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--secondary-background);
@@ -462,10 +462,10 @@ ul.bbn-reset li {
   background: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--secondary-background);
 }
 .bbn-background-tertiary {
-  background: var(--tertiary-background) !important;
+  background-color: var(--tertiary-background) !important;
 }
 .bbn-background-tertiary-internal {
-  background: var(--tertiary-background);
+  background-color: var(--tertiary-background);
 }
 .bbn-background-effect-hover {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0.2) 100%) 50% 50% repeat var(--hover-background) !important;
@@ -4844,17 +4844,17 @@ a .bbn-state-default {
 }
 */
 .bbn-primary {
-  background: var(--primary-background) !important;
+  background-color: var(--primary-background) !important;
   color: var(--primary-text) !important;
   border-color: var(--primary-border);
 }
 .bbn-secondary {
-  background: var(--secondary-background) !important;
+  background-color: var(--secondary-background) !important;
   color: var(--secondary-text) !important;
   border-color: var(--secondary-border);
 }
 .bbn-tertiary {
-  background: var(--tertiary-background) !important;
+  background-color: var(--tertiary-background) !important;
   color: var(--tertiary-text) !important;
   border-color: var(--tertiary-border);
 }
