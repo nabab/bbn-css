@@ -3315,7 +3315,7 @@ hr {
   display: flex !important;
   flex-wrap: nowrap;
   box-sizing: border-box;
-  flex-wrap: wrap;
+  flex-wrap: wrap !important;
 }
 .bbn-flex-items {
   display: -webkit-box !important;
