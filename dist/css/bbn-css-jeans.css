@@ -959,13 +959,13 @@ i.nf:before {
   border-color: var(--alt-background);
 }
 .bbn-border {
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
 }
 .bbn-lborder {
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
@@ -974,7 +974,7 @@ i.nf:before {
   border-width: calc(var(--default-border-width) * 2) !important;
 }
 .bbn-sborder {
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
@@ -983,7 +983,7 @@ i.nf:before {
   border-width: calc(var(--default-border-width) / 2) !important;
 }
 .bbn-xlborder {
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
@@ -3837,7 +3837,7 @@ hr {
   border-top-right-radius: var(--default-border-radius);
   border-bottom-left-radius: var(--default-border-radius);
   border-bottom-right-radius: var(--default-border-radius);
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
@@ -5262,7 +5262,7 @@ input[type=radio].bbn-radio {
 .bbn-numeric .bbn-reactive-block:hover:focus-within:not(:disabled),
 .bbn-numeric .bbn-reactive-block:focus-within:not(.bbn-disabled) {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--default-background);
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
@@ -5679,7 +5679,7 @@ input[type=radio].bbn-radio {
 }
 .bbn-toplabel,
 .bbn-leftlabel {
-  border-color: var(--default-border) !important;
+  border-color: var(--default-border);
   border-width: var(--default-border-width) !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
