@@ -2449,13 +2449,11 @@ i.nf:before {
   height: 100%;
 }
 .bbn-hmiddle {
-  width: 100%;
   display: flex;
   justify-content: center;
   /* Horizontal center alignment */
 }
 .bbn-vmiddle {
-  height: 100%;
   display: flex;
   align-items: center;
   /* Vertical center alignment */
