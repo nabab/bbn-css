@@ -5,8 +5,8 @@
   --bold: 600;
   --font: 'Helvetica', 'Arial', sans-serif;
   --link-color: #3f51b5;
-  --shadow-text: #0009;
-  --shadow-box: #0009;
+  --shadow-text: #0008;
+  --shadow-box: #0006;
   --default-text: #2e2e2e;
   --alt-text: #2e2e2e;
   --primary-text: #fff;
@@ -1145,31 +1145,31 @@ i.nf:before {
   border-bottom-width: 0px !important;
 }
 .bbn-shadow-bottom {
-  box-shadow: 0px 4px 4px var(--shadow-box);
+  box-shadow: 0px var(--sspace) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-top {
-  box-shadow: 0px -4px 4px var(--shadow-box);
+  box-shadow: 0px calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-left {
-  box-shadow: -4px 0px 4px var(--shadow-box);
+  box-shadow: calc(var(--sspace)*-1) 0px var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-right {
-  box-shadow: 4px 0px 4px var(--shadow-box);
+  box-shadow: var(--sspace) 0px var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-bottom-right {
-  box-shadow: 4px 4px 4px var(--shadow-box);
+  box-shadow: var(--sspace) var(--sspace) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-bottom-left {
-  box-shadow: -4px 4px 4px var(--shadow-box);
+  box-shadow: calc(var(--sspace)*-1) var(--sspace) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-top-right {
-  box-shadow: 4px -4px 4px var(--shadow-box);
+  box-shadow: var(--sspace) calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow-top-left {
-  box-shadow: -4px -4px 4px var(--shadow-box);
+  box-shadow: calc(var(--sspace)*-1) calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 .bbn-shadow {
-  box-shadow: 4px 4px 4px var(--shadow-box);
+  box-shadow: var(--sspace) var(--sspace) var(--sspace) var(--shadow-box);
 }
 .bbn-dotted {
   border-style: dotted;
@@ -2376,8 +2376,6 @@ i.nf:before {
   justify-content: center;
   /* Horizontal center alignment */
   text-align: center;
-  width: 100%;
-  height: 100%;
 }
 .bbn-middle-left {
   display: flex;
@@ -2386,8 +2384,6 @@ i.nf:before {
   text-align: left;
   justify-content: flex-start;
   /* Horizontal left alignment for ltor */
-  width: 100%;
-  height: 100%;
 }
 .bbn-middle-right {
   display: flex;
@@ -2396,8 +2392,6 @@ i.nf:before {
   justify-content: flex-end;
   /* Horizontal right alignment for ltor */
   text-align: right;
-  width: 100%;
-  height: 100%;
 }
 .bbn-hmiddle {
   display: flex;
@@ -3789,7 +3783,7 @@ hr {
   background-color: transparent;
 }
 .bbn-card {
-  box-shadow: 4px 4px 4px var(--shadow-box);
+  box-shadow: var(--sspace) var(--sspace) var(--sspace) var(--shadow-box);
   border-top-left-radius: var(--default-border-radius);
   border-top-right-radius: var(--default-border-radius);
   border-bottom-left-radius: var(--default-border-radius);
