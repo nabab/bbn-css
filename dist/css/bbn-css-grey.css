@@ -1185,6 +1185,60 @@ i.nf:before {
 .bbn-shadow {
   box-shadow: var(--sspace) var(--sspace) var(--sspace) var(--shadow-box);
 }
+.bbn-sshadow-bottom {
+  box-shadow: 0px var(--xsspace) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-top {
+  box-shadow: 0px calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-left {
+  box-shadow: calc(var(--xsspace)*-1) 0px var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-right {
+  box-shadow: var(--xsspace) 0px var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-bottom-right {
+  box-shadow: var(--xsspace) var(--xsspace) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-bottom-left {
+  box-shadow: calc(var(--xsspace)*-1) var(--xsspace) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-top-right {
+  box-shadow: var(--xsspace) calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow-top-left {
+  box-shadow: calc(var(--xsspace)*-1) calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
+}
+.bbn-sshadow {
+  box-shadow: var(--xsspace) var(--xsspace) var(--xsspace) var(--shadow-box);
+}
+.bbn-lshadow-bottom {
+  box-shadow: 0px var(--space) var(--space) var(--shadow-box);
+}
+.bbn-lshadow-top {
+  box-shadow: 0px calc(var(--space)*-1) var(--space) var(--shadow-box);
+}
+.bbn-lshadow-left {
+  box-shadow: calc(var(--space)*-1) 0px var(--space) var(--shadow-box);
+}
+.bbn-lshadow-right {
+  box-shadow: var(--space) 0px var(--space) var(--shadow-box);
+}
+.bbn-lshadow-bottom-right {
+  box-shadow: var(--space) var(--space) var(--space) var(--shadow-box);
+}
+.bbn-lshadow-bottom-left {
+  box-shadow: calc(var(--space)*-1) var(--space) var(--space) var(--shadow-box);
+}
+.bbn-lshadow-top-right {
+  box-shadow: var(--space) calc(var(--space)*-1) var(--space) var(--shadow-box);
+}
+.bbn-lshadow-top-left {
+  box-shadow: calc(var(--space)*-1) calc(var(--space)*-1) var(--space) var(--shadow-box);
+}
+.bbn-lshadow {
+  box-shadow: var(--space) var(--space) var(--space) var(--shadow-box);
+}
 .bbn-dotted {
   border-style: dotted;
 }
