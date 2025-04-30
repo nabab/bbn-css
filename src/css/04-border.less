@@ -279,35 +279,35 @@
 }
 
 .bbn-shadow-bottom {
-  box-shadow: 0px 4px 4px @shadow-box;
+  box-shadow: 0px @sspace @sspace @shadow-box;
 }
 
 .bbn-shadow-top {
-  box-shadow: 0px -4px 4px @shadow-box;
+  box-shadow: 0px calc(@sspace*-1) @sspace @shadow-box;
 }
 
 .bbn-shadow-left {
-  box-shadow: -4px 0px 4px @shadow-box;
+  box-shadow: calc(@sspace*-1) 0px @sspace @shadow-box;
 }
 
 .bbn-shadow-right {
-  box-shadow: 4px 0px 4px @shadow-box;
+  box-shadow: @sspace 0px @sspace @shadow-box;
 }
 
 .bbn-shadow-bottom-right {
-  box-shadow: 4px 4px 4px @shadow-box;
+  box-shadow: @sspace @sspace @sspace @shadow-box;
 }
 
 .bbn-shadow-bottom-left {
-  box-shadow: -4px 4px 4px @shadow-box;
+  box-shadow: calc(@sspace*-1) @sspace @sspace @shadow-box;
 }
 
 .bbn-shadow-top-right {
-  box-shadow: 4px -4px 4px @shadow-box;
+  box-shadow: @sspace calc(@sspace*-1) @sspace @shadow-box;
 }
 
 .bbn-shadow-top-left {
-  box-shadow: -4px -4px 4px @shadow-box;
+  box-shadow: calc(@sspace*-1) calc(@sspace*-1) @sspace @shadow-box;
 }
 
 .bbn-shadow {
