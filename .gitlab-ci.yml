@@ -49,7 +49,7 @@ codeberg-sync:
     - mkdir -p library/bbn-css
     - git clone --bare git@git.bbn.so:library/bbn-css.git library/bbn-css
     - cd library/bbn-css
-    - git remote add --mirror=fetch codeberg git@codeberg.org:bbn/bbn.git
+    - git remote add --mirror=fetch codeberg git@codeberg.org:bbn/bbn-css.git
     - git fetch git@git.bbn.so:library/bbn-css.git master
     - git fetch git@codeberg.org:bbn/bbn-css.git master
     - git push -f git@codeberg.org:bbn/bbn-css.git master
