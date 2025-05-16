@@ -17,19 +17,19 @@ There is not a class for every single color, dimension, spacing, etc... as they 
 ## A few examples of classes you'll immediately understand:
 
 ```
-bbn-padded
-bbn-lpadded
-bbn-xlpadded
-bbn-spadded
-bbn-xspadded
-bbn-left-padded
-bbn-left-spadded
+bbn-padding
+bbn-lpadding
+bbn-xlpadding
+bbn-spadding
+bbn-xspadding
+bbn-left-padding
+bbn-left-spadding
 // ... and so on
 
 bbn-margin
 bbn-lmargin
 bbn-left-margin
-// same thing than padded
+// same thing than padding
 
 bbn-bordered
 bbn-radius
