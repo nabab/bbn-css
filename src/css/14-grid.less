@@ -1,0 +1,44 @@
+.bbn-w-100 {
+  .bbn-block;
+  width: 100%;
+  clear: both;
+}
+
+.bbn-h-100 {
+  .bbn-border-box;
+  height: 100% !important;
+}
+
+.bbn-100 {
+  .bbn-h-100;
+  .bbn-w-100;
+}
+
+.create-grid-rules(@name, @num) {
+
+  .bbn-grid-@{name} {
+    display: flex;
+    > * {
+      flex: 1;
+      width: "@{num}%";
+    }
+  }
+
+
+  @media (max-width: calc(@mq-mobile-limit)) {
+
+    .bbn-grid-@{name} {
+      display: flex;
+      > * {
+        flex: 1;
+        width: "@{num}%";
+      }
+    }
+  }
+}
+
+.create-grid-rules(16, 6.25);
+.create-grid-rules(12, 9.375);
+.create-grid-rules(8, 12.5);
+.create-grid-rules(4, 25);
+.create-grid-rules(2, 50);
