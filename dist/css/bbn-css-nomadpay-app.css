@@ -1737,7 +1737,7 @@ i.nf:before {
 .bbn-left-nomargin {
   margin-left: var(--nospace) !important;
 }
-.bbn-right-nomarginimportant {
+.bbn-right-nomargin {
   margin-right: var(--nospace) !important;
 }
 .bbn-margin-internal {
@@ -1783,7 +1783,7 @@ i.nf:before {
 .bbn-left-margin {
   margin-left: var(--space) !important;
 }
-.bbn-right-marginimportant {
+.bbn-right-margin {
   margin-right: var(--space) !important;
 }
 .bbn-lmargin-internal {
@@ -1829,7 +1829,7 @@ i.nf:before {
 .bbn-left-lmargin {
   margin-left: var(--lspace) !important;
 }
-.bbn-right-lmarginimportant {
+.bbn-right-lmargin {
   margin-right: var(--lspace) !important;
 }
 .bbn-xlmargin-internal {
@@ -1875,7 +1875,7 @@ i.nf:before {
 .bbn-left-xlmargin {
   margin-left: var(--xlspace) !important;
 }
-.bbn-right-xlmarginimportant {
+.bbn-right-xlmargin {
   margin-right: var(--xlspace) !important;
 }
 .bbn-xxlmargin-internal {
@@ -1921,7 +1921,7 @@ i.nf:before {
 .bbn-left-xxlmargin {
   margin-left: var(--xxlspace) !important;
 }
-.bbn-right-xxlmarginimportant {
+.bbn-right-xxlmargin {
   margin-right: var(--xxlspace) !important;
 }
 .bbn-smargin-internal {
@@ -1967,7 +1967,7 @@ i.nf:before {
 .bbn-left-smargin {
   margin-left: var(--sspace) !important;
 }
-.bbn-right-smarginimportant {
+.bbn-right-smargin {
   margin-right: var(--sspace) !important;
 }
 .bbn-xsmargin-internal {
@@ -2013,7 +2013,7 @@ i.nf:before {
 .bbn-left-xsmargin {
   margin-left: var(--xsspace) !important;
 }
-.bbn-right-xsmarginimportant {
+.bbn-right-xsmargin {
   margin-right: var(--xsspace) !important;
 }
 .bbn-xxsmargin-internal {
@@ -2059,7 +2059,7 @@ i.nf:before {
 .bbn-left-xxsmargin {
   margin-left: var(--xxsspace) !important;
 }
-.bbn-right-xxsmarginimportant {
+.bbn-right-xxsmargin {
   margin-right: var(--xxsspace) !important;
 }
 .bbn-space-internal {
@@ -2105,7 +2105,7 @@ i.nf:before {
 .bbn-left-space {
   margin-left: var(--space) !important;
 }
-.bbn-right-spaceimportant {
+.bbn-right-space {
   margin-right: var(--space) !important;
 }
 .bbn-lspace-internal {
@@ -2151,7 +2151,7 @@ i.nf:before {
 .bbn-left-lspace {
   margin-left: var(--lspace) !important;
 }
-.bbn-right-lspaceimportant {
+.bbn-right-lspace {
   margin-right: var(--lspace) !important;
 }
 .bbn-xlspace-internal {
@@ -2197,7 +2197,7 @@ i.nf:before {
 .bbn-left-xlspace {
   margin-left: var(--xlspace) !important;
 }
-.bbn-right-xlspaceimportant {
+.bbn-right-xlspace {
   margin-right: var(--xlspace) !important;
 }
 .bbn-xxlspace-internal {
@@ -2243,7 +2243,7 @@ i.nf:before {
 .bbn-left-xxlspace {
   margin-left: var(--xxlspace) !important;
 }
-.bbn-right-xxlspaceimportant {
+.bbn-right-xxlspace {
   margin-right: var(--xxlspace) !important;
 }
 .bbn-sspace-internal {
@@ -2289,7 +2289,7 @@ i.nf:before {
 .bbn-left-sspace {
   margin-left: var(--sspace) !important;
 }
-.bbn-right-sspaceimportant {
+.bbn-right-sspace {
   margin-right: var(--sspace) !important;
 }
 .bbn-xsspace-internal {
@@ -2335,7 +2335,7 @@ i.nf:before {
 .bbn-left-xsspace {
   margin-left: var(--xsspace) !important;
 }
-.bbn-right-xsspaceimportant {
+.bbn-right-xsspace {
   margin-right: var(--xsspace) !important;
 }
 .bbn-xxsspace-internal {
@@ -2381,7 +2381,7 @@ i.nf:before {
 .bbn-left-xxsspace {
   margin-left: var(--xxsspace) !important;
 }
-.bbn-right-xxsspaceimportant {
+.bbn-right-xxsspace {
   margin-right: var(--xxsspace) !important;
 }
 /* centered */
