@@ -56,17 +56,23 @@
 
 .bbn-lborder {
   .bbn-border;
-  border-width: calc(@default-border-width * 2) !important;
+  border-width: ~"-webkit-calc(@{default-border-width} * 2)" !important;
+  border-width: ~"-moz-calc(@{default-border-width} * 2)" !important;
+  border-width: ~"calc(@{default-border-width} * 2)" !important;
 }
 
 .bbn-sborder {
   .bbn-border;
-  border-width: calc(@default-border-width / 2) !important;
+  border-width: ~"-webkit-calc(@{default-border-width} / 2)" !important;
+  border-width: ~"-moz-calc(@{default-border-width} / 2)" !important;
+  border-width: ~"calc(@{default-border-width} / 2)" !important;
 }
 
 .bbn-xlborder {
   .bbn-border;
-  border-width: calc(@default-border-width * 4) !important;
+  border-width: ~"-webkit-calc(@{default-border-width} * 4)" !important;
+  border-width: ~"-moz-calc(@{default-border-width} * 4)" !important;
+  border-width: ~"calc(@{default-border-width} * 4)" !important;
 }
 
 .bbn-border-internal {
