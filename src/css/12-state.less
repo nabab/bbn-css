@@ -114,6 +114,36 @@
   }
 }
 
+.bbn-message-internal {
+  .bbn-padding;
+  .bbn-radius;
+  .bbn-border-internal;
+}
+.bbn-message-info {
+  .bbn-message-internal;
+  background-color: @info-background;
+  color: @info-text;
+  border-color: @info-border;
+}
+.bbn-message-warning {
+  .bbn-message-internal;
+  background-color: @warning-background;
+  color: @warning-text;
+  border-color: @warning-border;
+}
+.bbn-message-error {
+  .bbn-message-internal;
+  background-color: @error-background;
+  color: @error-text;
+  border-color: @error-border;
+}
+.bbn-message-success {
+  .bbn-message-internal;
+  background-color: @success-background;
+  color: @success-text;
+  border-color: @success-border;
+}
+
 /*
 .bbn-reactive:hover:not(.bbn-disabled),
 .bbn-reactive.bbn-hover:not(.bbn-disabled){
