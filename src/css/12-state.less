@@ -24,49 +24,41 @@
 
 .bbn-state-error {
   .bbn-error-border-internal;
-  .bbn-radius;
   .bbn-error-background-internal;
   .bbn-error-text-internal;
 }
 .bbn-state-warning {
   .bbn-warning-border-internal;
-  .bbn-radius;
   .bbn-warning-background-internal;
   .bbn-warning-text-internal;
 }
 .bbn-state-info {
   .bbn-info-border-internal;
-  .bbn-radius;
   .bbn-info-background-internal;
   .bbn-info-text-internal;
 }
 .bbn-state-success {
   .bbn-success-border-internal;
-  .bbn-radius;
   .bbn-success-background-internal;
   .bbn-success-text-internal;
 }
 .bbn-rstate-error {
   .bbn-error-border-internal;
-  .bbn-radius;
   background-color: @error-text;
   color: @error-background;
 }
 .bbn-rstate-warning {
   .bbn-warning-border-internal;
-  .bbn-radius;
   background-color: @warning-text;
   color: @warning-background;
 }
 .bbn-rstate-info {
   .bbn-info-border-internal;
-  .bbn-radius;
   background-color: @info-text;
   color: @info-background;
 }
 .bbn-rstate-success {
   .bbn-success-border-internal;
-  .bbn-radius;
   background-color: @success-text;
   color: @success-background;
 }
@@ -164,51 +156,35 @@
 }
 .bbn-message-info {
   .bbn-message-internal;
-  background-color: @info-background;
-  color: @info-text;
-  border-color: @info-border;
+  .bbn-state-info;
 }
 .bbn-message-warning {
   .bbn-message-internal;
-  background-color: @warning-background;
-  color: @warning-text;
-  border-color: @warning-border;
+  .bbn-state-warning;
 }
 .bbn-message-error {
   .bbn-message-internal;
-  background-color: @error-background;
-  color: @error-text;
-  border-color: @error-border;
+  .bbn-state-error;
 }
 .bbn-message-success {
   .bbn-message-internal;
-  background-color: @success-background;
-  color: @success-text;
-  border-color: @success-border;
+  .bbn-state-success;
 }
 .bbn-rmessage-info {
   .bbn-message-internal;
-  color: @info-background;
-  background-color: @info-text;
-  border-color: @info-border;
+  .bbn-rstate-info;
 }
 .bbn-rmessage-warning {
   .bbn-message-internal;
-  color: @warning-background;
-  background-color: @warning-text;
-  border-color: @warning-border;
+  .bbn-rstate-warning;
 }
 .bbn-rmessage-error {
   .bbn-message-internal;
-  color: @error-background;
-  background-color: @error-text;
-  border-color: @error-border;
+  .bbn-rstate-error;
 }
 .bbn-rmessage-success {
   .bbn-message-internal;
-  color: @success-background;
-  background-color: @success-text;
-  border-color: @success-border;
+  .bbn-rstate-success;
 }
 
 /*
