@@ -4795,10 +4795,6 @@ a .bbn-state-default {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--error-border);
-  border-top-left-radius: var(--default-border-radius);
-  border-top-right-radius: var(--default-border-radius);
-  border-bottom-left-radius: var(--default-border-radius);
-  border-bottom-right-radius: var(--default-border-radius);
   background-color: var(--error-background);
   color: var(--error-text);
 }
@@ -4808,10 +4804,6 @@ a .bbn-state-default {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--warning-border);
-  border-top-left-radius: var(--default-border-radius);
-  border-top-right-radius: var(--default-border-radius);
-  border-bottom-left-radius: var(--default-border-radius);
-  border-bottom-right-radius: var(--default-border-radius);
   background-color: var(--warning-background);
   color: var(--warning-text);
 }
@@ -4821,10 +4813,6 @@ a .bbn-state-default {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--info-border);
-  border-top-left-radius: var(--default-border-radius);
-  border-top-right-radius: var(--default-border-radius);
-  border-bottom-left-radius: var(--default-border-radius);
-  border-bottom-right-radius: var(--default-border-radius);
   background-color: var(--info-background);
   color: var(--info-text);
 }
@@ -4834,12 +4822,44 @@ a .bbn-state-default {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--success-border);
-  border-top-left-radius: var(--default-border-radius);
-  border-top-right-radius: var(--default-border-radius);
-  border-bottom-left-radius: var(--default-border-radius);
-  border-bottom-right-radius: var(--default-border-radius);
   background-color: var(--success-background);
   color: var(--success-text);
+}
+.bbn-rstate-error {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  border-color: var(--error-border);
+  background-color: var(--error-text);
+  color: var(--error-background);
+}
+.bbn-rstate-warning {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  border-color: var(--warning-border);
+  background-color: var(--warning-text);
+  color: var(--warning-background);
+}
+.bbn-rstate-info {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  border-color: var(--info-border);
+  background-color: var(--info-text);
+  color: var(--info-background);
+}
+.bbn-rstate-success {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  border-color: var(--success-border);
+  background-color: var(--success-text);
+  color: var(--success-background);
 }
 .bbn-error-colored {
   color: var(--error-text);
@@ -4959,9 +4979,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
+  border-color: var(--info-border);
   background-color: var(--info-background);
   color: var(--info-text);
-  border-color: var(--info-border);
 }
 .bbn-message-warning {
   padding: var(--sspace);
@@ -4977,9 +4997,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
+  border-color: var(--warning-border);
   background-color: var(--warning-background);
   color: var(--warning-text);
-  border-color: var(--warning-border);
 }
 .bbn-message-error {
   padding: var(--sspace);
@@ -4995,9 +5015,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
+  border-color: var(--error-border);
   background-color: var(--error-background);
   color: var(--error-text);
-  border-color: var(--error-border);
 }
 .bbn-message-success {
   padding: var(--sspace);
@@ -5013,9 +5033,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
+  border-color: var(--success-border);
   background-color: var(--success-background);
   color: var(--success-text);
-  border-color: var(--success-border);
 }
 .bbn-rmessage-info {
   padding: var(--sspace);
@@ -5031,9 +5051,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
-  color: var(--info-background);
-  background-color: var(--info-text);
   border-color: var(--info-border);
+  background-color: var(--info-text);
+  color: var(--info-background);
 }
 .bbn-rmessage-warning {
   padding: var(--sspace);
@@ -5049,9 +5069,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
-  color: var(--warning-background);
-  background-color: var(--warning-text);
   border-color: var(--warning-border);
+  background-color: var(--warning-text);
+  color: var(--warning-background);
 }
 .bbn-rmessage-error {
   padding: var(--sspace);
@@ -5067,9 +5087,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
-  color: var(--error-background);
-  background-color: var(--error-text);
   border-color: var(--error-border);
+  background-color: var(--error-text);
+  color: var(--error-background);
 }
 .bbn-rmessage-success {
   padding: var(--sspace);
@@ -5085,9 +5105,9 @@ a .bbn-state-default {
   border-width: var(--default-border-width);
   border-style: var(--default-border-style);
   box-sizing: border-box;
-  color: var(--success-background);
-  background-color: var(--success-text);
   border-color: var(--success-border);
+  background-color: var(--success-text);
+  color: var(--success-background);
 }
 /*
 .bbn-reactive:hover:not(.bbn-disabled),
