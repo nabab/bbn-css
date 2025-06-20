@@ -5080,6 +5080,78 @@ a .bbn-state-default {
   color: var(--success-text);
   border-color: var(--success-border);
 }
+.bbn-rmessage-info {
+  padding: var(--sspace);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: var(--sspace) !important;
+  margin-bottom: var(--sspace) !important;
+  border-top-left-radius: var(--default-border-radius);
+  border-top-right-radius: var(--default-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  color: var(--info-background);
+  background-color: var(--info-text);
+  border-color: var(--info-border);
+}
+.bbn-rmessage-warning {
+  padding: var(--sspace);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: var(--sspace) !important;
+  margin-bottom: var(--sspace) !important;
+  border-top-left-radius: var(--default-border-radius);
+  border-top-right-radius: var(--default-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  color: var(--warning-background);
+  background-color: var(--warning-text);
+  border-color: var(--warning-border);
+}
+.bbn-rmessage-error {
+  padding: var(--sspace);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: var(--sspace) !important;
+  margin-bottom: var(--sspace) !important;
+  border-top-left-radius: var(--default-border-radius);
+  border-top-right-radius: var(--default-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  color: var(--error-background);
+  background-color: var(--error-text);
+  border-color: var(--error-border);
+}
+.bbn-rmessage-success {
+  padding: var(--sspace);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: var(--sspace) !important;
+  margin-bottom: var(--sspace) !important;
+  border-top-left-radius: var(--default-border-radius);
+  border-top-right-radius: var(--default-border-radius);
+  border-bottom-left-radius: var(--default-border-radius);
+  border-bottom-right-radius: var(--default-border-radius);
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  color: var(--success-background);
+  background-color: var(--success-text);
+  border-color: var(--success-border);
+}
 /*
 .bbn-reactive:hover:not(.bbn-disabled),
 .bbn-reactive.bbn-hover:not(.bbn-disabled){
