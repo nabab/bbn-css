@@ -4721,6 +4721,23 @@ hr {
 .bbn-header .bbn-widget-header-buttons {
   color: var(--link-color);
 }
+.bbn-header-alt {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
+  color: var(--header-alt-text);
+  position: relative;
+  vertical-align: middle;
+  /* .bbn-button:not(.bbn-primary):not(:disabled) {
+    .bbn-alt-background-internal;
+    .bbn-alt-text-internal;
+  } */
+}
+.bbn-header-alt .bbn-widget-header-buttons {
+  color: var(--link-color);
+}
 ul.bbn-ul {
   list-style-type: none;
   padding: 0;
