@@ -4564,6 +4564,9 @@ ul.bbn-ul {
   padding: 0;
   margin: 0;
 }
+ul.bbn-ul ul.bbn-ul {
+  padding-inline-start: 1.5rem;
+}
 .bbn-reactive-block {
   border-color: var(--default-border);
   border-width: var(--default-border-width);
