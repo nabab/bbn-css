@@ -78,7 +78,6 @@
 }
 :root {
   --mobile-limit: 700px;
-  --bold: 400;
   --font: 'OpenSans';
   --nospace: 0px;
   --space: 1rem;
@@ -180,10 +179,6 @@ hr {
 }
 abbr[title] {
   text-decoration: underline dotted;
-}
-b,
-strong {
-  font-weight: 400;
 }
 code,
 kbd,
@@ -327,13 +322,6 @@ hr {
 }
 .bbn-no-reset li {
   list-style: disc;
-}
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: 400;
 }
 fieldset {
   border-color: #4d4d4d;
@@ -3568,7 +3556,7 @@ hr {
 }
 .bbn-section legend,
 .bbn-section .bbn-legend {
-  font-weight: 400;
+  font-weight: bold;
   font-size: 1.2rem;
   padding: 0 1rem;
   cursor: pointer;
@@ -3678,7 +3666,7 @@ hr {
   display: inline-block;
   padding: 0 0.4rem;
   text-align: center;
-  font-weight: 400;
+  font-weight: bold;
 }
 .bbn-badge {
   border-radius: 50%;
@@ -5494,7 +5482,7 @@ input[type=radio].bbn-radio {
 [class^='bbn-icon-'],
 *[class*='bbn-icon-'] {
   display: inline-block;
-  font-weight: 400;
+  font-weight: bold;
   vertical-align: middle;
   background: #fff;
   border: 0.2rem solid #666;
