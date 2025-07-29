@@ -29,51 +29,51 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Black.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-Black.woff2") format("woff2");
   font-style: normal;
   font-weight: 800;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-BlackItalic.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-BlackItalic.woff2") format("woff2");
   font-style: italic;
   font-weight: 800;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2");
   font-style: normal;
   font-weight: 600;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-BoldItalic.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-BoldItalic.woff2") format("woff2");
   font-style: italic;
   font-weight: 600;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Italic.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-Italic.woff2") format("woff2");
   font-style: italic;
   font-weight: 400;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Light.woff2") format("woff2");
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-Light.woff2") format("woff2");
   font-style: normal;
   font-weight: 200;
 }
 @font-face {
-  font-family: "OpenSans";
-  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-LightItalic.woff2") format("woff2");
-  font-style: normal;
+  font-family: 'Roboto';
+  src: local("Roboto"), url("../../fonts/Roboto/Roboto-LightItalic.woff2") format("woff2");
+  font-style: italic;
   font-weight: 200;
 }
 :root {
