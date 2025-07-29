@@ -34,5 +34,8 @@
   "bugs": {
     "url": "https://github.com/nabab/bbn-css/issues"
   },
-  "homepage": "https://github.com/nabab/bbn-css#readme"
+  "homepage": "https://github.com/nabab/bbn-css#readme",
+  "dependencies": {
+    "gulp-replace": "^1.1.4"
+  }
 }
