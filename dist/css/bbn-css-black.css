@@ -5473,10 +5473,6 @@ input[type=radio].bbn-radio {
   background: var(--primary-text);
   border: 1px solid var(--default-border);
 }
-.bbn-range .bbn-range-input::-moz-range-thumb {
-  background: var(--primary-text);
-  border: 1px solid var(--default-border);
-}
 .bbn-circle {
   border-radius: 50%;
   display: inline-block;
