@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Roboto Condensed Italic";
-    src: url("RobotoCondensed-Italic.woff2") format("woff2");
+    src: local("RobotoCondensed"), url("RobotoCondensed-Italic.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

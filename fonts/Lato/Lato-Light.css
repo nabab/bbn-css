@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Lato-Light";
-    src: url("Lato-Light.woff2") format("woff2");
+    src: local("Lato"), url("Lato-Light.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

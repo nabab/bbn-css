@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Roboto Bold Italic";
-    src: url("Roboto-BoldItalic.woff2") format("woff2");
+    src: local("Roboto"), url("Roboto-BoldItalic.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

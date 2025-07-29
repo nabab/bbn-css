@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Source Sans Pro Black";
-    src: url("SourceSansPro-Black.woff2") format("woff2");
+    src: local("SourceSansPro"), url("SourceSansPro-Black.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         
