@@ -4429,7 +4429,7 @@ hr {
   aspect-ratio: 1;
   aspect-ratio: 4/3;
 }
-.bbn-container-ratio-4-3 > *:first {
+.bbn-container-ratio-4-3 > *:first-child {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -4442,7 +4442,7 @@ hr {
   aspect-ratio: 1;
   aspect-ratio: 3/4;
 }
-.bbn-container-ratio-3-4 > *:first {
+.bbn-container-ratio-3-4 > *:first-child {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -4455,7 +4455,7 @@ hr {
   aspect-ratio: 1;
   aspect-ratio: 16/9;
 }
-.bbn-container-ratio-16-9 > *:first {
+.bbn-container-ratio-16-9 > *:first-child {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -4468,7 +4468,7 @@ hr {
   aspect-ratio: 1;
   aspect-ratio: 9/16;
 }
-.bbn-container-ratio-9-16 > *:first {
+.bbn-container-ratio-9-16 > *:first-child {
   position: absolute;
   top: 0px;
   left: 0px;
