@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Montserrat ExtraBold";
-    src: url(Montserrat-ExtraBold.woff2) format("woff2");
+    src: url("Montserrat-ExtraBold.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

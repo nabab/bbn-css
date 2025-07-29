@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Lato-Hairline";
-    src: url(Lato-Hairline.woff2) format("woff2");
+    src: url("Lato-Hairline.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

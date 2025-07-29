@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Montserrat Light";
-    src: url(Montserrat-Light.woff2) format("woff2");
+    src: url("Montserrat-Light.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

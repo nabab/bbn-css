@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Montserrat SemiBold Italic";
-    src: url(Montserrat-SemiBoldItalic.woff2) format("woff2");
+    src: url("Montserrat-SemiBoldItalic.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         

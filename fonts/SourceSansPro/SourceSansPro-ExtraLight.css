@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Source Sans Pro ExtraLight";
-    src: url(SourceSansPro-ExtraLight.woff2) format("woff2");
+    src: url("SourceSansPro-ExtraLight.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         
