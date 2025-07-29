@@ -614,6 +614,10 @@ i.nf:before {
 .bbn-bolder {
   font-weight: 800;
 }
+.bbn-h,
+.bbn-heavy {
+  font-weight: 900;
+}
 /* italic */
 .bbn-i,
 .bbn-italic {
