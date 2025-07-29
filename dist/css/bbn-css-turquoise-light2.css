@@ -32,31 +32,25 @@
   font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-Black.woff2") format("woff2");
   font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
 }
 @font-face {
   font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-BlackItalic.woff2") format("woff2");
   font-style: italic;
-  font-weight: 800;
+  font-weight: 900;
 }
 @font-face {
   font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-Bold.woff2") format("woff2");
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
 }
 @font-face {
   font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-BoldItalic.woff2") format("woff2");
   font-style: italic;
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'OpenSans';
-  src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-Italic.woff2") format("woff2");
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 700;
 }
 @font-face {
   font-family: 'OpenSans';
@@ -66,15 +60,21 @@
 }
 @font-face {
   font-family: 'OpenSans';
+  src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-Light.woff2") format("woff2");
   font-style: normal;
-  font-weight: 200;
+  font-weight: 300;
 }
 @font-face {
   font-family: 'OpenSans';
   src: local("OpenSans"), url("../../fonts/OpenSans/OpenSans-LightItalic.woff2") format("woff2");
   font-style: italic;
-  font-weight: 200;
+  font-weight: 300;
 }
 :root {
   --mobile-limit: 700px;
