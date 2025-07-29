@@ -51,9 +51,9 @@ codeberg-sync:
     - cd library/bbn-css
     - git remote add --mirror=fetch codeberg git@codeberg.org:bbn/bbn-css.git
     - git fetch git@git.bbn.so:library/bbn-css.git master
-    - git fetch git@codeberg.org:bbn/bbn-css.git master
-    - git push -f git@codeberg.org:bbn/bbn-css.git master
-    - git push -f git@codeberg.org:bbn/bbn-css.git --tags
+    - git fetch git@codeberg.org:bbn/css.git master
+    - git push -f git@codeberg.org:bbn/css.git master
+    - git push -f git@codeberg.org:bbn/css.git --tags
     - cd -
     - rm -rf library
     - echo "Codeberg synching finished !"
