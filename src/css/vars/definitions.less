@@ -1,208 +1,80 @@
 /** Default configuration*/
 @mq-mobile-limit: 700px;
-:root {
-  --mobile-limit: @mq-mobile-limit;
-
-  --text-size: 13px;
-  --bold: 600;
-  --font: 'Helvetica', 'Arial', sans-serif;
-
-  --link-color: #3f51b5;
-
-  --shadow-text: #0008;
-  --shadow-box: #0006;
-
-  --default-text: #2e2e2e;
-  --alt-text: #2e2e2e;
-  --primary-text: #fff;
-  --secondary-text: #fff;
-  --tertiary-text: #fff;
-  --header-alt-text: #fff;
-  --header-text: #2e2e2e;
-
-  --default-background: #fff;
-  --alt-background: #f7f9f9;
-  --primary-background: #ff6b18;
-  --secondary-background: #53798f;
-  --tertiary-background: #adbb8c;
-  --header-background: #eaeded;
-  --header-alt-background: #B8B6B6;
-
-  --default-border: #d5d5d5;
-  --alt-border: #d5d5d5;
-  --primary-border: #ff6b18;
-  --secondary-border: #0974B3;
-  --tertiary-border: #829766;
-
-  --button-text: #2e2e2e;
-
-  --effect: rgba(255, 255, 255, .4);
-
-  --line-height: 1.7rem;
-  --line-height-mobile: 2rem;
-
-  --hover-text: #2e2e2e;
-  --hover-border: #b6b6b6;
-  --hover-background: #bcb4b0;
-
-  --active-text: #2e2e2e;
-  --active-border: #b6b6b6;
-  --active-background: #C9C1B3;
-
-  --selected-text: #fff;
-  --selected-background: #ff6b18;
-  --selected-border: #ff6b18;
-
-  --disabled-text: #c3c3c3;
-  --disabled-background: #edebea;
-  --disabled-border: #cacaca;
-
-  --success-text: #00a03e;
-  --success-background: #cacaca;
-  --success-border: #00a03e;
-
-  --info-text: #3d67dd;
-  --info-background: #cacaca;
-  --info-border: #3d67dd;
-
-  --warning-text: #ff6b18;
-  --warning-background: #cacaca;
-  --warning-border: #ff6b18;
-
-  --error-text: #db3340;
-  --error-background: #fff;
-  --error-border: #db3340;
-
-  --success-alt-text: #00a03e;
-  --success-atl-background: #fff;
-  --success-alt-border: #00a03e;
-
-  --error-alt-text: #db3340;
-  --error-alt-border: #db3340;
-
-  --default-border-style: solid;
-  --alt-border-style: solid;
-
-  --default-border-width: 1px;
-  --alt-border-width: 1px;
-  
-  --default-border-radius: 0.4rem;
-  --alt-border-radius: 0.6rem;
-  
-  --nospace: 0px;
-  --space: 1rem;
-  --lspace: 2rem;
-  --xlspace: 4rem;
-  --xxlspace: 8rem;
-  --sspace: 0.5rem;
-  --xsspace: 0.25rem;
-  --xxsspace: 0.125rem;
-
-  --radius: 0.8rem;
-  --lradius: 1.2rem;
-  --sradius: 0.4rem;
-  --noradius: 0;
-}
-
-@mobile-limit: var(--mobile-limit);
-
-@text-size: var(--text-size);
-@bold: var(--bold);
-@font: var(--font);
-@link-color: var(--link-color);
-
-@shadow-text: var(--shadow-text);
-@shadow-box: var(--shadow-box);
-
-@default-text: var(--default-text);
-@alt-text: var(--alt-text);
-@primary-text: var(--primary-text);
-@secondary-text: var(--secondary-text);
-@tertiary-text: var(--tertiary-text);
-@header-text: var(--header-text);
-@header-alt-text: var(--header-alt-text);
-
-@default-background: var(--default-background);
-@alt-background: var(--alt-background);
-@primary-background: var(--primary-background);
-@secondary-background: var(--secondary-background);
-@tertiary-background: var(--tertiary-background);
-@header-background: var(--header-background);
-@header-alt-background: var(--header-alt-background);
-
-@default-border: var(--default-border);
-@alt-border: var(--alt-border);
-@primary-border: var(--primary-border);
-@secondary-border: var(--secondary-border);
-@tertiary-border: var(--tertiary-border);
-
-@default-border-style: var(--default-border-style);
-@alt-border-style: var(--alt-border-style);
-
-@default-border-width: var(--default-border-width);
-@alt-border-width: var(--alt-border-width);
-
-@default-border-radius: var(--default-border-radius);
-@alt-border-radius: var(--alt-border-radius);
-
-@nospace: var(--nospace);
-@space: var(--space);
-@lspace: var(--lspace);
-@xlspace: var(--xlspace);
-@xxlspace: var(--xxlspace);
-@sspace: var(--sspace);
-@xsspace: var(--xsspace);
-@xxsspace: var(--xxsspace);
-
-@radius: var(--radius);
-@lradius: var(--lradius);
-@sradius: var(--sradius);
-@noradius: var(--noradius);
-
-@button-text: var(--button-text);
-
-@effect: var(--effect);
-
-@line-height: var(--line-height);
-@line-height-mobile: var(--line-height-mobile);
-
-@hover-background: var(--hover-background);
-@hover-border: var(--hover-border);
-@hover-text: var(--hover-text);
-
-@active-text: var(--active-text);
-@active-border: var(--active-border);
-@active-background: var(--active-background);
-
-@selected-text: var(--selected-text);
-@selected-background: var(--selected-background);
-@selected-border: var(--selected-border);
-
-@disabled-text: var(--disabled-text);
-@disabled-background: var(--disabled-background);
-@disabled-border: var(--disabled-border);
-
-@success-text: var(--success-text);
-@success-background: var(--success-background);
-@success-border: var(--success-border);
-
-@error-text: var(--error-text);
-@error-background: var(--error-background);
-@error-border: var(--error-border);
-
-@info-text: var(--info-text);
-@info-background: var(--info-background);
-@info-border: var(--info-border);
-
-@warning-text: var(--warning-text);
-@warning-background: var(--warning-background);
-@warning-border: var(--warning-border);
-
-@success-alt-text: var(--success-alt-text);
-@success-alt-background: var(--success-alt-background);
-@success-alt-border: var(--success-atl-border);
-
-@error-alt-text: var(--error-alt-text);
-@error-alt-border: var(--error-alt-border);
-
+@mobile-limit: @mq-mobile-limit;
+@text-size: 13px;
+@bold: 400;
+@font: 'OpenSans';
+@link-color: #3f51b5;
+@shadow-text: #0008;
+@shadow-box: #0006;
+@default-text: #2e2e2e;
+@alt-text: #2e2e2e;
+@primary-text: #fff;
+@secondary-text: #fff;
+@tertiary-text: #fff;
+@header-alt-text: #fff;
+@header-text: #2e2e2e;
+@default-background: #fff;
+@alt-background: #f7f9f9;
+@primary-background: #ff6b18;
+@secondary-background: #53798f;
+@tertiary-background: #adbb8c;
+@header-background: #eaeded;
+@header-alt-background: #B8B6B6;
+@default-border: #d5d5d5;
+@alt-border: #d5d5d5;
+@primary-border: #ff6b18;
+@secondary-border: #0974B3;
+@tertiary-border: #829766;
+@button-text: #2e2e2e;
+@effect: rgba(255, 255, 255, .4);
+@line-height: 1.7rem;
+@line-height-mobile: 2rem;
+@hover-text: #2e2e2e;
+@hover-border: #b6b6b6;
+@hover-background: #bcb4b0;
+@active-text: #2e2e2e;
+@active-border: #b6b6b6;
+@active-background: #C9C1B3;
+@selected-text: #fff;
+@selected-background: #ff6b18;
+@selected-border: #ff6b18;
+@disabled-text: #c3c3c3;
+@disabled-background: #edebea;
+@disabled-border: #cacaca;
+@success-text: #00a03e;
+@success-background: #cacaca;
+@success-border: #00a03e;
+@info-text: #3d67dd;
+@info-background: #cacaca;
+@info-border: #3d67dd;
+@warning-text: #ff6b18;
+@warning-background: #cacaca;
+@warning-border: #ff6b18;
+@error-text: #db3340;
+@error-background: #fff;
+@error-border: #db3340;
+@success-alt-text: #00a03e;
+@success-atl-background: #fff;
+@success-alt-border: #00a03e;
+@error-alt-text: #db3340;
+@error-alt-border: #db3340;
+@default-border-style: solid;
+@alt-border-style: solid;
+@default-border-width: 1px;
+@alt-border-width: 1px;
+@default-border-radius: 0.4rem;
+@alt-border-radius: 0.6rem;
+@nospace: 0px;
+@space: 1rem;
+@lspace: 2rem;
+@xlspace: 4rem;
+@xxlspace: 8rem;
+@sspace: 0.5rem;
+@xsspace: 0.25rem;
+@xxsspace: 0.125rem;
+@radius: 0.8rem;
+@lradius: 1.2rem;
+@sradius: 0.4rem;
+@noradius: 0;
 

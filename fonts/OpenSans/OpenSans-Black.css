@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"Open Sans Black";
+    src:url("OpenSans-Black.woff2") format("woff2"),url("OpenSans-Black.woff") format("woff"),url("OpenSans-Black.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        
