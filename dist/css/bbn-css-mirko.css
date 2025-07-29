@@ -1,12 +1,4 @@
 /** Default configuration*/
-@import "../../fonts/Roboto/Roboto-Black.css";
-@import "../../fonts/Roboto/Roboto-BlackItalic.css";
-@import "../../fonts/Roboto/Roboto-Bold.css";
-@import "../../fonts/Roboto/Roboto-BoldItalic.css";
-@import "../../fonts/Roboto/Roboto-Italic.css";
-@import "../../fonts/Roboto/Roboto-Light.css";
-@import "../../fonts/Roboto/Roboto-LightItalic.css";
-@import "../../fonts/Roboto/Roboto-Regular.css";
 :root {
   --black: #000000;
   --anthracite: #454545;
@@ -36,6 +28,54 @@
   --webblue: #2196f3;
 }
 /* latin-ext */
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-BlackItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Roboto/Roboto-LightItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
 :root {
   --mobile-limit: 700px;
   --bold: 400;

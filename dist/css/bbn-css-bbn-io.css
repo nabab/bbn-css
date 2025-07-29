@@ -1,12 +1,4 @@
 /** Default configuration*/
-@import "../../fonts/Montserrat/Montserrat-Black.css";
-@import "../../fonts/Montserrat/Montserrat-BlackItalic.css";
-@import "../../fonts/Montserrat/Montserrat-Bold.css";
-@import "../../fonts/Montserrat/Montserrat-BoldItalic.css";
-@import "../../fonts/Montserrat/Montserrat-Italic.css";
-@import "../../fonts/Montserrat/Montserrat-Light.css";
-@import "../../fonts/Montserrat/Montserrat-LightItalic.css";
-@import "../../fonts/Montserrat/Montserrat-Regular.css";
 :root {
   --black: #000000;
   --anthracite: #454545;
@@ -36,6 +28,54 @@
   --webblue: #2196f3;
 }
 /* latin-ext */
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-BlackItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Montserrat/Montserrat-LightItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
 :root {
   --mobile-limit: 700px;
   --bold: 400;

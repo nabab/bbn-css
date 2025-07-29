@@ -1,12 +1,4 @@
 /** Default configuration*/
-@import "../../fonts/Lato/Lato-Black.css";
-@import "../../fonts/Lato/Lato-BlackItalic.css";
-@import "../../fonts/Lato/Lato-Bold.css";
-@import "../../fonts/Lato/Lato-BoldItalic.css";
-@import "../../fonts/Lato/Lato-Italic.css";
-@import "../../fonts/Lato/Lato-Light.css";
-@import "../../fonts/Lato/Lato-LightItalic.css";
-@import "../../fonts/Lato/Lato-Regular.css";
 :root {
   --black: #000000;
   --anthracite: #454545;
@@ -36,6 +28,54 @@
   --webblue: #2196f3;
 }
 /* latin-ext */
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-BlackItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-BoldItalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans"), url("../../fonts/Lato/Lato-LightItalic.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200;
+}
 :root {
   --mobile-limit: 700px;
   --bold: 400;
