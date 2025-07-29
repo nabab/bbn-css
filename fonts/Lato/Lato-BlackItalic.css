@@ -1,7 +1,7 @@
 
 @font-face {
     font-family:"Lato Black Italic";
-    src:url("Lato-BlackItalic.woff2") format("woff2"),url("Lato-BlackItalic.woff") format("woff"),url("Lato-BlackItalic.otf") format("opentype");
+    src: url("Lato-BlackItalic.woff2") format("woff2");
     font-style:normal;font-weight:400;
 }
         
