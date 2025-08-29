@@ -8,7 +8,7 @@ const replace = require('gulp-replace');
 gulp.task('compile-less', function() {
   return gulp.src('./src/styles/*.less') // Source LESS files
     .pipe(less()) // Compile LESS to CSS
-    .pipe(replace('url(../css/', 'url(../../fonts/')) // Replace URL paths
+    //.pipe(replace('url(../css/', 'url(../../fonts/')) // Replace URL paths
     .pipe(gulp.dest('./dist/css')) // Save CSS to destination folder
     .pipe(cleanCSS()) // Minify the CSS
     .pipe(rename({ suffix: '.min' })) // Rename to .min.css
