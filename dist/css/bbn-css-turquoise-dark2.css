@@ -5203,7 +5203,9 @@ button,
   border-bottom-left-radius: 0;
   border-right-width: 0;
 }
-.bbn-textbox input {
+.bbn-textbox input,
+.bbn-textbox textarea,
+.bbn-textbox select {
   border: 0;
   width: 100%;
   padding: 0.1rem 0.25rem;
