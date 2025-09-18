@@ -3660,10 +3660,8 @@ hr {
 }
 .bbn-badge,
 .bbn-tag {
-  background-color: #000000;
-  color: #ffffff;
   display: inline-block;
-  padding: 0 0.4rem;
+  padding: 0 var(--sspace);
   text-align: center;
   font-weight: bold;
 }
