@@ -209,35 +209,35 @@
 */
 .bbn-primary {
   .bbn-background-primary;
-  color: @primary-text !important;
-  border-color: @primary-border;
+  color: var(--primary-text) !important;
+  border-color: var(--primary-border);
 }
 .bbn-secondary {
   .bbn-background-secondary;
-  color: @secondary-text !important;
-  border-color: @secondary-border;
+  color: var(--secondary-text) !important;
+  border-color: var(--secondary-border);
 }
 .bbn-tertiary {
   .bbn-background-tertiary;
-  color: @tertiary-text !important;
-  border-color: @tertiary-border;
+  color: var(--tertiary-text) !important;
+  border-color: var(--tertiary-border);
 }
 .bbn-primary:hover:not(.bbn-disabled),.bbn-primary.bbn-hover:not(.bbn-disabled){
-  //background: @primary-background !important;
+  //background: var(--primary-background) !important;
   //.bbn-background-effect-primary-internal;
-  color: @primary-text !important;
-  border-color: @primary-border;
-  text-shadow: 0 0 0.1rem @primary-text;
+  color: var(--primary-text) !important;
+  border-color: var(--primary-border);
+  text-shadow: 0 0 0.1rem var(--primary-text);
 }
 .bbn-secondary:hover:not(.bbn-disabled),.bbn-secondary.bbn-hover:not(.bbn-disabled){
-  color: @secondary-text !important;
-  border-color: @secondary-border;
-  text-shadow: 0 0 0.1rem @secondary-text;
+  color: var(--secondary-text) !important;
+  border-color: var(--secondary-border);
+  text-shadow: 0 0 0.1rem var(--secondary-text);
 }
 .bbn-tertiary:hover:not(.bbn-disabled),.bbn-tertiary.bbn-hover:not(.bbn-disabled){
-  color: @tertiary-text !important;
-  border-color: @tertiary-border;
-  text-shadow: 0 0 0.1rem @tertiary-text;
+  color: var(--tertiary-text) !important;
+  border-color: var(--tertiary-border);
+  text-shadow: 0 0 0.1rem var(--tertiary-text);
 }
 /*
 .bbn-primary:active,.bbn-primary.bbn-active{
@@ -270,8 +270,8 @@
   outline: 0;
 }
 .bbn-negative{
-  background-color: @default-text;
-  color: @default-background;
+  background-color: var(--default-text);
+  color: var(--default-background);
 }
 .bbn-unselectable{
   -webkit-touch-callout: none;
