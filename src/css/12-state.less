@@ -1,24 +1,24 @@
 .bbn-state-default, a .bbn-state-default{
-  color: @default-text;
+  color: var(--default-text);
   cursor: pointer;
 }
 .bbn-state-hover{
-  color: @hover-text;
-  background-color: @hover-background;
-  border-color: @hover-border;
+  color: var(--hover-text);
+  background-color: var(--hover-background);
+  border-color: var(--hover-border);
   //.bbn-alt-background-effect-internal;
 }
 
 .bbn-state-active{
   .bbn-active-background;
   .bbn-active-text;
-  border-color: @active-border !important;
+  border-color: var(--active-border) !important;
   //contrast(@active-background);
 }
 .bbn-state-selected{
   .bbn-selected-background;
   .bbn-selected-text;
-  border-color: @selected-border !important;
+  border-color: var(--selected-border) !important;
   //contrast(@active-background);
 }
 
@@ -44,28 +44,28 @@
 }
 .bbn-rstate-error {
   .bbn-error-border-internal;
-  background-color: @error-text;
-  color: @error-background;
+  background-color: var(--error-text);
+  color: var(--error-background);
 }
 .bbn-rstate-warning {
   .bbn-warning-border-internal;
-  background-color: @warning-text;
-  color: @warning-background;
+  background-color: var(--warning-text);
+  color: var(--warning-background);
 }
 .bbn-rstate-info {
   .bbn-info-border-internal;
-  background-color: @info-text;
-  color: @info-background;
+  background-color: var(--info-text);
+  color: var(--info-background);
 }
 .bbn-rstate-success {
   .bbn-success-border-internal;
-  background-color: @success-text;
-  color: @success-background;
+  background-color: var(--success-text);
+  color: var(--success-background);
 }
 .bbn-error-colored {
-  color: @error-text;
-  background-color: @default-background;
-  border: @error-border;
+  color: var(--error-text);
+  background-color: var(--default-background);
+  border: var(--error-border);
 }
 .bbn-state-empty{
   font-style: italic;
@@ -77,8 +77,8 @@
 
 .bbn-disabled, .bbn-state-disabled{
   .bbn-disabled-text;
-  background-color: @disabled-background;
-  border-color: @disabled-border;
+  background-color: var(--disabled-background);
+  border-color: var(--disabled-border);
   cursor: default !important;
 }
 
@@ -102,10 +102,10 @@
 
 .bbn-text-state-default{
   cursor: pointer;
-  color: @default-text;
+  color: var(--default-text);
 }
 .bbn-text-state-hover{
-  color: @hover-text;
+  color: var(--hover-text);
 }
 
 .bbn-text-state-active{
@@ -119,7 +119,7 @@
   .bbn-error-text-internal;
 }
 .bbn-text-error-colored{
-  color: @error-text;
+  color: var(--error-text);
 }
 .bbn-text-state-empty{
   font-style: italic;
