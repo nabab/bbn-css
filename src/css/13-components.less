@@ -119,10 +119,10 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-checkbox:checked + .bbn-checkbox-label:before{
   .bbn-border-internal;
   .bbn-background-internal;
-  color: @selected-border;
+  color: var(--selected-border);
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:focus:before, .bbn-checkbox > .bbn-checkbox-label:focus:before {
-  border-color: @selected-border;
+  border-color: var(--selected-border);
 }
 .bbn-checkbox-label:before{
   .bbn-border-internal;
@@ -137,7 +137,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   text-align: center;
 }
 .bbn-checkbox:disabled + .bbn-checkbox-label {
-  color: @disabled-text;
+  color: var(--disabled-text);
 }
 .bbn-checkbox:disabled + .bbn-checkbox-label:hover:before {
   box-shadow: none;
@@ -146,10 +146,10 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:active:before,
 .bbn-checkbox:checked:disabled + .bbn-checkbox-label:hover:before {
-  color: @disabled-text;
-  background: @disabled-background;
-  border-color: @disabled-border;
-  border-radius: @default-border-radius;
+  color: var(--disabled-text);
+  background: var(--disabled-background);
+  border-color: var(--disabled-border);
+  border-radius: var(--default-border-radius);
 }
 
 .bbn-legend-block {
@@ -174,7 +174,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   aspect-ratio: 1;
 }
 .bbn-radio:checked+.bbn-radio-label:after {
-  background-color: @selected-border;
+  background-color: var(--selected-border);
   border-radius: 50%;
   content: "";
   width: 0.8rem;
@@ -187,23 +187,22 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   cursor: auto;
 }
 .bbn-radio:disabled:checked + .bbn-radio-label:after {
-  //background-color: @selected-background;
   opacity: 0.5;
 }
 .bbn-radio .bbn-radio-label:focus:before {
-  border-color: @selected-border;
-  box-shadow: 0 0 3px 0 @selected-background;
+  border-color: var(--selected-border);
+  box-shadow: 0 0 3px 0 var(--selected-background);
 }
 .bbn-radio:disabled + .bbn-radio-label {
-  color: @disabled-text;
+  color: var(--disabled-text);
 }
 .bbn-radio:disabled + .bbn-radio-label:hover:after,
 .bbn-radio:disabled + .bbn-radio-label:hover:before,
 .bbn-radio:disabled + .bbn-radio-label:before,
 .bbn-radio:disabled + .bbn-radio-label:active:before
  {
-  background: @disabled-background;
-  border-color: @disabled-border;
+  background: var(--disabled-background);
+  border-color: var(--disabled-border);
   box-shadow: none;
 }
 
@@ -242,7 +241,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
   table > thead > tr {
     > td{
       .bbn-background-internal;
-      padding: @sspace;
+      padding: var(--space);
     }
   }
   &:is(table) > tbody > tr,
@@ -258,9 +257,9 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
       }
     }
     > td{
-      border-color: @default-border;
-      border-width: @default-border-width;
-      border-style: @default-border-style;
+      border-color: var(--default-border);
+      border-width: var(--default-border-width);
+      border-style: var(--default-border-style);
     }
   }
   &:is(table) > thead > tr > td,
@@ -270,9 +269,9 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
     .bbn-header;
     .bbn-c;
     .bbn-ellipsis;
-    border-color: @alt-border;
-    border-width: @alt-border-width;
-    border-style: @alt-border-style;
+    border-color: var(--alt-border);
+    border-width: var(--alt-border-width);
+    border-style: var(--alt-border-style);
   }
 }
 .bbn-cleantable tbody > tr.bbn-alt {
@@ -429,71 +428,71 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 }
 .bbn-icon-circle {
   border-radius: 50%;
-  background: @default-background;
-  border: 0.2rem solid @default-text;
-  color: @default-text;
+  background: var(--default-background);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-text);
 }
 .bbn-icon-circle-full {
   border-radius: 50%;
-  background: @default-text;
-  border: 0.2rem solid @default-text;
-  color: @default-background;
+  background: var(--default-text);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-background);
 }
 .bbn-icon-squarer {
   border-radius: 0.2rem;
-  background: @default-background;
-  border: 0.2rem solid @default-text;
-  color: @default-text;
+  background: var(--default-background);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-text);
 }
 .bbn-icon-squarer-full {
   border-radius: 0.2rem;
-  background: @default-text;
-  border: 0.2rem solid @default-text;
-  color: @default-background;
+  background: var(--default-text);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-background);
 }
 .bbn-icon-square {
-  background: @default-background;
-  border: 0.2rem solid @default-text;
-  color: @default-text;
+  background: var(--default-background);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-text);
 }
 .bbn-icon-square-full {
-  background: @default-text;
-  border: 0.2rem solid @default-text;
-  color: @default-background;
+  background: var(--default-text);
+  border: 0.2rem solid var(--default-text);
+  color: var(--default-background);
 }
 .bbn-icon-circle-alt {
   border-radius: 50%;
-  background: @alt-background;
-  border: 0.2rem solid @alt-text;
-  color: @alt-text;
+  background: var(--alt-background);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-text);
 }
 .bbn-icon-circle-full-alt {
   border-radius: 50%;
-  background: @alt-text;
-  border: 0.2rem solid @alt-text;
-  color: @alt-background;
+  background: var(--alt-text);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-background);
 }
 .bbn-icon-squarer-alt {
   border-radius: 0.2rem;
-  background: @alt-background;
-  border: 0.2rem solid @alt-text;
-  color: @alt-text;
+  background: var(--alt-background);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-text);
 }
 .bbn-icon-squarer-full-alt {
   border-radius: 0.2rem;
-  background: @alt-text;
-  border: 0.2rem solid @alt-text;
-  color: @alt-background;
+  background: var(--alt-text);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-background);
 }
 .bbn-icon-square-alt {
-  background: @alt-background;
-  border: 0.2rem solid @alt-text;
-  color: @alt-text;
+  background: var(--alt-background);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-text);
 }
 .bbn-icon-square-full-alt {
-  background: @alt-text;
-  border: 0.2rem solid @alt-text;
-  color: @alt-background;
+  background: var(--alt-text);
+  border: 0.2rem solid var(--alt-text);
+  color: var(--alt-background);
 }
 .bbn-nav-dots {
   list-style: none;

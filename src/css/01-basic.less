@@ -125,15 +125,15 @@ html {
 }
 
 .bbn-reset {
-  color: @default-text;
+  color: var(--default-text);
   margin: 0;
   padding: 0;
   border: 0;
   line-height: unset;
   font-variant: unset;
   text-transform: unset;
-  font-size: @text-size;
-  font-family: @font;
+  font-size: var(--text-size);
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -147,7 +147,7 @@ body {
 
 html,
 body {
-  font-family: @font;
+  font-family: var(--font);
 }
 
 a {
@@ -191,15 +191,15 @@ hr {
 }
 
 fieldset {
-  border-color: @default-border;
-  border-width: @default-border-width;
-  border-style: @default-border-style;
-  border-radius: @default-border-radius;
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  border-radius: var(--default-border-radius);
 }
 
 ::placeholder {
   opacity: 0.65;
-  color: @button-text;
+  color: var(--button-text);
 }
 
 ul.bbn-reset {
