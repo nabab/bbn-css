@@ -1,4 +1,4 @@
-.bbn-state-default, a .bbn-state-default{
+.bbn-state-default, a .bbn-state-default {
   color: var(--default-text);
   cursor: pointer;
 }
@@ -73,6 +73,24 @@
 .bbn-state-focus{
   .bbn-border-internal;
   border-style: dotted;
+}
+
+.bbn-state-default,
+.bbn-state-hover,
+.bbn-state-active,
+.bbn-state-selected,
+.bbn-state-error,
+.bbn-state-warning,
+.bbn-state-info,
+.bbn-state-success,
+.bbn-rstate-error,
+.bbn-rstate-warning,
+.bbn-rstate-info,
+.bbn-rstate-success,
+.bbn-error-colored {
+  button.bbn-button {
+    color: inherit;
+  }
 }
 
 .bbn-disabled, .bbn-state-disabled{

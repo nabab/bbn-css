@@ -10,14 +10,14 @@ button, .bbn-button {
 .bbn-button {
   padding: 0.25rem 0.5rem;
   box-sizing: border-box;
-  border-width: @default-border-width;
-  border-style: @default-border-style;
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
   white-space: nowrap;
-  min-height: @line-height;
+  min-height: var(--line-height);
   .bbn-mobile & {
     white-space: normal;
-    line-height: @line-height-mobile;
-    min-height: @line-height-mobile;
+    line-height: var(--line-height-mobile);
+    min-height: var(--line-height-mobile);
   }
   .bbn-button-secondary {
     line-height: 1px !important;
@@ -44,9 +44,9 @@ button, .bbn-button {
     height: 1.4em;
     aspect-ratio: 1;
     .bbn-mobile & {
-      line-height: @line-height-mobile;
-      height: @line-height-mobile;
-      width: @line-height-mobile;
+      line-height: var(--line-height-mobile);
+      height: var(--line-height-mobile);
+      width: var(--line-height-mobile);
     }
   }
   i {
@@ -110,7 +110,7 @@ input[type=checkbox].bbn-checkbox, input[type=radio].bbn-radio{
 }
 .bbn-checkbox-label, .bbn-radio-label{
   position: relative;
-  line-height: @line-height;
+  line-height: var(--line-height);
   cursor: pointer;
   border-style: solid;
   border-width: 0;
