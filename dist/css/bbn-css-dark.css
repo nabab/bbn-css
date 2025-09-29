@@ -113,7 +113,7 @@
   --secondary-border: #ff9900;
   --tertiary-border: #829766;
   --button-text: #fff;
-  --line-height: 1.7rem;
+  --line-height: 1.25;
   --header-background: #000;
   --hover-text: #0078f0;
   --hover-border: #2a2a2a;
@@ -140,7 +140,7 @@
   --error-background: #fff;
   --error-border: #db3340;
   --header-alt-text: #fff;
-  --line-height-mobile: 2rem;
+  --line-height-mobile: 2;
   --header-alt-background: #B8B6B6;
   --success-alt-text: #00a03e;
   --success-atl-background: #fff;
@@ -165,7 +165,6 @@
   box-sizing: border-box;
 }
 html {
-  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 body {
@@ -208,6 +207,7 @@ optgroup,
 select,
 textarea {
   font-family: inherit;
+  font-size: 100%;
 }
 button,
 select {
@@ -5233,7 +5233,7 @@ button,
   padding: 0.1rem 0.25rem;
   box-sizing: border-box;
   background-color: transparent;
-  min-height: max(100%, 1.7rem);
+  min-height: 100%;
 }
 input[type=checkbox].bbn-checkbox,
 input[type=radio].bbn-radio {
