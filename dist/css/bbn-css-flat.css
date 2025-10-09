@@ -92,7 +92,7 @@
   --sradius: 0.4rem;
   --noradius: 0;
   --effect: rgba(255, 255, 255, 0.6);
-  --text-size: 13px;
+  --text-size: 1rem;
   --link-color: #3f51b5;
   --shadow-text: #0008;
   --shadow-box: #0006;
@@ -113,7 +113,7 @@
   --secondary-border: #53798f;
   --tertiary-border: #829766;
   --button-text: #fff;
-  --line-height: 1.25;
+  --line-height: 1.7rem;
   --header-background: #363940;
   --hover-text: #fff;
   --hover-border: #dbdbdb;
@@ -140,7 +140,7 @@
   --error-background: #fff;
   --error-border: #db3340;
   --header-alt-text: #999;
-  --line-height-mobile: 2;
+  --line-height-mobile: 2rem;
   --header-alt-background: #93c7df;
   --success-alt-text: #00a03e;
   --success-atl-background: #fff;
@@ -248,7 +248,7 @@ summary {
 }
 html {
   width: 100%;
-  font-size: 13px;
+  font-size: 1rem;
   height: 100%;
 }
 .bbn-reset {
@@ -5233,7 +5233,7 @@ button,
   padding: 0.1rem 0.25rem;
   box-sizing: border-box;
   background-color: transparent;
-  min-height: 100%;
+  min-height: max(100%, 1.7rem);
 }
 input[type=checkbox].bbn-checkbox,
 input[type=radio].bbn-radio {
