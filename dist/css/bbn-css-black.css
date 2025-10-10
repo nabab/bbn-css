@@ -92,7 +92,7 @@
   --sradius: 0.4rem;
   --noradius: 0;
   --effect: rgba(255, 255, 255, 0.2);
-  --text-size: 1rem;
+  --text-size: 13px;
   --link-color: #37d6d6;
   --shadow-text: #fff9;
   --shadow-box: #fff9;
@@ -248,7 +248,7 @@ summary {
 }
 html {
   width: 100%;
-  font-size: 1rem;
+  font-size: 13px;
   height: 100%;
 }
 .bbn-reset {
