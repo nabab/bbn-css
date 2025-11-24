@@ -1,6 +1,5 @@
 /* no border */
 .bbn-border-base {
-  border-style: var(--default-border-style);
   box-sizing: border-box;
 }
 
@@ -8,6 +7,7 @@
   @varcolor: "@{color}-border";
   .bbn-@{colprefix}@{prefix}border {
     .bbn-border-base;
+    border-style: var(--default-border-style);
     border-color: @@varcolor;
     border-width: calc(@coef * @default-border-width) !important;
   }
@@ -17,6 +17,8 @@
     border-right-color: @@varcolor;
     border-left-width: calc(@coef * @default-border-width) !important;
     border-right-width: calc(@coef * @default-border-width) !important;
+    border-left-style: var(--default-border-style);
+    border-right-style: var(--default-border-style);
   }
   .bbn-@{colprefix}v@{prefix}border {
     .bbn-border-base;
@@ -24,26 +26,32 @@
     border-bottom-color: @@varcolor;
     border-top-width: calc(@coef * @default-border-width) !important;
     border-bottom-width: calc(@coef * @default-border-width) !important;
+    border-top-style: var(--default-border-style);
+    border-bottom-style: var(--default-border-style);
   }
   .bbn-@{colprefix}@{prefix}border-top {
     .bbn-border-base;
     border-top-color: @@varcolor;
     border-top-width: calc(@coef * @default-border-width) !important;
+    border-top-style: var(--default-border-style);
   }
   .bbn-@{colprefix}@{prefix}border-bottom {
     .bbn-border-base;
     border-bottom-color: @@varcolor;
     border-bottom-width: calc(@coef * @default-border-width) !important;
+    border-bottom-style: var(--default-border-style);
   }
   .bbn-@{colprefix}@{prefix}border-left {
     .bbn-border-base;
     border-left-color: @@varcolor;
     border-left-width: calc(@coef * @default-border-width) !important;
+    border-left-style: var(--default-border-style);
   }
   .bbn-@{colprefix}@{prefix}border-right {
     .bbn-border-base;
     border-right-color: @@varcolor;
     border-right-width: calc(@coef * @default-border-width) !important;
+    border-right-style: var(--default-border-style);
   }
 }
 
