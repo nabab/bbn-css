@@ -56,17 +56,17 @@
 
 .bbn-lborder {
   .bbn-border;
-  border-width: ~"calc(@{default-border-width} * 2)" !important;
+  border-width: calc(var(--default-border-width) * 2) !important;
 }
 
 .bbn-sborder {
   .bbn-border;
-  border-width: ~"calc(@{default-border-width} / 2)" !important;
+  border-width: calc(var(--default-border-width) / 2) !important;
 }
 
 .bbn-xlborder {
   .bbn-border;
-  border-width: ~"calc(@{default-border-width} * 4)" !important;
+  border-width: calc(var(--default-border-width) * 4) !important;
 }
 
 .bbn-border-internal {
@@ -303,35 +303,35 @@
 }
 
 .bbn-shadow-bottom {
-  box-shadow: 0px @sspace @sspace @shadow-box;
+  box-shadow: 0px var(--sspace) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-top {
-  box-shadow: 0px calc(@sspace*-1) @sspace @shadow-box;
+  box-shadow: 0px calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-left {
-  box-shadow: calc(@sspace*-1) 0px @sspace @shadow-box;
+  box-shadow: calc(var(--sspace)*-1) 0px var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-right {
-  box-shadow: @sspace 0px @sspace @shadow-box;
+  box-shadow: var(--sspace) 0px var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-bottom-right {
-  box-shadow: @sspace @sspace @sspace @shadow-box;
+  box-shadow: var(--sspace) var(--sspace) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-bottom-left {
-  box-shadow: calc(@sspace*-1) @sspace @sspace @shadow-box;
+  box-shadow: calc(var(--sspace)*-1) var(--sspace) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-top-right {
-  box-shadow: @sspace calc(@sspace*-1) @sspace @shadow-box;
+  box-shadow: var(--sspace) calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow-top-left {
-  box-shadow: calc(@sspace*-1) calc(@sspace*-1) @sspace @shadow-box;
+  box-shadow: calc(var(--sspace)*-1) calc(var(--sspace)*-1) var(--sspace) var(--shadow-box);
 }
 
 .bbn-shadow {
@@ -339,35 +339,35 @@
 }
 
 .bbn-sshadow-bottom {
-  box-shadow: 0px @xsspace @xsspace @shadow-box;
+  box-shadow: 0px var(--xsspace) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-top {
-  box-shadow: 0px calc(@xsspace*-1) @xsspace @shadow-box;
+  box-shadow: 0px calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-left {
-  box-shadow: calc(@xsspace*-1) 0px @xsspace @shadow-box;
+  box-shadow: calc(var(--xsspace)*-1) 0px var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-right {
-  box-shadow: @xsspace 0px @xsspace @shadow-box;
+  box-shadow: var(--xsspace) 0px var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-bottom-right {
-  box-shadow: @xsspace @xsspace @xsspace @shadow-box;
+  box-shadow: var(--xsspace) var(--xsspace) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-bottom-left {
-  box-shadow: calc(@xsspace*-1) @xsspace @xsspace @shadow-box;
+  box-shadow: calc(var(--xsspace)*-1) var(--xsspace) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-top-right {
-  box-shadow: @xsspace calc(@xsspace*-1) @xsspace @shadow-box;
+  box-shadow: var(--xsspace) calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow-top-left {
-  box-shadow: calc(@xsspace*-1) calc(@xsspace*-1) @xsspace @shadow-box;
+  box-shadow: calc(var(--xsspace)*-1) calc(var(--xsspace)*-1) var(--xsspace) var(--shadow-box);
 }
 
 .bbn-sshadow {
@@ -375,35 +375,35 @@
 }
 
 .bbn-lshadow-bottom {
-  box-shadow: 0px @space @space @shadow-box;
+  box-shadow: 0px var(--space) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-top {
-  box-shadow: 0px calc(@space*-1) @space @shadow-box;
+  box-shadow: 0px calc(var(--space)*-1) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-left {
-  box-shadow: calc(@space*-1) 0px @space @shadow-box;
+  box-shadow: calc(var(--space)*-1) 0px var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-right {
-  box-shadow: @space 0px @space @shadow-box;
+  box-shadow: var(--space) 0px var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-bottom-right {
-  box-shadow: @space @space @space @shadow-box;
+  box-shadow: var(--space) var(--space) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-bottom-left {
-  box-shadow: calc(@space*-1) @space @space @shadow-box;
+  box-shadow: calc(var(--space)*-1) var(--space) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-top-right {
-  box-shadow: @space calc(@space*-1) @space @shadow-box;
+  box-shadow: var(--space) calc(var(--space)*-1) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow-top-left {
-  box-shadow: calc(@space*-1) calc(@space*-1) @space @shadow-box;
+  box-shadow: calc(var(--space)*-1) calc(var(--space)*-1) var(--space) var(--shadow-box);
 }
 
 .bbn-lshadow {
@@ -424,11 +424,11 @@
 }
 
 .bbn-border2 {
-  border-width: calc(@default-border-width * 2);
+  border-width: calc(var(--default-border-width) * 2);
 }
 .bbn-border3 {
-  border-width: calc(@default-border-width * 3);
+  border-width: calc(var(--default-border-width) * 3);
 }
 .bbn-border4 {
-  border-width: calc(@default-border-width * 4);
+  border-width: calc(var(--default-border-width) * 4);
 }
