@@ -1,4 +1,132 @@
 /* no border */
+.bbn-border-base {
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+}
+
+.create-rule-border(@prefix, @name, @color, @colprefix:'') {
+  @varcolor: "@{color}-border";
+  @cn: "@{prefix}space";
+  .bbn-@{colprefix}@{prefix}@{name} {
+    .bbn-border-base;
+    border-color: @@varcolor;
+    border-width: @@cn !important;
+  }
+  .bbn-@{colprefix}h@{prefix}@{name} {
+    .bbn-border-base;
+    border-left-color: @@varcolor;
+    border-right-color: @@varcolor;
+    border-left-width: @@cn !important;
+    border-right-width: @@cn !important;
+  }
+  .bbn-@{colprefix}v@{prefix}@{name} {
+    .bbn-border-base;
+    border-top-color: @@varcolor;
+    border-bottom-color: @@varcolor;
+    border-top-width: @@cn !important;
+    border-bottom-width: @@cn !important;
+  }
+  .bbn-@{colprefix}@{prefix}@{name}-top {
+    .bbn-border-base;
+    border-top-color: @@varcolor;
+    border-top-width: @@cn !important;
+  }
+  .bbn-@{colprefix}@{prefix}@{name}-bottom {
+    .bbn-border-base;
+    border-bottom-color: @@varcolor;
+    border-bottom-width: @@cn !important;
+  }
+  .bbn-@{colprefix}@{prefix}@{name}-left {
+    .bbn-border-base;
+    border-left-color: @@varcolor;
+    border-left-width: @@cn !important;
+  }
+  .bbn-@{colprefix}@{prefix}@{name}-right {
+    .bbn-border-base;
+    border-right-color: @@varcolor;
+    border-right-width: @@cn !important;
+  }
+}
+
+.create-rule-border(no, border, default);
+.create-rule-border(~"", border, default);
+.create-rule-border(l, border, default);
+.create-rule-border(xl, border, default);
+.create-rule-border(s, border, default);
+
+.create-rule-border(~"", border, alt, alt-);
+.create-rule-border(l, border, alt, alt-);
+.create-rule-border(xl, border, alt, alt-);
+.create-rule-border(s, border, alt, alt-);
+
+.create-rule-border(~"", border, selected, selected-);
+.create-rule-border(l, border, selected, selected-);
+.create-rule-border(xl, border, selected, selected-);
+.create-rule-border(s, border, selected, selected-);
+
+.create-rule-border(~"", border, primary, primary-);
+.create-rule-border(l, border, primary, primary-);
+.create-rule-border(xl, border, primary, primary-);
+.create-rule-border(s, border, primary, primary-);
+
+.create-rule-border(~"", border, secondary, secondary-);
+.create-rule-border(l, border, secondary, secondary-);
+.create-rule-border(xl, border, secondary, secondary-);
+.create-rule-border(s, border, secondary, secondary-);
+
+.create-rule-border(~"", border, tertiary, tertiary-);
+.create-rule-border(l, border, tertiary, tertiary-);
+.create-rule-border(xl, border, tertiary, tertiary-);
+.create-rule-border(s, border, tertiary, tertiary-);
+
+.create-rule-border(~"", border, hover, hover-);
+.create-rule-border(l, border, hover, hover-);
+.create-rule-border(xl, border, hover, hover-);
+.create-rule-border(s, border, hover, hover-);
+
+.create-rule-border(~"", border, active, active-);
+.create-rule-border(l, border, active, active-);
+.create-rule-border(xl, border, active, active-);
+.create-rule-border(s, border, active, active-);
+
+.create-rule-border(~"", border, success, success-);
+.create-rule-border(l, border, success, success-);
+.create-rule-border(xl, border, success, success-);
+.create-rule-border(s, border, success, success-);
+
+.create-rule-border(~"", border, error, error-);
+.create-rule-border(l, border, error, error-);
+.create-rule-border(xl, border, error, error-);
+.create-rule-border(s, border, error, error-);
+
+.create-rule-border(~"", border, disabled, disabled-);
+.create-rule-border(l, border, disabled, disabled-);
+.create-rule-border(xl, border, disabled, disabled-);
+.create-rule-border(s, border, disabled, disabled-);
+
+.create-rule-border(~"", border, warning, warning-);
+.create-rule-border(l, border, warning, warning-);
+.create-rule-border(xl, border, warning, warning-);
+.create-rule-border(s, border, warning, warning-);
+
+.create-rule-border(~"", border, info, info-);
+.create-rule-border(l, border, info, info-);
+.create-rule-border(xl, border, info, info-);
+.create-rule-border(s, border, info, info-);
+
+.bbn-border {
+  .bbn-border-base;
+  border-color: var(--default-border) !important;
+  border-width: var(--default-border-width) !important;
+}
+
+.bbn-alt-border-internal {
+  border-color: var(--alt-border);
+  border-width: var(--alt-border-width);
+  border-style: var(--alt-border-style);
+  box-sizing: border-box;
+}
+
 .bbn-border-color {
   border-color: var(--default-border) !important;
 }
@@ -47,65 +175,9 @@
   border-color: var(--alt-background);
 }
 
-.bbn-border {
-  border-color: var(--default-border);
-  border-width: var(--default-border-width) !important;
-  border-style: var(--default-border-style);
-  box-sizing: border-box;
-}
-
-.bbn-lborder {
-  .bbn-border;
-  border-width: calc(var(--default-border-width) * 2) !important;
-}
-
-.bbn-sborder {
-  .bbn-border;
-  border-width: calc(var(--default-border-width) / 2) !important;
-}
-
-.bbn-xlborder {
-  .bbn-border;
-  border-width: calc(var(--default-border-width) * 4) !important;
-}
-
 .bbn-border-internal {
-  border-color: var(--default-border);
+  .bbn-border-base;
   border-width: var(--default-border-width);
-  border-style: var(--default-border-style);
-  box-sizing: border-box;
-}
-
-.bbn-alt-border {
-  border: var(--alt-border) var(--alt-border-width) var(--alt-border-style) !important;
-  box-sizing: border-box;
-}
-
-.bbn-alt-border-internal {
-  border: var(--alt-border) var(--alt-border-width) var(--alt-border-style);
-  box-sizing: border-box;
-}
-
-.bbn-selected-border {
-  border: var(--selected-border) var(--default-border-width) var(--default-border-style) !important;
-}
-
-.bbn-primary-border {
-  border-color: var(--primary-border);
-  border-width: var(--default-border-width);
-  border-style: var(--default-border-style);
-}
-
-.bbn-secondary-border {
-  border-color: var(--secondary-border);
-  border-width: var(--default-border-width);
-  border-style: var(--default-border-style);
-}
-
-.bbn-tertiary-border {
-  border-color: var(--tertiary-border);
-  border-width: var(--default-border-width);
-  border-style: var(--default-border-style);
 }
 
 .bbn-border-background-primary {
@@ -130,138 +202,6 @@
 
 .bbn-border-background-tertiary-internal {
   border-color: var(--tertiary-background);
-}
-
-.bbn-border-top {
-  border-top: var(--default-border-width) var(--default-border-style) var(--default-border) !important;
-}
-
-.bbn-alt-border-top {
-  border-top: var(--alt-border-width) var(--alt-border-style) var(--alt-border) !important;
-}
-
-.bbn-border-bottom {
-  border-bottom: var(--default-border-width) var(--default-border-style) var(--default-border) !important;
-}
-
-.bbn-alt-border-bottom {
-  border-bottom: var(--alt-border-width) var(--alt-border-style) var(--alt-border) !important;
-}
-
-.bbn-border-left {
-  border-left: var(--default-border-width) var(--default-border-style) var(--default-border) !important;
-}
-
-.bbn-alt-border-left {
-  border-left: var(--alt-border-width) var(--alt-border-style) var(--alt-border) !important;
-}
-
-.bbn-border-right {
-  border-right: var(--default-border-width) var(--default-border-style) var(--default-border) !important;
-}
-
-.bbn-alt-border-right {
-  border-right: var(--alt-border-width) var(--alt-border-style) var(--alt-border) !important;
-}
-
-.bbn-border-notop {
-  .bbn-border-internal;
-  border-width: 0 var(--default-border-width) var(--default-border-width) var(--default-border-width) !important;
-}
-
-.bbn-border-nobottom {
-  .bbn-border-internal;
-  border-width: var(--default-border-width) var(--default-border-width) 0 var(--default-border-width) !important;
-}
-
-.bbn-border-noleft {
-  .bbn-border-internal;
-  border-width: var(--default-border-width) var(--default-border-width) var(--default-border-width) 0 !important;
-}
-
-.bbn-border-noright {
-  .bbn-border-internal;
-  border-width: var(--default-border-width) 0 var(--default-border-width) var(--default-border-width) !important;
-}
-
-.bbn-hover-border {
-  .bbn-border-internal;
-  border-color: var(--hover-border) !important;
-}
-
-.bbn-hover-border-internal {
-  .bbn-border-internal;
-  border-color: var(--hover-border);
-}
-
-.bbn-active-border {
-  .bbn-border-internal;
-  border-color: var(--active-border) !important;
-}
-
-.bbn-active-border-internal {
-  .bbn-border-internal;
-  border-color: var(--active-border);
-}
-
-.bbn-disabled-border {
-  .bbn-border-internal;
-  border-color: var(--disabled-border) !important;
-}
-
-.bbn-disabled-border-internal {
-  .bbn-border-internal;
-  border-color: var(--disabled-border);
-}
-
-.bbn-success-border {
-  .bbn-border-internal;
-  border-color: var(--success-border) !important;
-}
-
-.bbn-success-border-internal {
-  .bbn-border-internal;
-  border-color: var(--success-border);
-}
-
-.bbn-error-border {
-  .bbn-border-internal;
-  border-color: var(--error-border) !important;
-}
-
-.bbn-error-border-internal {
-  .bbn-border-internal;
-  border-color: var(--error-border);
-}
-
-.bbn-warning-border {
-  .bbn-border-internal;
-  border-color: var(--warning-border) !important;
-}
-
-.bbn-warning-border-internal {
-  .bbn-border-internal;
-  border-color: var(--warning-border);
-}
-
-.bbn-info-border {
-  .bbn-border-internal;
-  border-color: var(--info-border) !important;
-}
-
-.bbn-info-border-internal {
-  .bbn-border-internal;
-  border-color: var(--info-border);
-}
-
-.bbn-success-border {
-  .bbn-border-internal;
-  border-color: var(--success-border) !important;
-}
-
-.bbn-success-border-internal {
-  .bbn-border-internal;
-  border-color: var(--success-border);
 }
 
 .bbn-o,
@@ -301,6 +241,43 @@
   .bbn-no-border-top;
   .bbn-no-border-bottom;
 }
+
+.bbn-hover-border-internal {
+  .bbn-border-internal;
+  border-color: var(--hover-border);
+}
+
+.bbn-active-border-internal {
+  .bbn-border-internal;
+  border-color: var(--active-border);
+}
+
+.bbn-disabled-border-internal {
+  .bbn-border-internal;
+  border-color: var(--disabled-border);
+}
+
+.bbn-success-border-internal {
+  .bbn-border-internal;
+  border-color: var(--success-border);
+}
+.bbn-error-border-internal {
+  .bbn-border-internal;
+  border-color: var(--error-border);
+}
+.bbn-warning-border-internal {
+  .bbn-border-internal;
+  border-color: var(--warning-border);
+}
+.bbn-info-border-internal {
+  .bbn-border-internal;
+  border-color: var(--info-border);
+}
+.bbn-success-border-internal {
+  .bbn-border-internal;
+  border-color: var(--success-border);
+}
+
 
 .bbn-shadow-bottom {
   box-shadow: 0px var(--sspace) var(--sspace) var(--shadow-box);
