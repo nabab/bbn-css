@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.create-rule-border(@prefix, @name, @color, @colprefix:'') {
+.create-rule-border(@prefix, @name, @color, @colprefix) {
   @varcolor: "@{color}-border";
   @cn: "@{prefix}space";
   .bbn-@{colprefix}@{prefix}@{name} {
@@ -48,11 +48,11 @@
   }
 }
 
-.create-rule-border(no, border, default);
-.create-rule-border(~"", border, default);
-.create-rule-border(l, border, default);
-.create-rule-border(xl, border, default);
-.create-rule-border(s, border, default);
+.create-rule-border(no, border, default, ~"");
+.create-rule-border(~"", border, default, ~"");
+.create-rule-border(l, border, default, ~"");
+.create-rule-border(xl, border, default, ~"");
+.create-rule-border(s, border, default, ~"");
 
 .create-rule-border(~"", border, alt, alt-);
 .create-rule-border(l, border, alt, alt-);
