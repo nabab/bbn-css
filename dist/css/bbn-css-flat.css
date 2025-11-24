@@ -3358,6 +3358,12 @@ i.nf:before {
   border-color: var(--default-border) !important;
   border-width: var(--default-border-width) !important;
 }
+.bbn-border-internal {
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+  box-sizing: border-box;
+}
 .bbn-alt-border-internal {
   border-color: var(--alt-border);
   border-width: var(--alt-border-width);
@@ -3453,41 +3459,57 @@ i.nf:before {
   border-bottom-width: 0px !important;
 }
 .bbn-hover-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--hover-border);
 }
 .bbn-active-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--active-border);
 }
 .bbn-disabled-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--disabled-border);
 }
 .bbn-success-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
 }
 .bbn-error-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--error-border);
 }
 .bbn-warning-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--warning-border);
 }
 .bbn-info-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--info-border);
 }
 .bbn-success-border-internal {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
@@ -5906,6 +5928,8 @@ hr {
   display: block;
 }
 .bbn-section {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-top-left-radius: 3px;
@@ -6782,6 +6806,8 @@ hr {
 }
 .bbn-bblock,
 .bbn-box {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-top-left-radius: 3px;
@@ -6826,6 +6852,8 @@ hr {
   right: 2px;
 }
 .bbn-textbox {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   border-width: var(--default-border-width);
   background-color: var(--default-background);
   border-top-left-radius: 3px;
@@ -6872,6 +6900,8 @@ hr {
   color: var(--link-color);
 }
 .bbn-header-alt {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-alt-background);
@@ -6895,6 +6925,8 @@ ul.bbn-ul ul.bbn-ul {
   padding-inline-start: 1.5rem;
 }
 .bbn-reactive-block {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   border-width: var(--default-border-width);
   background-color: var(--default-background);
   color: var(--button-text);
@@ -6984,6 +7016,8 @@ a .bbn-state-default {
   border-color: var(--selected-border) !important;
 }
 .bbn-state-error {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--error-border);
@@ -6991,6 +7025,8 @@ a .bbn-state-default {
   color: var(--error-text);
 }
 .bbn-state-warning {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--warning-border);
@@ -6998,6 +7034,8 @@ a .bbn-state-default {
   color: var(--warning-text);
 }
 .bbn-state-info {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--info-border);
@@ -7005,6 +7043,8 @@ a .bbn-state-default {
   color: var(--info-text);
 }
 .bbn-state-success {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
@@ -7012,6 +7052,8 @@ a .bbn-state-default {
   color: var(--success-text);
 }
 .bbn-rstate-error {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--error-border);
@@ -7019,6 +7061,8 @@ a .bbn-state-default {
   color: var(--error-background);
 }
 .bbn-rstate-warning {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--warning-border);
@@ -7026,6 +7070,8 @@ a .bbn-state-default {
   color: var(--warning-background);
 }
 .bbn-rstate-info {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--info-border);
@@ -7033,6 +7079,8 @@ a .bbn-state-default {
   color: var(--info-background);
 }
 .bbn-rstate-success {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
@@ -7048,6 +7096,8 @@ a .bbn-state-default {
   font-style: italic;
 }
 .bbn-state-focus {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-style: dotted;
@@ -7166,6 +7216,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
 }
@@ -7179,6 +7231,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--info-border);
@@ -7198,6 +7252,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--warning-border);
@@ -7217,6 +7273,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--error-border);
@@ -7236,6 +7294,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
@@ -7255,6 +7315,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--info-border);
@@ -7274,6 +7336,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--warning-border);
@@ -7293,6 +7357,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--error-border);
@@ -7312,6 +7378,8 @@ a .bbn-state-default {
   border-top-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   border-color: var(--success-border);
@@ -7475,6 +7543,8 @@ bbn-floater:not(.bbn-floater) {
 }
 button,
 .bbn-button {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   border-width: var(--default-border-width);
   background-color: var(--default-background);
   color: var(--button-text);
@@ -7595,6 +7665,8 @@ input[type=radio].bbn-radio {
   border-width: 0;
 }
 .bbn-checkbox:checked + .bbn-checkbox-label:before {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   background-color: var(--default-background);
@@ -7605,6 +7677,8 @@ input[type=radio].bbn-radio {
   border-color: var(--selected-border);
 }
 .bbn-checkbox-label:before {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   background-color: var(--default-background);
@@ -7641,6 +7715,8 @@ input[type=radio].bbn-radio {
   vertical-align: middle;
 }
 .bbn-radio-label:before {
+  border-color: var(--default-border);
+  border-style: var(--default-border-style);
   box-sizing: border-box;
   border-width: var(--default-border-width);
   background-color: var(--default-background);
