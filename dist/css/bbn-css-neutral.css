@@ -809,13 +809,13 @@ i.nf:before {
   border-style: var(--default-border-style);
   box-sizing: border-box;
 }
-.bbn-''noborder {
+.bbn-noborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: inherit;
   border-width: 0px !important;
 }
-.bbn-''hnoborder {
+.bbn-hnoborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
@@ -823,7 +823,7 @@ i.nf:before {
   border-left-width: 0px !important;
   border-right-width: 0px !important;
 }
-.bbn-''vnoborder {
+.bbn-vnoborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
@@ -831,37 +831,37 @@ i.nf:before {
   border-top-width: 0px !important;
   border-bottom-width: 0px !important;
 }
-.bbn-''noborder-top {
+.bbn-noborder-top {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
   border-top-width: 0px !important;
 }
-.bbn-''noborder-bottom {
+.bbn-noborder-bottom {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-bottom-color: inherit;
   border-bottom-width: 0px !important;
 }
-.bbn-''noborder-left {
+.bbn-noborder-left {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
   border-left-width: 0px !important;
 }
-.bbn-''noborder-right {
+.bbn-noborder-right {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-right-color: inherit;
   border-right-width: 0px !important;
 }
-.bbn-''border {
+.bbn-border {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: inherit;
   border-width: 1rem !important;
 }
-.bbn-''hborder {
+.bbn-hborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
@@ -869,7 +869,7 @@ i.nf:before {
   border-left-width: 1rem !important;
   border-right-width: 1rem !important;
 }
-.bbn-''vborder {
+.bbn-vborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
@@ -877,37 +877,37 @@ i.nf:before {
   border-top-width: 1rem !important;
   border-bottom-width: 1rem !important;
 }
-.bbn-''border-top {
+.bbn-border-top {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
   border-top-width: 1rem !important;
 }
-.bbn-''border-bottom {
+.bbn-border-bottom {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-bottom-color: inherit;
   border-bottom-width: 1rem !important;
 }
-.bbn-''border-left {
+.bbn-border-left {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
   border-left-width: 1rem !important;
 }
-.bbn-''border-right {
+.bbn-border-right {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-right-color: inherit;
   border-right-width: 1rem !important;
 }
-.bbn-''lborder {
+.bbn-lborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: inherit;
   border-width: 2rem !important;
 }
-.bbn-''hlborder {
+.bbn-hlborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
@@ -915,7 +915,7 @@ i.nf:before {
   border-left-width: 2rem !important;
   border-right-width: 2rem !important;
 }
-.bbn-''vlborder {
+.bbn-vlborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
@@ -923,37 +923,37 @@ i.nf:before {
   border-top-width: 2rem !important;
   border-bottom-width: 2rem !important;
 }
-.bbn-''lborder-top {
+.bbn-lborder-top {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
   border-top-width: 2rem !important;
 }
-.bbn-''lborder-bottom {
+.bbn-lborder-bottom {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-bottom-color: inherit;
   border-bottom-width: 2rem !important;
 }
-.bbn-''lborder-left {
+.bbn-lborder-left {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
   border-left-width: 2rem !important;
 }
-.bbn-''lborder-right {
+.bbn-lborder-right {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-right-color: inherit;
   border-right-width: 2rem !important;
 }
-.bbn-''xlborder {
+.bbn-xlborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: inherit;
   border-width: 4rem !important;
 }
-.bbn-''hxlborder {
+.bbn-hxlborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
@@ -961,7 +961,7 @@ i.nf:before {
   border-left-width: 4rem !important;
   border-right-width: 4rem !important;
 }
-.bbn-''vxlborder {
+.bbn-vxlborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
@@ -969,37 +969,37 @@ i.nf:before {
   border-top-width: 4rem !important;
   border-bottom-width: 4rem !important;
 }
-.bbn-''xlborder-top {
+.bbn-xlborder-top {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
   border-top-width: 4rem !important;
 }
-.bbn-''xlborder-bottom {
+.bbn-xlborder-bottom {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-bottom-color: inherit;
   border-bottom-width: 4rem !important;
 }
-.bbn-''xlborder-left {
+.bbn-xlborder-left {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
   border-left-width: 4rem !important;
 }
-.bbn-''xlborder-right {
+.bbn-xlborder-right {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-right-color: inherit;
   border-right-width: 4rem !important;
 }
-.bbn-''sborder {
+.bbn-sborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: inherit;
   border-width: 0.5rem !important;
 }
-.bbn-''hsborder {
+.bbn-hsborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
@@ -1007,7 +1007,7 @@ i.nf:before {
   border-left-width: 0.5rem !important;
   border-right-width: 0.5rem !important;
 }
-.bbn-''vsborder {
+.bbn-vsborder {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
@@ -1015,25 +1015,25 @@ i.nf:before {
   border-top-width: 0.5rem !important;
   border-bottom-width: 0.5rem !important;
 }
-.bbn-''sborder-top {
+.bbn-sborder-top {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-top-color: inherit;
   border-top-width: 0.5rem !important;
 }
-.bbn-''sborder-bottom {
+.bbn-sborder-bottom {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-bottom-color: inherit;
   border-bottom-width: 0.5rem !important;
 }
-.bbn-''sborder-left {
+.bbn-sborder-left {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-left-color: inherit;
   border-left-width: 0.5rem !important;
 }
-.bbn-''sborder-right {
+.bbn-sborder-right {
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-right-color: inherit;
@@ -5956,6 +5956,8 @@ hr {
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
+  border-color: inherit;
+  border-width: 1rem !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--default-border) !important;
@@ -7620,6 +7622,8 @@ input[type=radio].bbn-radio {
 .bbn-numeric .bbn-reactive-block:hover:focus-within:not(:disabled),
 .bbn-numeric .bbn-reactive-block:focus-within:not(.bbn-disabled) {
   background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--default-background);
+  border-color: inherit;
+  border-width: 1rem !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--default-border) !important;
@@ -8022,6 +8026,8 @@ input[type=radio].bbn-radio {
 }
 .bbn-toplabel,
 .bbn-leftlabel {
+  border-color: inherit;
+  border-width: 1rem !important;
   border-style: var(--default-border-style);
   box-sizing: border-box;
   border-color: var(--default-border) !important;
