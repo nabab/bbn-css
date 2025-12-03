@@ -606,10 +606,28 @@ i.nf:before {
 /* underlined */
 .bbn-u,
 .bbn-underlined {
-  text-decoration: underline;
+  text-decoration-line: underline;
+  text-decoration-thickness: from-font;
+}
+.bbn-lunderlined {
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+}
+.bbn-xlunderlined {
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
 }
 .bbn-struck {
-  text-decoration: line-through;
+  text-decoration-line: line-through;
+  text-decoration-thickness: from-font;
+}
+.bbn-lstruck {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+}
+.bbn-xlstruck {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 3px;
 }
 .bbn-number {
   font-variant-numeric: tabular-nums;
