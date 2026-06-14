@@ -7022,6 +7022,7 @@ input:hover:focus:not(.bbn-disabled),
 .bbn-state-default,
 a .bbn-state-default {
   color: var(--default-text);
+  border-color: var(--default-border);
   cursor: pointer;
 }
 .bbn-state-hover {
@@ -7150,6 +7151,7 @@ a .bbn-state-default {
 }
 .bbn-reactive {
   color: var(--default-text);
+  border-color: var(--default-border);
   cursor: pointer;
 }
 .bbn-reactive button.bbn-button {
@@ -8151,6 +8153,7 @@ input[type=radio].bbn-radio {
 }
 .bbn-nav-dots li {
   color: var(--default-text);
+  border-color: var(--default-border);
   font-size: 1rem;
   display: inline-flex;
   justify-content: center;
