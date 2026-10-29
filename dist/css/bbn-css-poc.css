@@ -164,18 +164,6 @@
 ::before {
   box-sizing: border-box;
 }
-html {
-  -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-}
-body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
-}
-hr {
-  height: 0;
-}
 abbr[title] {
   text-decoration: underline dotted;
 }
@@ -247,6 +235,7 @@ summary {
   display: list-item;
 }
 html {
+  -webkit-text-size-adjust: 100%;
   width: 100%;
   font-size: 15px;
   height: 100%;
@@ -264,6 +253,7 @@ html {
   text-shadow: none;
 }
 body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
   transition: opacity 1s;
   color: var(--default-text);
   margin: 0;
@@ -289,21 +279,13 @@ a {
 table {
   font-size: inherit;
 }
-.bbn-table td,
-.bbn-table th {
-  vertical-align: top;
-  background-color: var(--default-background);
-  border-color: var(--default-border);
-  border-width: var(--default-border-width);
-  border-style: var(--default-border-style);
-  border-collapse: collapse;
-}
 input,
 select,
 textarea {
   font-size: 100%;
 }
 hr {
+  height: 0;
   clear: both;
 }
 .bbn-no-reset {
@@ -7818,6 +7800,34 @@ input[type=radio].bbn-radio {
   height: 0;
   clear: both;
   visibility: hidden;
+}
+.bbn-table td,
+.bbn-table th {
+  vertical-align: top;
+  border-collapse: collapse;
+}
+.bbn-table td {
+  background-color: var(--default-background);
+  border-color: var(--default-border);
+  border-width: var(--default-border-width);
+  border-style: var(--default-border-style);
+}
+.bbn-table th {
+  border-color: var(--alt-border);
+  border-width: var(--alt-border-width);
+  border-style: var(--alt-border-style);
+  box-sizing: border-box;
+  background: none, linear-gradient(to bottom, var(--effect) 0%, rgba(255, 255, 255, 0) 100%) 50% 50% repeat var(--header-background);
+  color: var(--header-text);
+  position: relative;
+  vertical-align: middle;
+  /* .bbn-button:not(.bbn-primary):not(:disabled) {
+    .bbn-alt-background-internal;
+    .bbn-alt-text-internal;
+  } */
+}
+.bbn-table th .bbn-widget-header-buttons {
+  color: var(--link-color);
 }
 .bbn-cleantable:is(table) {
   border-collapse: collapse;
